@@ -13,21 +13,44 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app needs access to location when open."
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.iemmanuel.MAPAPP"
+      "package": "com.iemmanuel.MAPAPP",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCIdfxA7WhpTypsi3bDamzTvkt8UEsaQQ4"
+        }
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow MAP-APP to use your location."
+        }
+      ]
+    ],
+    "devClient": true,
     "extra": {
       "eas": {
-        "projectId": "b14f4b9b-3b4c-448a-983b-cc795594ff66"
+        "projectId": "66367141-6772-4cab-ac24-a5a1dee85d00"
       }
     }
   }

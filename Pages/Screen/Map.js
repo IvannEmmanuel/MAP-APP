@@ -1,5 +1,3 @@
-//new changes
-
 import React, { useState, useEffect } from "react";
 import {
   View,
@@ -19,7 +17,7 @@ import {
 } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import Icon from "react-native-vector-icons/FontAwesome";
-import MapView, { Marker } from "react-native-maps";
+import MapView, { Marker, PROVIDER_DEFAULT } from "react-native-maps";
 import * as Location from "expo-location";
 
 const { width, height } = Dimensions.get("window");
@@ -146,15 +144,14 @@ const Map = () => {
       );
       setFilteredLocations(filtered);
 
-      // Check if the search is valid (no matching locations)
       if (filtered.length === 0) {
-        setIsSearchValid(false); // Show error icon if no match
+        setIsSearchValid(false);
       } else {
-        setIsSearchValid(true); // Valid search
+        setIsSearchValid(true);
       }
     } else {
       setFilteredLocations([]);
-      setIsSearchValid(true); // Reset to valid when empty
+      setIsSearchValid(true);
     }
   };
 
@@ -168,7 +165,6 @@ const Map = () => {
       if (matchedLocation) {
         handleSelectLocation(matchedLocation);
       } else {
-        // Try partial match if exact match fails
         const partialMatch = locations.find((location) =>
           location.name.toLowerCase().includes(searchTerm)
         );
@@ -226,14 +222,16 @@ const Map = () => {
     <View style={styles.container}>
       {userLocation ? (
         <MapView
-          style={styles.map}
+          provider={PROVIDER_DEFAULT}
           region={region}
           mapType="hybrid"
           coordinate={userLocation}
+          style={styles.map}
           scrollEnabled={true}
           zoomEnabled={true}
           pitchEnabled={true}
           rotateEnabled={true}
+          urlTemplate="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         >
           <Marker
             coordinate={userLocation}
@@ -347,7 +345,7 @@ const Map = () => {
 
       <View style={styles.searchBar}>
         <Icon
-          name={isSearchValid ? "search" : "times"} // Change icon based on search validity
+          name={isSearchValid ? "search" : "times"}
           size={width * 0.05}
           color={isSearchValid ? "#888" : "#ff3b30"}
           style={styles.icon}
@@ -359,11 +357,10 @@ const Map = () => {
           onChangeText={handleSearch}
           onSubmitEditing={handleSearchSubmit}
           returnKeyType="search"
-          autoCapitalize="none" // Add this to prevent auto-capitalization
+          autoCapitalize="none"
         />
       </View>
 
-      {/* List of Filtered Locations */}
       {filteredLocations.length > 0 && (
         <FlatList
           data={filteredLocations}
@@ -448,7 +445,8 @@ const styles = StyleSheet.create({
   },
   expandedImage: {
     position: "absolute",
-    top: height * 0.15,
+    top: height * 
+0.15,
     height: height * 0.28,
     width: width * 0.9,
     borderRadius: width * 0.025,
@@ -532,7 +530,7 @@ const styles = StyleSheet.create({
   },
   autocompleteList: {
     position: "absolute",
-    top: height * 0.135, // Adjust this value to position the list below the search bar
+    top: height * 0.135,
     left: width * 0.025,
     right: width * 0.025,
     backgroundColor: "white",
@@ -560,3 +558,4 @@ const styles = StyleSheet.create({
 });
 
 export default Map;
+

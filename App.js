@@ -4,7 +4,6 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { View, Modal, StyleSheet } from "react-native";
 import Login from "./Pages/components/Login";
 import Dashboard from "./Pages/Dashboard";
-import NotificationContext from "./Pages/components/NotificationContext"; // Adjust path as necessary
 import Founding from "./Pages/Screen/Events/FoundingAnniversary";
 import LiceoGames from "./Pages/Screen/Events/LiceoGames";
 
