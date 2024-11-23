@@ -125,19 +125,19 @@ const Map = () => {
   };
 
   const handleSelectLocation = (location) => {
-  setSelectedLocation(location);
-  setInfoHeader(location.name.toUpperCase());
-  setCurrentImage(location.image);
-  setSearchQuery(location.name);
-  setFilteredLocations([]);
-  setIsExpanded(false); // Reset expansion state
-  Animated.timing(animation, {
-    toValue: 0, // Reset animation
-    duration: 300,
-    useNativeDriver: false,
-  }).start();
-  Keyboard.dismiss();
-};
+    setSelectedLocation(location);
+    setInfoHeader(location.name.toUpperCase());
+    setCurrentImage(location.image);
+    setSearchQuery(location.name);
+    setFilteredLocations([]);
+    setIsExpanded(false); // Reset expansion state
+    Animated.timing(animation, {
+      toValue: 0, // Reset animation
+      duration: 300,
+      useNativeDriver: false,
+    }).start();
+    Keyboard.dismiss();
+  };
 
   const handleLocate = () => {
     if (selectedLocation) {
@@ -319,7 +319,7 @@ const Map = () => {
         <FlatList
           data={filteredLocations}
           keyExtractor={(item) => item.name}
-          style={styles.autocompleteList}
+          style={[styles.autocompleteList, { maxHeight: 150 }]}
           renderItem={({ item }) => (
             <TouchableOpacity
               style={styles.autocompleteItem}
@@ -399,8 +399,7 @@ const styles = StyleSheet.create({
   },
   expandedImage: {
     position: "absolute",
-    top: height * 
-0.15,
+    top: height * 0.15,
     height: height * 0.28,
     width: width * 0.9,
     borderRadius: width * 0.025,
@@ -497,19 +496,18 @@ const styles = StyleSheet.create({
   autocompleteItem: {
     padding: width * 0.03,
     borderBottomWidth: 1,
-    borderBottomColor: '#ccc',
+    borderBottomColor: "#ccc",
   },
   autocompleteItemContent: {
-    flexDirection: 'row',
-    alignItems: 'center',
+    flexDirection: "row",
+    alignItems: "center",
   },
   autocompleteIcon: {
     marginRight: width * 0.02,
   },
   autocompleteText: {
     fontSize: width * 0.04,
-  }
+  },
 });
 
 export default Map;
-

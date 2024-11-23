@@ -126,6 +126,58 @@ const locations = [
     image3: require("../../Images/ComingSoon.png"),
     image4: require("../../Images/ComingSoon.png"),
   },
+  {
+    name: "Engineering Lecture Room 1 & 2",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "LOCATED BEHING SAC BUILDING, 2ND FLOOR ABOVE ELECTRICAL LAB 1.",
+    fullDescription:
+      "The Engineering Lecture Rooms 1 and 2 at Liceo de Cagayan University are modern, well-equipped spaces designed to enhance learning for engineering students. Each room features comfortable seating, multimedia presentation tools, and an acoustically optimized environment for effective lectures and discussions. These rooms provide an ideal setting for theoretical learning, collaborative activities, and professional development sessions.",
+    image: require("../../Images/CollegeLectureRoom/Engineering Lecture Room 1 and 2.jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Equipment Survey Room",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "LOCATED BEHIND SAC BUILDING, BESIDE ELECTRONICS LAB 2.",
+    fullDescription:
+      "The Engineering Lecture Rooms 1 and 2 at Liceo de Cagayan University are modern, well-equipped spaces designed to enhance learning for engineering students. Each room features comfortable seating, multimedia presentation tools, and an acoustically optimized environment for effective lectures and discussions. These rooms provide an ideal setting for theoretical learning, collaborative activities, and professional development sessions.",
+    image: require("../../Images/CollegeLectureRoom/Equipment Survey Room.jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Hydraulic Lab",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "LOCATED BEHIND SAC BUILDING, BESIDE EQUIPMENT SURVEY ROOM.",
+    fullDescription:
+      "The Hydraulics Laboratory at Liceo de Cagayan University is a dedicated space for studying fluid mechanics and hydraulic systems. Equipped with advanced apparatus such as flow meters, pumps, and pipe networks, it allows students to conduct experiments on fluid behavior, pressure dynamics, and energy transfer. The lab provides hands-on learning opportunities, bridging theoretical concepts with practical applications in civil and mechanical engineering.",
+    image: require("../../Images/CollegeLectureRoom/Hydraulic Lab.jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Soil Laboratory",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "LOCATED BEHIND SAC BUILDING, BESIDE HYDRAULIC LAB.",
+    fullDescription:
+      "The Soil Laboratory at Liceo de Cagayan University is a specialized facility designed for the analysis and testing of soil properties. Equipped with tools for compaction, permeability, and shear strength testing, it enables students to evaluate soil characteristics critical for construction, agriculture, and environmental studies. The lab offers hands-on experience, enhancing understanding of geotechnical engineering and sustainable land management practices.",
+    image: require("../../Images/CollegeLectureRoom/Soil Laboratory.jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
 ];
 
 export default locations;
