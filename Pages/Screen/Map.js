@@ -19,6 +19,7 @@ import { useNavigation } from "@react-navigation/native";
 import Icon from "react-native-vector-icons/FontAwesome";
 import MapView, { Marker, PROVIDER_DEFAULT } from "react-native-maps";
 import * as Location from "expo-location";
+import locations from "../components/Locations";
 
 const { width, height } = Dimensions.get("window");
 
@@ -42,58 +43,6 @@ const Map = () => {
     latitudeDelta: 0.001,
     longitudeDelta: 0.001,
   });
-
-  const locations = [
-    {
-      name: "Pharmacy Office",
-      latitude: 8.485858,
-      longitude: 124.639341,
-      description:
-        "Approximate time and distance from your current location. Click the 'LOCATE' button to start navigating.",
-      fullDescription:
-        "The Pharmacy Office provides essential medical supplies and prescriptions to the local community. Our experienced staff offers professional pharmaceutical services and guidance. We maintain a comprehensive inventory of medications and health-related products to meet your healthcare needs.",
-      operatingHours:
-        "Monday - Friday: 8:00 AM - 5:00 PM\nSaturday: 9:00 AM - 2:00 PM",
-      contact: "(123) 456-7890",
-      email: "pharmacy@example.com",
-      image: require("../../Images/castle.jpg"),
-      image2: require("../../Images/castle2.jpg"),
-      image3: require("../../Images/castle3.jpg"),
-      image4: require("../../Images/castle4.jpg"),
-    },
-    {
-      name: "Next Moves Dance Company",
-      latitude: 8.485452,
-      longitude: 124.639237,
-      description:
-        "Approximate time and distance from your current location. Click the 'LOCATE' button to start navigating.",
-      fullDescription:
-        "Next Moves Dance Company is a premier dance studio offering various dance styles and classes for all ages and skill levels. Our professional instructors are dedicated to helping you achieve your dancing goals in a fun and supportive environment.",
-      operatingHours: "Monday - Saturday: 9:00 AM - 8:00 PM",
-      contact: "(123) 456-7891",
-      email: "nextmoves@example.com",
-      image: require("../../Images/castle.jpg"),
-      image2: require("../../Images/castle2.jpg"),
-      image3: require("../../Images/castle3.jpg"),
-      image4: require("../../Images/castle4.jpg"),
-    },
-    {
-      name: "Kabina",
-      latitude: 8.504217,
-      longitude: 124.644259,
-      description:
-        "Approximate time and distance from your current location. Click the 'LOCATE' button to start navigating.",
-      fullDescription:
-        "Kabina offers a unique dining experience with a blend of traditional and modern cuisine. Our restaurant features locally sourced ingredients and a carefully curated menu that changes seasonally. Enjoy the warm atmosphere and exceptional service.",
-      operatingHours: "Daily: 11:00 AM - 10:00 PM",
-      contact: "(123) 456-7892",
-      email: "kabina@example.com",
-      image: require("../../Images/castle.jpg"),
-      image2: require("../../Images/castle2.jpg"),
-      image3: require("../../Images/castle3.jpg"),
-      image4: require("../../Images/castle4.jpg"),
-    },
-  ];
 
   useEffect(() => {
     const getUserLocation = async () => {
@@ -176,14 +125,19 @@ const Map = () => {
   };
 
   const handleSelectLocation = (location) => {
-    setSelectedLocation(location);
-    setInfoHeader(location.name.toUpperCase());
-    setIsExpanded(false);
-    setCurrentImage(location.image);
-    setSearchQuery(location.name);
-    setFilteredLocations([]);
-    Keyboard.dismiss();
-  };
+  setSelectedLocation(location);
+  setInfoHeader(location.name.toUpperCase());
+  setCurrentImage(location.image);
+  setSearchQuery(location.name);
+  setFilteredLocations([]);
+  setIsExpanded(false); // Reset expansion state
+  Animated.timing(animation, {
+    toValue: 0, // Reset animation
+    duration: 300,
+    useNativeDriver: false,
+  }).start();
+  Keyboard.dismiss();
+};
 
   const handleLocate = () => {
     if (selectedLocation) {

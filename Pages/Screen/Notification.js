@@ -100,9 +100,9 @@ const NotificationCard = ({ id, title, width, height }) => {
 
     const handlePress = () => {
         if (id === 1) {
-            navigation.navigate("Founding"); // Navigate to Founding screen
+            navigation.navigate("Founding"); // Add a new Founding screen to the stack
         } else if (id === 2) {
-            navigation.navigate("LiceoGames"); // Navigate to LiceoGames screen
+            navigation.navigate("LiceoGames"); // Add a new LiceoGames screen to the stack
         }
     };
 

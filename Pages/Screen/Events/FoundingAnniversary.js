@@ -35,9 +35,7 @@ import {
     }
   
     const handleClose = () => {
-      navigation.navigate("Notification", {
-        screen: "NotificationList", // Target the specific screen in the Notification stack
-      });
+      navigation.goBack()
     };
   
     return (
