@@ -20,6 +20,7 @@ import Profile from "./Screen/Profile";
 import Locate from "./Screen/Locate";
 import FoundingAnniversary from "./Screen/Events/FoundingAnniversary";
 import LiceoGames from "./Screen/Events/LiceoGames";
+import NotificationContext from "./components/NotificationContext"; // Added this import
 
 // Stack and Tab Navigators
 const Tab = createBottomTabNavigator();
@@ -77,35 +78,54 @@ const Dashboard = () => {
     }
 
     return (
-        <Stack.Navigator screenOptions={{ headerShown: false }}>
-            {/* Tab Navigator Screen */}
-            <Stack.Screen name="Main" component={MainTabs} />
-            {/* Event screens */}
-            <Stack.Screen name="Founding">
-                {(props) => (
-                    <FoundingAnniversary
-                        {...props}
-                        goBackToNotification={() =>
-                            props.navigation.navigate("Main", {
-                                screen: "Notification",
-                            })
-                        }
-                    />
-                )}
-            </Stack.Screen>
-            <Stack.Screen name="LiceoGames">
-                {(props) => (
-                    <LiceoGames
-                        {...props}
-                        goBackToNotification={() =>
-                            props.navigation.navigate("Main", {
-                                screen: "Notification",
-                            })
-                        }
-                    />
-                )}
-            </Stack.Screen>
-        </Stack.Navigator>
+        <>
+            <Stack.Navigator screenOptions={{ headerShown: false }}>
+                {/* Tab Navigator Screen */}
+                <Stack.Screen name="Main" component={MainTabs} />
+                {/* Event screens */}
+                <Stack.Screen name="Founding">
+                    {(props) => (
+                        <FoundingAnniversary
+                            {...props}
+                            goBackToNotification={() =>
+                                props.navigation.navigate("Main", {
+                                    screen: "Notification",
+                                })
+                            }
+                        />
+                    )}
+                </Stack.Screen>
+                <Stack.Screen name="LiceoGames">
+                    {(props) => (
+                        <LiceoGames
+                            {...props}
+                            goBackToNotification={() =>
+                                props.navigation.navigate("Main", {
+                                    screen: "Notification",
+                                })
+                            }
+                        />
+                    )}
+                </Stack.Screen>
+            </Stack.Navigator>
+
+            {/* Modal for persistent notification */}
+            {showNotification && (
+                <Modal
+                    transparent={true}
+                    animationType="fade"
+                    visible={showNotification}
+                    onRequestClose={closeNotification}
+                >
+                    <View style={styles.modalBackground}>
+                        <NotificationContext
+                            notification={events[0]} // Displaying the first event notification
+                            onClose={closeNotification}
+                        />
+                    </View>
+                </Modal>
+            )}
+        </>
     );
 };
 
@@ -158,7 +178,7 @@ const MainTabs = () => {
                     );
                 },
                 tabBarLabel: ({ focused }) => {
-                    const fontSize = width * 0.023;
+                    const fontSize = width * 0.02;
                     return focused ? (
                         <Text style={[styles.tabBarLabel, { fontSize }]}>
                             {route.name.toUpperCase()}
@@ -203,5 +223,12 @@ const styles = StyleSheet.create({
         color: "#f9b210",
         fontFamily: "Poppins-Bold",
         textAlign: "center",
+    },
+    modalBackground: {
+        flex: 1,
+        justifyContent: "flex-start",
+        alignItems: "center",
+        backgroundColor: "rgba(0, 0, 0, 0.5)",
+        paddingTop: height * 0.1,
     },
 });

@@ -8,12 +8,9 @@ const NotificationContext = ({ notification, onClose }) => {
 
     const handleViewPress = () => {
         onClose(); // Close the modal first
-        navigation.navigate('Dashboard', {
-          screen: 'Notification',
-          params: { screen: 'Founding' }
-        });
-      }
-    
+        navigation.navigate("Founding");
+    };
+
     return (
         <View style={styles.notificationContainer}>
             {/* Bell Icon in Circular Container */}
@@ -38,7 +35,10 @@ const NotificationContext = ({ notification, onClose }) => {
                 <TouchableOpacity onPress={onClose} style={styles.button}>
                     <Text style={styles.buttonText}>Close</Text>
                 </TouchableOpacity>
-                <TouchableOpacity style={styles.button} onPress={handleViewPress}>
+                <TouchableOpacity
+                    style={styles.button}
+                    onPress={handleViewPress}
+                >
                     <Text style={styles.buttonText}>View</Text>
                 </TouchableOpacity>
             </View>
