@@ -456,8 +456,6 @@ const styles = StyleSheet.create({
     alignItems: "center",
     paddingHorizontal: width * 0.04,
     paddingVertical: height * 0.02,
-    borderTopWidth: 1,
-    borderTopColor: "#ccc",
   },
   viewContainer: {
     padding: width * 0.025,

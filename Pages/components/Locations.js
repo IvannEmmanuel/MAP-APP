@@ -1587,12 +1587,1325 @@ const locations = [
     latitude: 8.504217,
     longitude: 124.644259,
     description:
-      "wala pa",
+      "LOCATED IN FRONT OF RODELSA HALL AND THE SCHOOL LIBRARY.",
     fullDescription:
-      "wala pa",
+      "Rodelsa Grounds at Liceo de Cagayan University is a spacious outdoor area designed for various recreational, sports, and cultural activities. Named in honor of a notable figure, the grounds provide an ideal venue for events such as athletic competitions, student gatherings, and campus festivals. With its open space and well-maintained facilities, Rodelsa Grounds serves as a hub for student engagement, physical fitness, and community-building activities.",
     image: require("../../Images/Rodelsa Grounds/Rodelsa Grounds.jpg"),
     image2: require("../../Images/Rodelsa Grounds/Rodelsa Grounds (1).jpg"),
     image3: require("../../Images/Rodelsa Grounds/Rodelsa Grounds (2).jpg"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Rodelsa Hall",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "LOCATED IN FRONT OF RODELSA GROUNDS AND THE SCHOOL LIBRARY.",
+    fullDescription:
+      "Rodelsa Hall at Liceo de Cagayan University is a central administrative building that houses key offices such as the University Registrar, School Cashier, and other essential administrative services. It also serves as a historical and symbolic space, featuring the statue of the university’s founder. The hall plays a pivotal role in campus operations, providing students and faculty with vital services and fostering a sense of tradition and pride within the university community.",
+    image: require("../../Images/Rodelsa Hall/Building/Rodelsa Hall.jpg"),
+    image2: require("../../Images/Rodelsa Hall/Building/Rodelsa Hall (1).jpg"),
+    image3: require("../../Images/Rodelsa Hall/Building/Rodelsa Hall (2).jpg"),
+    image4: require("../../Images/Rodelsa Hall/Building/Rodelsa Hall (3).jpg"),
+  },
+  {
+    name: "Rodelsa Hall Faculty Comfort Room (CR)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "LOCATED IN THE RIGHT-SIDE INTERIOR OF THE RODELSA HALL, CAN ONLY BE USED BY FACULTY MEMBERS AND STAFF.",
+    fullDescription:
+      "LOCATED IN THE RIGHT-SIDE INTERIOR OF THE RODELSA HALL, CAN ONLY BE USED BY FACULTY MEMBERS AND STAFF.",
+    image: require("../../Images/Rodelsa Hall/CR/Rodelsa Hall Faculty Comfort Room (CR).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Budget Office (Rodelsa Hall)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "LOCATED INSIDE RODELSA HALL.",
+    fullDescription:
+      "The Budget Office at Liceo de Cagayan University is responsible for the planning, allocation, and management of the university's financial resources. It ensures that funds are distributed efficiently across various departments, programs, and initiatives to support the institution's goals. The office works closely with other administrative units to prepare and monitor budgets, track expenditures, and ensure compliance with financial policies. By overseeing the university's financial planning, the Budget Office plays a crucial role in maintaining fiscal responsibility and supporting the institution’s long-term growth and sustainability.",
+    image: require("../../Images/Rodelsa Hall/Office/Budget Office (Rodelsa Hall).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Guidance and Counseling Center (Rodelsa Hall)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "LOCATED INSIDE RODELSA HALL.",
+    fullDescription:
+      "The Guidance and Counseling Center at Liceo de Cagayan University provides a supportive environment for students' personal, academic, and career development. The center offers professional counseling services, guidance on mental health and well-being, and assistance with academic challenges. It also organizes workshops, seminars, and activities aimed at enhancing students' emotional resilience, decision-making skills, and overall personal growth. Dedicated to fostering a positive campus experience, the center ensures students have the resources to succeed both inside and outside the classroom.",
+    image: require("../../Images/Rodelsa Hall/Office/Guidance and Counseling Center (Rodelsa Hall).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "University Registrar (Rodelsa Hall)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "LOCATED AT RODELSA HALL.",
+    fullDescription:
+      "The University Registrar at Liceo de Cagayan University is responsible for maintaining academic records, managing student enrollment, and overseeing registration processes. It serves as a vital office for students, handling tasks such as transcript requests, course registration, schedule adjustments, and academic certifications. The Registrar also ensures compliance with university policies and academic standards, playing a key role in students' academic journeys from admission to graduation.",
+    image: require("../../Images/Rodelsa Hall/Office/Office of the Registrar (Rodelsa Hall).jpg"),
+    image2: require("../../Images/Rodelsa Hall/Office/University Registrar (Rodelsa Hall).jpg"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "University Cashier (Rodelsa Hall)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "LOCATED AT RODELSA HALL.",
+    fullDescription:
+      "The University Cashier at Liceo de Cagayan University handles all financial transactions related to student accounts. This includes processing tuition payments, fees, fines, and refunds. The office ensures that financial records are accurately maintained and provides assistance to students and parents regarding billing inquiries. The Cashier’s office is also responsible for issuing official receipts and supporting financial matters to ensure smooth academic operations for students and staff.",
+    image: require("../../Images/Rodelsa Hall/Office/University Cashier (Rodelsa Hall).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "South Academic Cluster (SAC Building)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "LOCATED AT RODELSA HALL.",
+    fullDescription:
+      "The University Cashier at Liceo de Cagayan University handles all financial transactions related to student accounts. This includes processing tuition payments, fees, fines, and refunds. The office ensures that financial records are accurately maintained and provides assistance to students and parents regarding billing inquiries. The Cashier’s office is also responsible for issuing official receipts and supporting financial matters to ensure smooth academic operations for students and staff.",
+    image: require("../../Images/South Academic Cluster/Building/South Academic Cluster (SAC Building).jpg"),
+    image2: require("../../Images/South Academic Cluster/Building/South Academic Cluster (SAC Building) (1).jpg"),
+    image3: require("../../Images/South Academic Cluster/Building/South Academic Cluster (SAC Building) (2).jpg"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "SAC 1st Floor Comfort Room (CR)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/CR/SAC 1st Floor Comfort Room (CR).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "SAC 2nd Floor Comfort Room (CR)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/CR/SAC 2nd Floor Comfort Room (CR).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "SAC 3rd Floor Comfort Room (CR)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/CR/SAC 3rd Floor Comfort Room (CR).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "SAC 4th Floor Comfort Room (CR)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/CR/SAC 4th Floor Comfort Room (CR).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "SAC 5th Floor Comfort Room (CR)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/CR/SAC 5th Floor Comfort Room (CR).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "South Academic Cluster (1st Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (1st Floor).jpg"),
+    image2: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (1st Floor)(1).jpg"),
+    image3: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (1st Floor)(2).jpg"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "South Academic Cluster (2nd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (2nd Floor).jpg"),
+    image2: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (2nd Floor)(1).jpg"),
+    image3: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (2nd Floor)(2).jpg"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "South Academic Cluster (3rd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (3rd Floor).jpg"),
+    image2: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (3rd Floor)(1).jpg"),
+    image3: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (3rd Floor)(2).jpg"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "South Academic Cluster (4th Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (4th Floor).jpg"),
+    image2: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (4th Floor)(1).jpg"),
+    image3: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (4th Floor)(2).jpg"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "South Academic Cluster (5th Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (5th Floor).jpg"),
+    image2: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (5th Floor)(1).jpg"),
+    image3: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (5th Floor)(2).jpg"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "College of Business and Accountancy Office (SAC 1st Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Office/College of Business and Accountancy Office (SAC 1st Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "College of Engineering Office (SAC 1st Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Office/College of Engineering Office (SAC 1st Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Kitchen (SAC 5th Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Office/Kitchen (SAC 5th Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "LICEO PRESS (SAC 1st Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Office/LICEO PRESS (SAC 1st Floor).jpg"),
+    image2: require("../../Images/South Academic Cluster/Office/LICEO PRESS (SAC 1st Floor)(1).jpg"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Muslim Prayer Room (SAC 1st Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Office/Muslim Prayer Room (SAC 1st Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "SAC - 508 Travel Bureau (SAC 5th Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Office/SAC - 508 Travel Bureau (SAC 5th Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "SBMA Faculty Room (SAC 1st Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Office/SBMA Faculty Room (SAC 1st Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "SBMA Graduate School (SAC 1st Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Office/SBMA Graduate School (SAC 1st Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Speech Enhancement Center or SEC (SAC 2nd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Office/Speech Enhancement Center or SEC (SAC 2nd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Tourism Faculty Room, and Mini Hotel (SAC 5th Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Office/Tourism Faculty Room, and Mini Hotel (SAC 5th Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "SAC - 101 (SAC 1st Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Rooms/SAC - 101 (SAC 1st Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "SAC - 102 (SAC 1st Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Rooms/SAC - 102 (SAC 1st Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "SAC - 201 (SAC 2nd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Rooms/SAC - 201 (SAC 2nd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "SAC - 202 (SAC 2nd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Rooms/SAC - 202 (SAC 2nd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "SAC - 203 (SAC 2nd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Rooms/SAC - 203 (SAC 2nd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "SAC - 204 (SAC 2nd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Rooms/SAC - 204 (SAC 2nd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "SAC - 205 (SAC 2nd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Rooms/SAC - 205 (SAC 2nd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "SAC - 206 (SAC 2nd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Rooms/SAC - 206 (SAC 2nd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "SAC - 301 (SAC 3rd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Rooms/SAC - 301 (SAC 3rd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "SAC - 302 (SAC 3rd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Rooms/SAC - 302 (SAC 3rd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "SAC - 303 (SAC 3rd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Rooms/SAC - 303 (SAC 3rd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "SAC - 304 (SAC 3rd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Rooms/SAC - 304 (SAC 3rd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "SAC - 305 (SAC 3rd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Rooms/SAC - 305 (SAC 3rd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "SAC - 306 (SAC 3rd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Rooms/SAC - 306 (SAC 3rd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "SAC - 307 (SAC 3rd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Rooms/SAC - 307 (SAC 3rd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "SAC - 308 (SAC 3rd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Rooms/SAC - 308 (SAC 3rd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "SAC - 401 (SAC 4th Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Rooms/SAC - 401 (SAC 4th Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "SAC - 402 (SAC 4th Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Rooms/SAC - 402 (SAC 4th Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "SAC - 403 (SAC 4th Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Rooms/SAC - 403 (SAC 4th Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "SAC - 404 (SAC 4th Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Rooms/SAC - 404 (SAC 4th Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "SAC - 405 (SAC 4th Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Rooms/SAC - 405 (SAC 4th Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "SAC - 406 (SAC 4th Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Rooms/SAC - 406 (SAC 4th Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "SAC - 407 (SAC 4th Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Rooms/SAC - 407 (SAC 4th Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "SAC - 408 (SAC 4th Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Rooms/SAC - 408 (SAC 4th Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "SAC - 507 (SAC 5th Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/South Academic Cluster/Rooms/SAC - 507 (SAC 5th Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "South Academic Cluster Canteen",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "LOCATED AT THE LEFT SIDE OF SAC BUILDING FACING THE LCC.",
+    fullDescription:
+      "The South Academic Cluster Canteen at Liceo de Cagayan University is a popular dining venue offering a variety of affordable meals and snacks for students, faculty, and staff. Located beside the South Academic Cluster, it provides a convenient spot for quick meals or socializing during breaks. The canteen serves a diverse selection of food, catering to different tastes and dietary needs, ensuring a satisfying and accessible option for the campus community throughout the day.",
+    image: require("../../Images/South Academic Cluster Canteen/South Academic Cluster Canteen.jpg"),
+    image2: require("../../Images/South Academic Cluster Canteen/South Academic Cluster Canteen(1).jpg"),
+    image3: require("../../Images/South Academic Cluster Canteen/South Academic Cluster Canteen(2).jpg"),
+    image4: require("../../Images/South Academic Cluster Canteen/South Academic Cluster Canteen(3).jpg"),
+  },
+  {
+    name: "West Academic Cluster (WAC Building)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Building/West Academic Cluster (WAC Building).jpg"),
+    image2: require("../../Images/West Academic Cluster/Building/West Academic Cluster (WAC Building)(1).jpg"),
+    image3: require("../../Images/West Academic Cluster/Building/West Academic Cluster (WAC Building)(2).jpg"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "WAC 1st Floor Comfort Room (CR)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/CR/WAC 1st Floor Comfort Room (CR).jpg"),
+    image2: require("../../Images/West Academic Cluster/CR/WAC 2nd Floor Comfort Room (CR).jpg"),
+    image3: require("../../Images/West Academic Cluster/CR/WAC 3rd Floor Comfort Room (CR).jpg"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "West Academic Cluster (2nd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Floors/West Academic Cluster (2nd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Alumni Affairs Office (WAC 3rd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Office/Alumni Affairs Office (WAC 3rd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "College of Arts and Sciences Faculty Office (WAC 3rd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Office/College of Arts and Sciences Faculty Office (WAC 3rd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "College of Information Technology Office (WAC 3rd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Office/College of Information Technology Office (WAC 3rd Floor).jpg"),
+    image2: require("../../Images/West Academic Cluster/Office/College of Information Technology Office (WAC 3rd Floor)(1).jpg"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "IT Storage 1 (WAC 2nd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Office/IT Storage 1 (WAC 2nd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "IT Storage 2 (WAC 2nd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Office/IT Storage 2 (WAC 2nd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "LICEONET Office (WAC 2nd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Office/LICEONET Office (WAC 2nd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Natural Science Department (WAC 1st Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Office/Natural Science Department (WAC 1st Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Office of the Alumni Affairs (WAC 1st Floor beside Car Entrance)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Office/Office of the Alumni Affairs (WAC 1st Floor beside Car Entrance).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Office of the Physical Plant and Activities (WAC 2nd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Office/Office of the Physical Plant and Activities (WAC 2nd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Office of the PDSA (WAC 3rd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Office/Office of the Prefecture of Discipline and Student Affairs (WAC 3rd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "SIKAP Office (WAC 1st Floor beside Car Entrance)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Office/SIKAP Office (WAC 1st Floor beside Car Entrance).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "WAC - 202 Office of the Vice President for ICT (WAC 2nd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Office/WAC - 202 Office of the Vice President for ICT (WAC 2nd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "WAC - 210 MIS Office (WAC 2nd Floor Behind Botanical Garden)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Office/WAC - 210 MIS Office (WAC 2nd Floor Behind Botanical Garden)).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "WAC - 211 Conservatory of Music (WAC 2nd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Office/WAC - 211 Conservatory of Music (WAC 2nd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Audio Visual Room 1 or AVR 1 (WAC 3rd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Rooms/Audio Visual Room 1 or AVR 1 (WAC 3rd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Biology Laboratory (WAC 1st Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Rooms/Biology Laboratory (WAC 1st Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "CAS Students Lounge (WAC 2nd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Rooms/CAS Students Lounge (WAC 2nd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Chemistry Laboratory 1 (WAC 1st Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Rooms/Chemistry Laboratory 1 (WAC 1st Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Chemistry Laboratory 2 (WAC 1st Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Rooms/Chemistry Laboratory 2 (WAC 1st Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Chemistry Laboratory 3 (WAC 1st Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Rooms/Chemistry Laboratory 3 (WAC 1st Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Herbarium (WAC 2nd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Rooms/Herbarium (WAC 2nd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Music Room 1 (WAC 1st Floor Behind Botanical Garden)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Rooms/Music Room 1 (WAC 1st Floor Behind Botanical Garden).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Music Room 2 (WAC 1st Floor Behind Botanical Garden)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Rooms/Music Room 2 (WAC 1st Floor Behind Botanical Garden).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Music Room 3 (WAC 1st Floor Behind Botanical Garden)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Rooms/Music Room 3 (WAC 1st Floor Behind Botanical Garden).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Natural Science Lecture Room (WAC 1st Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Rooms/Natural Science Lecture Room (WAC 1st Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "WAC - 201 (WAC 2nd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Rooms/WAC - 201 (WAC 2nd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "WAC - 203 IT Laboratory 3 CISCO (WAC 2nd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Rooms/WAC - 203 IT Laboratory 3 CISCO (WAC 2nd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "WAC - 204 Psychology Laboratory 2 (WAC 2nd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Rooms/WAC - 204 Psychology Laboratory 2 (WAC 2nd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "WAC - 205 Physics Laboratory (WAC 2nd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Rooms/WAC - 205 Physics Laboratory (WAC 2nd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "WAC - 206 (WAC 2nd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Rooms/WAC - 206 (WAC 2nd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "WAC - 207 Biochemistry Laboratory (WAC 2nd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Rooms/WAC - 207 Biochemistry Laboratory (WAC 2nd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "WAC - 208 Microbiology Laboratory (WAC 2nd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Rooms/WAC - 208 Microbiology Laboratory (WAC 2nd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "WAC - 209 Psychology Laboratory (WAC 2nd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Rooms/WAC - 209 Psychology Laboratory (WAC 2nd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "WAC - 213 (WAC 2nd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Rooms/WAC - 213 (WAC 2nd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "WAC - 301 IT Laboratory 2 (WAC 3rd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Rooms/WAC - 301 IT Laboratory 2 (WAC 3rd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "WAC - 302 IT Laboratory 1 (WAC 3rd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Rooms/WAC - 302 IT Laboratory 1 (WAC 3rd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "WAC - 303 (WAC 3rd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Rooms/WAC - 303 (WAC 3rd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "WAC - 304 (WAC 3rd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Rooms/WAC - 304 (WAC 3rd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "WAC - 305 Computer Laboratory (WAC 3rd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Rooms/WAC - 305 Computer Laboratory (WAC 3rd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "WAC - 306 (WAC 3rd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Rooms/WAC - 306 (WAC 3rd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "WAC - 401 Communication Laboratory (WAC 4th Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Rooms/WAC - 401 Communication Laboratory (WAC 4th Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "WAC - 402 (WAC 4th Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Rooms/WAC - 402 (WAC 4th Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "WAC - 403 (WAC 4th Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Rooms/WAC - 403 (WAC 4th Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "WAC - 404 (WAC 4th Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Rooms/WAC - 404 (WAC 4th Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Zoology Laboratory (WAC 1st Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/West Academic Cluster/Rooms/Zoology Laboratory (WAC 1st Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
     image4: require("../../Images/ComingSoon.png"),
   },
 ];
