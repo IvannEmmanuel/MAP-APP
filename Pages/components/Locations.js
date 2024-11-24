@@ -881,13 +881,13 @@ const locations = [
     image4: require("../../Images/ComingSoon.png"),
   },
   {
-    name: "Department of Military Science and Tactics ROTC (Outside LCC)",
+    name: "Department of Military Science and Tactics Reserve Officers' Training Corps (Outside LCC)",
     latitude: 8.504217,
     longitude: 124.644259,
     description:
       "LOCATED OUTSIDE THE LCC BESIDE TRAINING CORPS HEADQUARTERS.",
     fullDescription:
-      "The Department of Military Science and Tactics – Reserve Officers' Training Corps (ROTC) at Liceo de Cagayan University offers a comprehensive training program aimed at developing students' leadership, discipline, and military skills. The ROTC program prepares students for future service as officers in the Armed Forces of the Philippines (AFP) while promoting patriotism, civic responsibility, and national defense awareness. Through structured military drills, physical training, and leadership development, the department equips students with the knowledge and skills needed to serve their country and lead with integrity.",
+      "The Department of Military Science and Tactics – Reserve Officers Training Corps (ROTC) at Liceo de Cagayan University offers a comprehensive training program aimed at developing students' leadership, discipline, and military skills. The ROTC program prepares students for future service as officers in the Armed Forces of the Philippines (AFP) while promoting patriotism, civic responsibility, and national defense awareness. Through structured military drills, physical training, and leadership development, the department equips students with the knowledge and skills needed to serve their country and lead with integrity.",
     image: require("../../Images/Liceo Civic Center/Department of Military Science and Tactics Reserve Officers Training Corps (Outside LCC).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
