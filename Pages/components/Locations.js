@@ -958,6 +958,643 @@ const locations = [
     image3: require("../../Images/ComingSoon.png"),
     image4: require("../../Images/ComingSoon.png"),
   },
+  {
+    name: "North Academic Cluster (NAC Building)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/Building/North Academic Cluster (NAC Building).jpg"),
+    image2: require("../../Images/North Academic Clutser/Building/North Academic Cluster (NAC Building) (1).jpg"),
+    image3: require("../../Images/North Academic Clutser/Building/North Academic Cluster (NAC Building) (2).jpg"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "NAC 1st Floor Comfort Room (CR)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/CR/NAC 1st Floor Comfort Room (CR).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "NAC 2nd Floor Comfort Room (CR)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/CR/NAC 2nd Floor Comfort Room (CR).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "NAC 3rd Floor Comfort Room (CR)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/CR/NAC 3rd Floor Comfort Room (CR).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "NAC 4th Floor Comfort Room (CR)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/CR/NAC 4th Floor Comfort Room (CR).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "NAC 5th Floor Comfort Room (CR)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/CR/NAC 5th Floor Comfort Room (CR).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "North Academic Cluster (1st Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (1st Floor).jpg"),
+    image2: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (1st Floor) (1).jpg"),
+    image3: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (1st Floor) (2).jpg"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "North Academic Cluster (2nd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (2nd Floor).jpg"),
+    image2: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (2nd Floor) (1).jpg"),
+    image3: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (2nd Floor) (2).jpg"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "North Academic Cluster (3rd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (3rd Floor).jpg"),
+    image2: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (3rd Floor) (1).jpg"),
+    image3: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (3rd Floor) (2).jpg"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "North Academic Cluster (4th Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (4th Floor).jpg"),
+    image2: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (4th Floor) (1).jpg"),
+    image3: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (4th Floor) (2).jpg"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "North Academic Cluster (5th Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (5th Floor).jpg"),
+    image2: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (5th Floor) (1).jpg"),
+    image3: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (5th Floor) (2).jpg"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Central Supply Room (NAC 5th Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/Office/Central Supply Room (NAC 5th Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "ETEEAP Office (NAC 1st Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/Office/ETEEAP Office (NAC 1st Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Internationalization Office (NAC 1st Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/Office/Internationalization Office (NAC 1st Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "LEB Office (NAC 1st Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/Office/LEB Office (NAC 1st Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Marketing and Communications Office (NAC 2nd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/Office/Marketing and Communications Office (NAC 2nd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "NAC - 101 University Research and Publication Office (NAC 1st Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/Office/NAC - 101 University Research and Publication Office (NAC 1st Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "NAC - 200 Conference Room (NAC 2nd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/Office/NAC - 200 Conference Room (NAC 2nd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "NAC - 201 Conservatory of Music, Theater and Dance (NAC 2nd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/Office/NAC - 201 Conservatory of Music, Theater and Dance (NAC 2nd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "NAC - 301 MAPEH 2 and S.O. Department (NAC 3rd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/Office/NAC - 301 MAPEH 2 and S.O. Department (NAC 3rd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "NAC - 302 MAPEH 1 and S.O. Department (NAC 3rd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/Office/NAC - 302 MAPEH 1 and S.O. Department (NAC 3rd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "NAC - 406 Departmento ng Filipino (NAC 4th Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/Office/NAC - 406 Departmento ng Filipino (NAC 4th Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Office of the Principal Senior High School (NAC 1st Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/Office/Office of the Principal Senior High School (NAC 1st Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Social Sciences Department (NAC 5th Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/Office/Social Sciences Department (NAC 5th Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Audio Visual Room 3 or AVR 3 (NAC 3rd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/Rooms/Audio Visual Room 3 or AVR 3 (NAC 3rd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "NAC - 103 (NAC 1st Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/Rooms/NAC - 103 (NAC 1st Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "NAC - 104 Engineering Lecture Room (NAC 1st Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/Rooms/NAC - 104 Engineering Lecture Room (NAC 1st Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "NAC - 202 Discussion Room 2 Graduate Studies (NAC 2nd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/Rooms/NAC - 202 Discussion Room 2 Graduate Studies (NAC 2nd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "NAC - 203 Discussion Room 3 (NAC 2nd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/Rooms/NAC - 203 Discussion Room 3 (NAC 2nd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "NAC - 204 (NAC 2nd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/Rooms/NAC - 204 (NAC 2nd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "NAC - 303 (NAC 3rd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/Rooms/NAC - 303 (NAC 3rd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "NAC - 304 (NAC 3rd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/Rooms/NAC - 304 (NAC 3rd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "NAC - 305 (NAC 3rd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/Rooms/NAC - 305 (NAC 3rd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "NAC - 306 (NAC 3rd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/Rooms/NAC - 306 (NAC 3rd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "NAC - 307 (NAC 3rd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/Rooms/NAC - 307 (NAC 3rd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "NAC - 401 (NAC 4th Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/Rooms/NAC - 401 (NAC 4th Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "NAC - 402 Biology Laboratory (NAC 4th Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/Rooms/NAC - 402 Biology Laboratory (NAC 4th Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "NAC - 403 Physics Laboratory (NAC 4th Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/Rooms/NAC - 403 Physics Laboratory (NAC 4th Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "NAC - 404 Chemistry Lab (NAC 4th Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/Rooms/NAC - 404 Chemistry Lab (NAC 4th Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "NAC - 405 Crime Scene Room (NAC 4th Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/Rooms/NAC - 405 Crime Scene Room (NAC 4th Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "NAC - 407 Criminalistics Laboratory (NAC 4th Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/Rooms/NAC - 407 Criminalistics Laboratory (NAC 4th Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "NAC - 505 (NAC 5th Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/Rooms/NAC - 505 (NAC 5th Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "NAC - 506 (NAC 5th Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/Rooms/NAC - 506 (NAC 5th Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "NAC - 507 (NAC 5th Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/North Academic Clutser/Rooms/NAC - 507 (NAC 5th Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Parking Lot",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "LOCATED IN FRONT OF WAC BUILDING AND EAC BUILDING, BESIDE CAR ENTRANCE.",
+    fullDescription:
+      "The Parking Lot at Liceo de Cagayan University provides secure and organized spaces for students, faculty, and visitors to park their vehicles. Strategically located within the campus, it is designed to accommodate cars, motorcycles, and bicycles, ensuring convenient access to university facilities. Monitored by security personnel, the parking lot maintains safety and order, contributing to a smooth campus experience.",
+    image: require("../../Images/Parking Lot/Parking Lot.jpg"),
+    image2: require("../../Images/Parking Lot/Parking Lot (1).jpg"),
+    image3: require("../../Images/Parking Lot/Parking Lot (2).jpg"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Riverside",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "LOCATED IN FRONT OF RIVERSIDE CHAPEL, IN FRONT OF SAC BUILDING.",
+    fullDescription:
+      "The Riverside area at Liceo de Cagayan University offers a peaceful and scenic environment for relaxation and outdoor activities. Located along the riverbank, it provides students and visitors with a tranquil space to unwind, enjoy nature, or engage in recreational events. The area also serves as a valuable setting for environmental studies and sustainability initiatives, promoting a connection to nature and fostering ecological awareness.",
+    image: require("../../Images/Riverside/River Side.jpg"),
+    image2: require("../../Images/Riverside/River Side (1).jpg"),
+    image3: require("../../Images/Riverside/River Side (2).jpg"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Riverside Canteen",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "LOCATED BEHIND EAC BUILDING, RIVERSIDE AREA.",
+    fullDescription:
+      "The Riverside Canteen at Liceo de Cagayan University is a popular dining spot offering a variety of affordable and delicious meals for students, faculty, and staff. Located near the riverside, it provides a relaxing atmosphere for casual meals, social gatherings, or quick breaks between classes. The canteen serves as a convenient and refreshing option for nourishment and relaxation in the heart of the campus.",
+    image: require("../../Images/Riverside Canteen/Riverside Canteen.jpg"),
+    image2: require("../../Images/Riverside Canteen/Riverside Canteen (1).jpg"),
+    image3: require("../../Images/Riverside Canteen/Riverside Canteen (2).jpg"),
+    image4: require("../../Images/Riverside Canteen/Riverside Canteen (3).jpg"),
+  },
+  {
+    name: "Riverside Chapel",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/Riverside Chapel/Riverside Chapel.jpg"),
+    image2: require("../../Images/Riverside Chapel/Riverside Chapel (1).jpg"),
+    image3: require("../../Images/Riverside Chapel/Riverside Chapel (2).jpg"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Rodelsa Grounds",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/Rodelsa Grounds/Rodelsa Grounds.jpg"),
+    image2: require("../../Images/Rodelsa Grounds/Rodelsa Grounds (1).jpg"),
+    image3: require("../../Images/Rodelsa Grounds/Rodelsa Grounds (2).jpg"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
 ];
 
 export default locations;
