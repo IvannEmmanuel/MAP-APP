@@ -179,7 +179,6 @@ const Map = () => {
           provider={PROVIDER_DEFAULT}
           region={region}
           mapType="hybrid"
-          coordinate={userLocation}
           style={styles.map}
           scrollEnabled={true}
           zoomEnabled={true}

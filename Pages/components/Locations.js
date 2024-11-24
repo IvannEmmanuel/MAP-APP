@@ -75,7 +75,7 @@ const locations = [
     image4: require("../../Images/ComingSoon.png"),
   },
   {
-    name: "Electrical Lab 1",
+    name: "Electrical Lab 1 (Behind SAC Building)",
     latitude: 8.504217,
     longitude: 124.644259,
     description:
@@ -88,7 +88,7 @@ const locations = [
     image4: require("../../Images/ComingSoon.png"),
   },
   {
-    name: "Electrical Lab 2",
+    name: "Electrical Lab 2 (Behind SAC Building)",
     latitude: 8.504217,
     longitude: 124.644259,
     description:
@@ -101,7 +101,7 @@ const locations = [
     image4: require("../../Images/ComingSoon.png"),
   },
   {
-    name: "Electronics Lab 1",
+    name: "Electronics Lab 1 (Behind SAC Building)",
     latitude: 8.504217,
     longitude: 124.644259,
     description:
@@ -114,7 +114,7 @@ const locations = [
     image4: require("../../Images/ComingSoon.png"),
   },
   {
-    name: "Electronics Lab 2",
+    name: "Electronics Lab 2 (Behind SAC Building)",
     latitude: 8.504217,
     longitude: 124.644259,
     description:
@@ -127,7 +127,7 @@ const locations = [
     image4: require("../../Images/ComingSoon.png"),
   },
   {
-    name: "Engineering Lecture Room 1 & 2",
+    name: "Engineering Lecture Room 1 & 2 (Behind SAC Building)",
     latitude: 8.504217,
     longitude: 124.644259,
     description:
@@ -140,20 +140,20 @@ const locations = [
     image4: require("../../Images/ComingSoon.png"),
   },
   {
-    name: "Equipment Survey Room",
+    name: "Equipment Survey Room (Behind SAC Building)",
     latitude: 8.504217,
     longitude: 124.644259,
     description:
       "LOCATED BEHIND SAC BUILDING, BESIDE ELECTRONICS LAB 2.",
     fullDescription:
-      "The Engineering Lecture Rooms 1 and 2 at Liceo de Cagayan University are modern, well-equipped spaces designed to enhance learning for engineering students. Each room features comfortable seating, multimedia presentation tools, and an acoustically optimized environment for effective lectures and discussions. These rooms provide an ideal setting for theoretical learning, collaborative activities, and professional development sessions.",
+      "LOCATED BEHIND SAC BUILDING, BESIDE ELECTRONICS LAB 2.",
     image: require("../../Images/CollegeLectureRoom/Equipment Survey Room.jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
     image4: require("../../Images/ComingSoon.png"),
   },
   {
-    name: "Hydraulic Lab",
+    name: "Hydraulic Lab (Behind SAC Building)",
     latitude: 8.504217,
     longitude: 124.644259,
     description:
@@ -166,7 +166,7 @@ const locations = [
     image4: require("../../Images/ComingSoon.png"),
   },
   {
-    name: "Soil Laboratory",
+    name: "Soil Laboratory (Behind SAC Building)",
     latitude: 8.504217,
     longitude: 124.644259,
     description:
@@ -174,6 +174,305 @@ const locations = [
     fullDescription:
       "The Soil Laboratory at Liceo de Cagayan University is a specialized facility designed for the analysis and testing of soil properties. Equipped with tools for compaction, permeability, and shear strength testing, it enables students to evaluate soil characteristics critical for construction, agriculture, and environmental studies. The lab offers hands-on experience, enhancing understanding of geotechnical engineering and sustainable land management practices.",
     image: require("../../Images/CollegeLectureRoom/Soil Laboratory.jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "East Academic Cluster Building",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "Wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/East Academic Cluster/Building/East Academic Cluster (EAC Building).jpg"),
+    image2: require("../../Images/East Academic Cluster/Building/East Academic Cluster (EAC Building)(1).jpg"),
+    image3: require("../../Images/East Academic Cluster/Building/East Academic Cluster (EAC Building)(2).jpg"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "EAC 2nd FLoor Comfort Room",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "Wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/East Academic Cluster/CR/EAC 2nd Floor Comfort Room (CR).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "EAC 3rd FLoor Comfort Room",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "Wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/East Academic Cluster/CR/EAC 3rd Floor Comfort Room (CR).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "EAC 4th FLoor Comfort Room",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "Wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/East Academic Cluster/CR/EAC 4th Floor Comfort Room (CR).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "EAC 5th FLoor Comfort Room",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "Wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/East Academic Cluster/CR/EAC 5th Floor Comfort Room (CR).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "East Academic Cluster (1st Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "Wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/East Academic Cluster/Floors/East Academic Cluster (1st Floor).jpg"),
+    image2: require("../../Images/East Academic Cluster/Floors/East Academic Cluster (1st Floor) (1).jpg"),
+    image3: require("../../Images/East Academic Cluster/Floors/East Academic Cluster (1st Floor) (2).jpg"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "East Academic Cluster (2nd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "Wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/East Academic Cluster/Floors/East Academic Cluster (2nd Floor).jpg"),
+    image2: require("../../Images/East Academic Cluster/Floors/East Academic Cluster (2nd Floor) (1).jpg"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "East Academic Cluster (3rd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "Wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/East Academic Cluster/Floors/East Academic Cluster (3rd Floor).jpg"),
+    image2: require("../../Images/East Academic Cluster/Floors/East Academic Cluster (3rd Floor) (1).jpg"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "East Academic Cluster (4th Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "Wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/East Academic Cluster/Floors/East Academic Cluster (4th Floor).jpg"),
+    image2: require("../../Images/East Academic Cluster/Floors/East Academic Cluster (4th Floor) (1).jpg"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "East Academic Cluster (5th Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "Wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/East Academic Cluster/Floors/East Academic Cluster (5th Floor).jpg"),
+    image2: require("../../Images/East Academic Cluster/Floors/East Academic Cluster (5th Floor) (1).jpg"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Academic Affairs Office (EAC 1st Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "Wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/East Academic Cluster/Offices/Academic Affairs Office (EAC 1st Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "College of Criminal Justice Office (EAC 1st Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "Wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/East Academic Cluster/Offices/College of Criminal Justice Office (EAC 1st Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "College of Law Office (EAC 1st Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "Wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/East Academic Cluster/Offices/College of Law Office (EAC 1st Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "EAC - 502 Campus Ministry Office (EAC 5th Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "Wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/East Academic Cluster/Offices/EAC - 502 Campus Ministry Office (EAC 5th Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "EAC - 505 Robotics Laboratory (EAC 5th Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "Wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/East Academic Cluster/Offices/EAC - 505 Robotics Laboratory (EAC 5th Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "EAC - 506 STEM Department (EAC 5th Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "Wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/East Academic Cluster/Offices/EAC - 506 STEM Department (EAC 5th Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "EAC - 507 STEM Department (EAC 5th Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "Wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/East Academic Cluster/Offices/EAC - 507 STEM Department (EAC 5th Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "EAC - 508 English Department (EAC 5th Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "Wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/East Academic Cluster/Offices/EAC - 508 English Department (EAC 5th Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Office of Cultural Affairs (EAC 1st Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "Wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/East Academic Cluster/Offices/Office of Cultural Affairs (EAC 1st Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Office of Extension and Service Learning (EAC 3rd Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "Wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/East Academic Cluster/Offices/Office of Extension and Service Learning (EAC 3rd Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "Office of Student Affairs (EAC 1st Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "Wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/East Academic Cluster/Offices/Office of Student Affairs (EAC 1st Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "EAC - 101 (EAC 1st Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "Wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/East Academic Cluster/Rooms/EAC - 101 (EAC 1st Floor).jpg"),
+    image2: require("../../Images/ComingSoon.png"),
+    image3: require("../../Images/ComingSoon.png"),
+    image4: require("../../Images/ComingSoon.png"),
+  },
+  {
+    name: "EAC - 102 (EAC 1st Floor)",
+    latitude: 8.504217,
+    longitude: 124.644259,
+    description:
+      "Wala pa",
+    fullDescription:
+      "wala pa",
+    image: require("../../Images/East Academic Cluster/Rooms/EAC - 102 (EAC 1st Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
     image4: require("../../Images/ComingSoon.png"),
