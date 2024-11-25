@@ -57,7 +57,10 @@ const LoginPage = () => {
     };
 
     const handleLoginAsVisitor = () => {
-        Alert.alert("Logged in as Visitor");
+        Alert.alert(
+            "Logged in as Visitor",
+            "You are now interacting with this app as a visitor."
+        );
         navigation.navigate("DashboardVisitor");
     };
 
