@@ -50,8 +50,8 @@ const locations = [
   },
   {
     name: "Anatomy Laboratory",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.485227,
+    longitude: 124.639440,
     description:
       "LOCATED IN FRONT OF SAC 1ST FLOOR COMFORT ROOM, RIVERSIDE.",
     fullDescription:
@@ -1951,9 +1951,9 @@ const locations = [
     latitude: 8.504217,
     longitude: 124.644259,
     description:
-      "wala pa",
+      "LOCATED ON THE 1ST FLOOR OF SAC BUILDING, LAST ROOM FACING RIVERSIDE.",
     fullDescription:
-      "wala pa",
+      "LOCATED ON THE 1ST FLOOR OF SAC BUILDING, LAST ROOM FACING RIVERSIDE.",
     image: require("../../Images/South Academic Cluster/Rooms/SAC - 101 (SAC 1st Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -1964,9 +1964,9 @@ const locations = [
     latitude: 8.504217,
     longitude: 124.644259,
     description:
-      "wala pa",
+      "LOCATED ON THE 1ST FLOOR OF SAC BUILDING, BESIDE SAC - 101.",
     fullDescription:
-      "wala pa",
+      "LOCATED ON THE 1ST FLOOR OF SAC BUILDING, BESIDE SAC - 101.",
     image: require("../../Images/South Academic Cluster/Rooms/SAC - 102 (SAC 1st Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -1977,9 +1977,9 @@ const locations = [
     latitude: 8.504217,
     longitude: 124.644259,
     description:
-      "wala pa",
+      "LOCATED ON THE 2ND FLOOR OF SAC BUILDING, LAST ROOM FACING RIVERSIDE.",
     fullDescription:
-      "wala pa",
+      "LOCATED ON THE 2ND FLOOR OF SAC BUILDING, LAST ROOM FACING RIVERSIDE.",
     image: require("../../Images/South Academic Cluster/Rooms/SAC - 201 (SAC 2nd Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -1990,9 +1990,9 @@ const locations = [
     latitude: 8.504217,
     longitude: 124.644259,
     description:
-      "wala pa",
+      "LOCATED ON THE 2ND FLOOR OF SAC BUILDING, BESIDE SAC - 201.",
     fullDescription:
-      "wala pa",
+      "LOCATED ON THE 2ND FLOOR OF SAC BUILDING, BESIDE SAC - 201.",
     image: require("../../Images/South Academic Cluster/Rooms/SAC - 202 (SAC 2nd Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -2003,9 +2003,9 @@ const locations = [
     latitude: 8.504217,
     longitude: 124.644259,
     description:
-      "wala pa",
+      "LOCATED ON THE 2ND FLOOR OF SAC BUILDING, BESIDE SAC - 202.",
     fullDescription:
-      "wala pa",
+      "LOCATED ON THE 2ND FLOOR OF SAC BUILDING, BESIDE SAC - 202.",
     image: require("../../Images/South Academic Cluster/Rooms/SAC - 203 (SAC 2nd Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -2016,9 +2016,9 @@ const locations = [
     latitude: 8.504217,
     longitude: 124.644259,
     description:
-      "wala pa",
+      "LOCATED ON THE 2ND FLOOR OF SAC BUILDING, BESIDE RAMP FACING RIVERSIDE.",
     fullDescription:
-      "wala pa",
+      "LOCATED ON THE 2ND FLOOR OF SAC BUILDING, BESIDE RAMP FACING RIVERSIDE.",
     image: require("../../Images/South Academic Cluster/Rooms/SAC - 204 (SAC 2nd Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -2029,9 +2029,9 @@ const locations = [
     latitude: 8.504217,
     longitude: 124.644259,
     description:
-      "wala pa",
+      "LOCATED ON THE 2ND FLOOR OF SAC BUILDING, BESIDE RAMP FACING ROAD.",
     fullDescription:
-      "wala pa",
+      "LOCATED ON THE 2ND FLOOR OF SAC BUILDING, BESIDE RAMP FACING ROAD.",
     image: require("../../Images/South Academic Cluster/Rooms/SAC - 205 (SAC 2nd Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -2042,9 +2042,9 @@ const locations = [
     latitude: 8.504217,
     longitude: 124.644259,
     description:
-      "wala pa",
+      "LOCATED ON THE 2ND FLOOR OF SAC BUILDING, IN BETWEEN SPEECH ENHANCEMENT CENTER AND SAC - 205.",
     fullDescription:
-      "wala pa",
+      "LOCATED ON THE 2ND FLOOR OF SAC BUILDING, IN BETWEEN SPEECH ENHANCEMENT CENTER AND SAC - 205.",
     image: require("../../Images/South Academic Cluster/Rooms/SAC - 206 (SAC 2nd Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -2055,9 +2055,9 @@ const locations = [
     latitude: 8.504217,
     longitude: 124.644259,
     description:
-      "wala pa",
+      "LOCATED ON THE 3RD FLOOR OF SAC BUILDING, LAST ROOM FACING RIVERSIDE",
     fullDescription:
-      "wala pa",
+      "SAC - 301 is a classroom located in the South Academic Cluster (SAC) at Liceo de Cagayan University. It is primarily used by G11 STEM 1 and 17, G12 STEM 1 and 17, each with different schedules. The classroom is equipped with modern facilities to support the academic needs of students, providing a conducive environment for lectures and interactive learning.",
     image: require("../../Images/South Academic Cluster/Rooms/SAC - 301 (SAC 3rd Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
