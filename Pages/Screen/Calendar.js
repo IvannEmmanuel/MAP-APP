@@ -58,32 +58,32 @@ const Calendar = () => {
             location: "LDCU MAIN CAMPUS",
         },
         {
-            date: "TBA",
-            title: "TO BE ANNOUNCED",
+            tba: "TBA",
+            tbatitle: "TO BE ANNOUNCED",
         },
         {
-            date: "TBA",
-            title: "TO BE ANNOUNCED",
+            tba: "TBA",
+            tbatitle: "TO BE ANNOUNCED",
         },
         {
-            date: "TBA",
-            title: "TO BE ANNOUNCED",
+            tba: "TBA",
+            tbatitle: "TO BE ANNOUNCED",
         },
         {
-            date: "TBA",
-            title: "TO BE ANNOUNCED",
+            tba: "TBA",
+            tbatitle: "TO BE ANNOUNCED",
         },
         {
-            date: "TBA",
-            title: "TO BE ANNOUNCED",
+            tba: "TBA",
+            tbatitle: "TO BE ANNOUNCED",
         },
         {
-            date: "TBA",
-            title: "TO BE ANNOUNCED",
+            tba: "TBA",
+            tbatitle: "TO BE ANNOUNCED",
         },
         {
-            date: "TBA",
-            title: "TO BE ANNOUNCED",
+            tba: "TBA",
+            tbatitle: "TO BE ANNOUNCED",
         },
     ];
 
@@ -113,6 +113,8 @@ const Calendar = () => {
                         title={event.title}
                         time={event.time}
                         location={event.location}
+                        tba={event.tba}
+                        tbatitle={event.tbatitle}
                     />
                 ))}
             </ScrollView>
@@ -120,20 +122,34 @@ const Calendar = () => {
     );
 };
 
-const EventCard = ({ date, title, time, location }) => {
-    const [month, dayRange] = date.split(" "); // Split month and day range
+const EventCard = ({ date, title, time, location, tba, tbatitle }) => {
+    const [month, dayRange] = date ? date.split(" ") : ["", ""]; // Split month and day range, if date exists
 
     return (
         <View style={styles.eventContainer}>
-            <View style={styles.dateContainer}>
-                <Text style={styles.monthText}>{month}</Text>
-                <Text style={styles.dayText}>{dayRange}</Text>
-            </View>
+            {/* Render date if available */}
+            {date && (
+                <View style={styles.dateContainer}>
+                    <Text style={styles.monthText}>{month}</Text>
+                    <Text style={styles.dayText}>{dayRange}</Text>
+                </View>
+            )}
+
+            {/* Render TBA info if available */}
+            {tba && tbatitle && (
+                <View style={{flexDirection:'row', justifyContent: 'center', alignItems: 'center'}}>
+                    <Text style={styles.tbaContainer}>{tba}</Text>
+                    <Text style={styles.eventTitle}>{tbatitle}</Text>
+                </View>
+            )}
+
             <View style={styles.eventDetails}>
                 <Text style={styles.eventTitle}>{title}</Text>
-                <Text style={styles.eventInfo}>
-                    {time} - {location}
-                </Text>
+                {time && location && (
+                    <Text style={styles.eventInfo}>
+                        {time} - {location}
+                    </Text>
+                )}
             </View>
         </View>
     );
@@ -201,6 +217,21 @@ const styles = StyleSheet.create({
         alignItems: "center",
         marginRight: width * 0.04,
         width: width * 0.2,
+    },
+    tbaContainer: {
+        textAlignVertical: 'center',
+        textAlign: 'center',
+        backgroundColor: "#1f2a50",
+        borderRadius: width * 0.04,
+        height: height * 0.1,
+        padding: width * 0.03,
+        paddingHorizontal: width * 0.01,
+        fontSize: height * 0.03,
+        fontWeight: 'bold',
+        fontFamily: "Source-Sans-Pro-Bold",
+        marginRight: width * 0.04,
+        width: width * 0.2,
+        color: 'white',
     },
     monthText: {
         color: "#FFF",
