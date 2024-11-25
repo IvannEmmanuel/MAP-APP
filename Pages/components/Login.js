@@ -135,7 +135,7 @@ const styles = StyleSheet.create({
     row: {
         flexDirection: "row",
         alignItems: "center",
-        marginBottom: height * 0.02,
+        marginBottom: height * 0.03, // Increased spacing between fields
     },
     label: {
         color: "#f9b210",
@@ -146,6 +146,7 @@ const styles = StyleSheet.create({
         width: "30%",
         paddingVertical: 10,
         borderRadius: 20,
+        marginRight: 10, // Added margin between label and input
     },
     input: {
         flex: 1,
@@ -154,6 +155,7 @@ const styles = StyleSheet.create({
         borderRadius: 20,
         paddingLeft: 16,
         fontSize: height * 0.02,
+        paddingVertical: 8, // Added padding to the input field
     },
     actionContainer: {
         alignItems: "center",
@@ -161,7 +163,7 @@ const styles = StyleSheet.create({
     enterContainer: {
         backgroundColor: "#761d1d",
         borderRadius: 20,
-        paddingVertical: 5,
+        paddingVertical: height * 0.002,
         paddingHorizontal: 35,
         marginBottom: 10,
     },
@@ -179,7 +181,7 @@ const styles = StyleSheet.create({
     visitorContainer: {
         backgroundColor: "#761d1d",
         borderRadius: 20,
-        paddingVertical: 10,
+        paddingVertical: height * 0.01,
         paddingHorizontal: 20,
     },
     visitorText: {

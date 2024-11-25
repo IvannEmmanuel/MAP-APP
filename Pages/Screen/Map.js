@@ -144,7 +144,7 @@ const Map = () => {
       navigation.navigate("Locate", {
         latitude: selectedLocation.latitude,
         longitude: selectedLocation.longitude,
-        infoHeader
+        infoHeader,
       });
     }
   };
@@ -165,8 +165,24 @@ const Map = () => {
 
   const containerHeight = animation.interpolate({
     inputRange: [0, 1],
-    outputRange: [height * 0.48, height * 0.31],
+    outputRange: [
+      selectedLocation && selectedLocation.description
+        ? height * 0.45 ///how about this? like if detects there is no description it will change it layout to that it does not affect the has description
+        : height * 0.45,
+      selectedLocation && selectedLocation.description
+        ? height * 0.32
+        : height * 0.32, // Constant if no description
+    ],
   });
+
+  const infoHeaderFontSize =
+    selectedLocation && selectedLocation.description ? width * 0.06 : width * 0.08;
+
+  const expandedContentAlign =
+    selectedLocation && selectedLocation.description ? "center" : "center";
+
+  const paddingContent =
+    selectedLocation && selectedLocation.description ? "" : height * 0.045;
 
   const containerTop = animation.interpolate({
     inputRange: [0, 1],
@@ -223,8 +239,26 @@ const Map = () => {
                 <ScrollView
                   contentContainerStyle={styles.expandedScrollContent}
                 >
-                  <View style={styles.expandedContent}>
-                    <Text style={styles.expandedInfoHeader}>{infoHeader}</Text>
+                  <View
+                    style={[
+                      styles.expandedContent,
+                      {
+                        justifyContent: expandedContentAlign,
+                        marginVertical: paddingContent
+                      },
+                    ]}
+                  >
+                    <Text
+                      style={[
+                        styles.expandedInfoHeader,
+                        {
+                          fontSize: infoHeaderFontSize,
+                          textAlign: expandedContentAlign,
+                        }, // Text alignment based on condition
+                      ]}
+                    >
+                      {infoHeader}
+                    </Text>
                     <Text style={styles.expandedDescription}>
                       {selectedLocation.fullDescription}
                     </Text>
@@ -237,7 +271,14 @@ const Map = () => {
                     style={styles.locationImage}
                     resizeMode="cover"
                   />
-                  <Text style={styles.infoHeader}>{infoHeader}</Text>
+                  <Text
+                    style={[
+                      styles.infoHeader,
+                      { fontSize: infoHeaderFontSize },
+                    ]}
+                  >
+                    {infoHeader}
+                  </Text>
                   <View style={styles.descriptionContainer}>
                     <Text style={styles.infoText}>
                       {selectedLocation.description}
@@ -408,7 +449,7 @@ const styles = StyleSheet.create({
   pickerPicture: {
     bottom: height * 0.02,
     width: width * 0.9,
-    top: height * 0.710,
+    top: height * 0.71,
     height: height * 0.12,
     backgroundColor: "#1f2a50",
     borderRadius: width * 0.025,
@@ -448,9 +489,11 @@ const styles = StyleSheet.create({
   },
   descriptionContainer: {
     padding: width * 0.04,
+    alignItems: "center",
   },
   infoText: {
     fontSize: width * 0.035,
+    marginVertical: height * 0.02,
   },
   buttonContainer: {
     flexDirection: "row",

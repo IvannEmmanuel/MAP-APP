@@ -1,59 +1,9 @@
 const locations = [
   {
-    name: "Pharmacy Office",
-    latitude: 8.485858,
-    longitude: 124.639341,
-    description:
-      "Approximate time and distance from your current location. Click the 'LOCATE' button to start navigating.",
-    fullDescription:
-      "The Pharmacy Office provides essential medical supplies and prescriptions to the local community. Our experienced staff offers professional pharmaceutical services and guidance. We maintain a comprehensive inventory of medications and health-related products to meet your healthcare needs.",
-    operatingHours:
-      "Monday - Friday: 8:00 AM - 5:00 PM\nSaturday: 9:00 AM - 2:00 PM",
-    contact: "(123) 456-7890",
-    email: "pharmacy@example.com",
-    image: require("../../Images/castle.jpg"),
-    image2: require("../../Images/castle2.jpg"),
-    image3: require("../../Images/castle3.jpg"),
-    image4: require("../../Images/castle4.jpg"),
-  },
-  {
-    name: "Next Moves Dance Company",
-    latitude: 8.485452,
-    longitude: 124.639237,
-    description:
-      "Approximate time and distance from your current location. Click the 'LOCATE' button to start navigating.",
-    fullDescription:
-      "Next Moves Dance Company is a premier dance studio offering various dance styles and classes for all ages and skill levels. Our professional instructors are dedicated to helping you achieve your dancing goals in a fun and supportive environment.",
-    operatingHours: "Monday - Saturday: 9:00 AM - 8:00 PM",
-    contact: "(123) 456-7891",
-    email: "nextmoves@example.com",
-    image: require("../../Images/castle.jpg"),
-    image2: require("../../Images/castle2.jpg"),
-    image3: require("../../Images/castle3.jpg"),
-    image4: require("../../Images/castle4.jpg"),
-  },
-  {
-    name: "Kabina",
-    latitude: 8.504217,
-    longitude: 124.644259,
-    description:
-      "Approximate time and distance from your current location. Click the 'LOCATE' button to start navigating.",
-    fullDescription:
-      "Kabina offers a unique dining experience with a blend of traditional and modern cuisine. Our restaurant features locally sourced ingredients and a carefully curated menu that changes seasonally. Enjoy the warm atmosphere and exceptional service.",
-    operatingHours: "Daily: 11:00 AM - 10:00 PM",
-    contact: "(123) 456-7892",
-    email: "kabina@example.com",
-    image: require("../../Images/castle.jpg"),
-    image2: require("../../Images/castle2.jpg"),
-    image3: require("../../Images/castle3.jpg"),
-    image4: require("../../Images/castle4.jpg"),
-  },
-  {
     name: "Anatomy Laboratory",
     latitude: 8.48465698110519,
     longitude: 124.63939273289718,
-    description:
-      "LOCATED IN FRONT OF SAC 1ST FLOOR COMFORT ROOM, RIVERSIDE.",
+    description: "LOCATED IN FRONT OF SAC 1ST FLOOR COMFORT ROOM, RIVERSIDE.",
     fullDescription:
       "The Anatomy Laboratory at Liceo de Cagayan University is a state-of-the-art facility designed to enhance the study and understanding of human anatomy. Equipped with advanced models, tools, and digital resources, it provides students with a hands-on learning experience essential for medical, nursing, and allied health programs.",
     image: require("../../Images/AnatomyLaboratory/Anatomy.jpg"),
@@ -65,8 +15,7 @@ const locations = [
     name: "Botanical Garden",
     latitude: 8.48692026359477,
     longitude: 124.63940057703083,
-    description:
-      "LOCATED AT NAC GROUNDS, INFRONT OF NAC BUILDING.",
+    description: "LOCATED AT NAC GROUNDS, INFRONT OF NAC BUILDING.",
     fullDescription:
       "The Botanical Garden at Liceo de Cagayan University is a serene and educational space dedicated to the conservation and study of diverse plant species. It serves as a living laboratory for students, promoting environmental awareness and sustainability. The garden showcases a variety of flora, offering opportunities for hands-on learning in botany, ecology, and landscaping while providing a tranquil environment for relaxation and inspiration.",
     image: require("../../Images/Botanical Garden/Botanical Garden.jpg"),
@@ -91,8 +40,7 @@ const locations = [
     name: "Electrical Lab 1 (Behind SAC Building)",
     latitude: 8.484690776694979,
     longitude: 124.63925929371543,
-    description:
-      "LOCATED BEHIND SAC BUILDING, BELOW STAIRCASE.",
+    description: "LOCATED BEHIND SAC BUILDING, BELOW STAIRCASE.",
     fullDescription:
       "The Electrical Laboratory at Liceo de Cagayan University is a fully equipped facility designed to support hands-on learning in electrical engineering and technology. It provides students with the tools and resources to conduct experiments, design circuits, and develop practical skills in electrical systems and applications. The lab fosters innovation, critical thinking, and problem-solving, preparing students for real-world challenges in the field of electrical engineering.",
     image: require("../../Images/CollegeLectureRoom/Electrical Lab 1.jpg"),
@@ -104,12 +52,11 @@ const locations = [
     name: "Electrical Lab 2 (Behind SAC Building)",
     latitude: 8.484690776694979,
     longitude: 124.63925929371543,
-    description:
-      "LOCATED BEHIND SAC BUILDING, BESIDE ANATOMY LABORATORY.",
+    description: "LOCATED BEHIND SAC BUILDING, BESIDE ANATOMY LABORATORY.",
     fullDescription:
       "The Electrical Laboratory at Liceo de Cagayan University is a fully equipped facility designed to support hands-on learning in electrical engineering and technology. It provides students with the tools and resources to conduct experiments, design circuits, and develop practical skills in electrical systems and applications. The lab fosters innovation, critical thinking, and problem-solving, preparing students for real-world challenges in the field of electrical engineering.",
     image: require("../../Images/CollegeLectureRoom/Electrical Lab 2.jpg"),
-    image2:  require("../../Images/CollegeLectureRoom/Electrical Lab 2(2).jpg"),
+    image2: require("../../Images/CollegeLectureRoom/Electrical Lab 2(2).jpg"),
     image3: require("../../Images/ComingSoon.png"),
     image4: require("../../Images/ComingSoon.png"),
   },
@@ -117,8 +64,7 @@ const locations = [
     name: "Electronics Lab 1 (Behind SAC Building)",
     latitude: 8.484690776694979,
     longitude: 124.63925929371543,
-    description:
-      "LOCATED BEHIND SAC BUILDING, BESIDE ELECTRICAL LAB 1.",
+    description: "LOCATED BEHIND SAC BUILDING, BESIDE ELECTRICAL LAB 1.",
     fullDescription:
       "The Electronics Laboratory at Liceo de Cagayan University is a cutting-edge facility dedicated to the study and application of electronic systems and devices. Equipped with advanced tools such as oscilloscopes, microcontrollers, and soldering stations, it enables students to design, build, and test electronic circuits and projects. The lab emphasizes hands-on experience, fostering creativity and technical expertise essential for careers in electronics, robotics, and related fields.",
     image: require("../../Images/CollegeLectureRoom/Electronics Lab 1.jpg"),
@@ -130,8 +76,7 @@ const locations = [
     name: "Electronics Lab 2 (Behind SAC Building)",
     latitude: 8.484690776694979,
     longitude: 124.63925929371543,
-    description:
-      "LOCATED BEHIND SAC BUILDING, BESIDE ELECTRONICS LAB 1.",
+    description: "LOCATED BEHIND SAC BUILDING, BESIDE ELECTRONICS LAB 1.",
     fullDescription:
       "The Electronics Laboratory at Liceo de Cagayan University is a cutting-edge facility dedicated to the study and application of electronic systems and devices. Equipped with advanced tools such as oscilloscopes, microcontrollers, and soldering stations, it enables students to design, build, and test electronic circuits and projects. The lab emphasizes hands-on experience, fostering creativity and technical expertise essential for careers in electronics, robotics, and related fields.",
     image: require("../../Images/CollegeLectureRoom/Electronics Lab 2.jpg"),
@@ -156,10 +101,8 @@ const locations = [
     name: "Equipment Survey Room (Behind SAC Building)",
     latitude: 8.484690776694979,
     longitude: 124.63925929371543,
-    description:
-      "LOCATED BEHIND SAC BUILDING, BESIDE ELECTRONICS LAB 2.",
-    fullDescription:
-      "LOCATED BEHIND SAC BUILDING, BESIDE ELECTRONICS LAB 2.",
+    description: "LOCATED BEHIND SAC BUILDING, BESIDE ELECTRONICS LAB 2.",
+    fullDescription: "LOCATED BEHIND SAC BUILDING, BESIDE ELECTRONICS LAB 2.",
     image: require("../../Images/CollegeLectureRoom/Equipment Survey Room.jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -169,8 +112,7 @@ const locations = [
     name: "Hydraulic Lab (Behind SAC Building)",
     latitude: 8.484690776694979,
     longitude: 124.63925929371543,
-    description:
-      "LOCATED BEHIND SAC BUILDING, BESIDE EQUIPMENT SURVEY ROOM.",
+    description: "LOCATED BEHIND SAC BUILDING, BESIDE EQUIPMENT SURVEY ROOM.",
     fullDescription:
       "The Hydraulics Laboratory at Liceo de Cagayan University is a dedicated space for studying fluid mechanics and hydraulic systems. Equipped with advanced apparatus such as flow meters, pumps, and pipe networks, it allows students to conduct experiments on fluid behavior, pressure dynamics, and energy transfer. The lab provides hands-on learning opportunities, bridging theoretical concepts with practical applications in civil and mechanical engineering.",
     image: require("../../Images/CollegeLectureRoom/Hydraulic Lab.jpg"),
@@ -182,8 +124,7 @@ const locations = [
     name: "Soil Laboratory (Behind SAC Building)",
     latitude: 8.484690776694979,
     longitude: 124.63925929371543,
-    description:
-      "LOCATED BEHIND SAC BUILDING, BESIDE HYDRAULIC LAB.",
+    description: "LOCATED BEHIND SAC BUILDING, BESIDE HYDRAULIC LAB.",
     fullDescription:
       "The Soil Laboratory at Liceo de Cagayan University is a specialized facility designed for the analysis and testing of soil properties. Equipped with tools for compaction, permeability, and shear strength testing, it enables students to evaluate soil characteristics critical for construction, agriculture, and environmental studies. The lab offers hands-on experience, enhancing understanding of geotechnical engineering and sustainable land management practices.",
     image: require("../../Images/CollegeLectureRoom/Soil Laboratory.jpg"),
@@ -195,8 +136,7 @@ const locations = [
     name: "East Academic Cluster Building",
     latitude: 8.486339618441425,
     longitude: 124.6395091410764,
-    description:
-      "LOCATED IN FRONT OF WAC BUILDING, BESIDE THE SCHOOL LIBRARY.",
+    description: "LOCATED IN FRONT OF WAC BUILDING, BESIDE THE SCHOOL LIBRARY.",
     fullDescription:
       "The East Academic Cluster at Liceo de Cagayan University is a dedicated area housing classrooms and offices for various academic programs. It is also the latest building constructed on campus, showcasing modern facilities designed to enhance the learning experience and provide a state-of-the-art environment for students and faculty.",
     image: require("../../Images/East Academic Cluster/Building/East Academic Cluster (EAC Building).jpg"),
@@ -208,10 +148,8 @@ const locations = [
     name: "EAC 2nd FLoor Comfort Room",
     latitude: 8.486339618441425,
     longitude: 124.6395091410764,
-    description:
-      "LOCATED AT A SEPARATE HALL BETWEEN ROOMS.",
-    fullDescription:
-      "LOCATED AT A SEPARATE HALL BETWEEN ROOMS.",
+    description: "LOCATED AT A SEPARATE HALL BETWEEN ROOMS.",
+    fullDescription: "LOCATED AT A SEPARATE HALL BETWEEN ROOMS.",
     image: require("../../Images/East Academic Cluster/CR/EAC 2nd Floor Comfort Room (CR).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -221,10 +159,8 @@ const locations = [
     name: "EAC 3rd FLoor Comfort Room",
     latitude: 8.486339618441425,
     longitude: 124.6395091410764,
-    description:
-      "LOCATED AT A SEPARATE HALL BETWEEN ROOMS.",
-    fullDescription:
-      "LOCATED AT A SEPARATE HALL BETWEEN ROOMS.",
+    description: "LOCATED AT A SEPARATE HALL BETWEEN ROOMS.",
+    fullDescription: "LOCATED AT A SEPARATE HALL BETWEEN ROOMS.",
     image: require("../../Images/East Academic Cluster/CR/EAC 3rd Floor Comfort Room (CR).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -234,10 +170,8 @@ const locations = [
     name: "EAC 4th FLoor Comfort Room",
     latitude: 8.486339618441425,
     longitude: 124.6395091410764,
-    description:
-      "LOCATED AT A SEPARATE HALL BETWEEN ROOMS.",
-    fullDescription:
-      "LOCATED AT A SEPARATE HALL BETWEEN ROOMS.",
+    description: "LOCATED AT A SEPARATE HALL BETWEEN ROOMS.",
+    fullDescription: "LOCATED AT A SEPARATE HALL BETWEEN ROOMS.",
     image: require("../../Images/East Academic Cluster/CR/EAC 4th Floor Comfort Room (CR).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -247,10 +181,8 @@ const locations = [
     name: "EAC 5th FLoor Comfort Room",
     latitude: 8.486339618441425,
     longitude: 124.6395091410764,
-    description:
-      "LOCATED AT A SEPARATE HALL BETWEEN ROOMS.",
-    fullDescription:
-      "LOCATED AT A SEPARATE HALL BETWEEN ROOMS.",
+    description: "LOCATED AT A SEPARATE HALL BETWEEN ROOMS.",
+    fullDescription: "LOCATED AT A SEPARATE HALL BETWEEN ROOMS.",
     image: require("../../Images/East Academic Cluster/CR/EAC 5th Floor Comfort Room (CR).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -260,10 +192,7 @@ const locations = [
     name: "East Academic Cluster (1st Floor)",
     latitude: 8.486339618441425,
     longitude: 124.6395091410764,
-    description:
-      " ",
-    fullDescription:
-      " ",
+
     image: require("../../Images/East Academic Cluster/Floors/East Academic Cluster (1st Floor).jpg"),
     image2: require("../../Images/East Academic Cluster/Floors/East Academic Cluster (1st Floor) (1).jpg"),
     image3: require("../../Images/East Academic Cluster/Floors/East Academic Cluster (1st Floor) (2).jpg"),
@@ -273,10 +202,7 @@ const locations = [
     name: "East Academic Cluster (2nd Floor)",
     latitude: 8.486339618441425,
     longitude: 124.6395091410764,
-    description:
-      " ",
-    fullDescription:
-      " ",
+
     image: require("../../Images/East Academic Cluster/Floors/East Academic Cluster (2nd Floor).jpg"),
     image2: require("../../Images/East Academic Cluster/Floors/East Academic Cluster (2nd Floor) (1).jpg"),
     image3: require("../../Images/ComingSoon.png"),
@@ -286,10 +212,7 @@ const locations = [
     name: "East Academic Cluster (3rd Floor)",
     latitude: 8.486339618441425,
     longitude: 124.6395091410764,
-    description:
-      " ",
-    fullDescription:
-      " ",
+
     image: require("../../Images/East Academic Cluster/Floors/East Academic Cluster (3rd Floor).jpg"),
     image2: require("../../Images/East Academic Cluster/Floors/East Academic Cluster (3rd Floor) (1).jpg"),
     image3: require("../../Images/ComingSoon.png"),
@@ -299,10 +222,7 @@ const locations = [
     name: "East Academic Cluster (4th Floor)",
     latitude: 8.486339618441425,
     longitude: 124.6395091410764,
-    description:
-      " ",
-    fullDescription:
-      " ",
+
     image: require("../../Images/East Academic Cluster/Floors/East Academic Cluster (4th Floor).jpg"),
     image2: require("../../Images/East Academic Cluster/Floors/East Academic Cluster (4th Floor) (1).jpg"),
     image3: require("../../Images/ComingSoon.png"),
@@ -312,10 +232,7 @@ const locations = [
     name: "East Academic Cluster (5th Floor)",
     latitude: 8.486339618441425,
     longitude: 124.6395091410764,
-    description:
-      " ",
-    fullDescription:
-      " ",
+
     image: require("../../Images/East Academic Cluster/Floors/East Academic Cluster (5th Floor).jpg"),
     image2: require("../../Images/East Academic Cluster/Floors/East Academic Cluster (5th Floor) (1).jpg"),
     image3: require("../../Images/ComingSoon.png"),
@@ -429,8 +346,7 @@ const locations = [
     name: "Office of Cultural Affairs (EAC 1st Floor)",
     latitude: 8.486339618441425,
     longitude: 124.6395091410764,
-    description:
-      "LOCATED ON THE 1ST FLOOR OF EAC BUILDING, BESIDE STAIRCASE",
+    description: "LOCATED ON THE 1ST FLOOR OF EAC BUILDING, BESIDE STAIRCASE",
     fullDescription:
       "The Office of Cultural Affairs at Liceo de Cagayan University is dedicated to promoting and preserving the rich cultural heritage of the university and the community. It organizes cultural events, performances, and exhibitions that highlight the arts, traditions, and diverse talents of students and faculty. The office serves as a platform for creative expression, fostering cultural awareness and appreciation while supporting the holistic development of the Liceo community.",
     image: require("../../Images/East Academic Cluster/Offices/Office of Cultural Affairs (EAC 1st Floor).jpg"),
@@ -481,8 +397,7 @@ const locations = [
     name: "EAC - 102 (EAC 1st Floor)",
     latitude: 8.486339618441425,
     longitude: 124.6395091410764,
-    description:
-      "LOCATED ON THE 1ST FLOOR OF EAC BUILDING, BESIDE EAC - 101.",
+    description: "LOCATED ON THE 1ST FLOOR OF EAC BUILDING, BESIDE EAC - 101.",
     fullDescription:
       "EAC - 102 is a classroom located in the East Academic Cluster (EAC) at Liceo de Cagayan University. It is primarily used by G11 HUMSS 3 and 9, and G12 HUMSS 4 and 9, each with different schedules. The classroom is equipped with modern facilities to support the academic needs of students, providing a conducive environment for lectures and interactive learning.",
     image: require("../../Images/East Academic Cluster/Rooms/EAC - 102 (EAC 1st Floor).jpg"),
@@ -494,8 +409,7 @@ const locations = [
     name: "EAC - 103 (EAC 1st Floor)",
     latitude: 8.486339618441425,
     longitude: 124.6395091410764,
-    description:
-      "LOCATED ON THE 1ST FLOOR OF EAC BUILDING, BESIDE EAC - 102.",
+    description: "LOCATED ON THE 1ST FLOOR OF EAC BUILDING, BESIDE EAC - 102.",
     fullDescription:
       "EAC - 103 is a classroom located in the East Academic Cluster (EAC) at Liceo de Cagayan University. It is primarily used by G11 HUMSS 4 and 10, and G12 HUMSS 5 and 10, each with different schedules. The classroom is equipped with modern facilities to support the academic needs of students, providing a conducive environment for lectures and interactive learning.",
     image: require("../../Images/East Academic Cluster/Rooms/EAC - 103 (EAC 1st Floor).jpg"),
@@ -507,10 +421,8 @@ const locations = [
     name: "EAC - 201 (EAC 2nd Floor)",
     latitude: 8.486339618441425,
     longitude: 124.6395091410764,
-    description:
-      "LOCATED ON THE 2ND FLOOR OF EAC BUILDING",
-    fullDescription:
-      "LOCATED ON THE 2ND FLOOR OF EAC BUILDING",
+    description: "LOCATED ON THE 2ND FLOOR OF EAC BUILDING",
+    fullDescription: "LOCATED ON THE 2ND FLOOR OF EAC BUILDING",
     image: require("../../Images/East Academic Cluster/Rooms/EAC - 201 (EAC 2nd Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -520,8 +432,7 @@ const locations = [
     name: "EAC - 202 (EAC 2nd Floor)",
     latitude: 8.486339618441425,
     longitude: 124.6395091410764,
-    description:
-      "LOCATED ON THE 2ND FLOOR OF EAC BUILDING, BESIDE EAC - 201.",
+    description: "LOCATED ON THE 2ND FLOOR OF EAC BUILDING, BESIDE EAC - 201.",
     fullDescription:
       "LOCATED ON THE 2ND FLOOR OF EAC BUILDING, BESIDE EAC - 201.",
     image: require("../../Images/East Academic Cluster/Rooms/EAC - 202 (EAC 2nd Floor).jpg"),
@@ -533,8 +444,7 @@ const locations = [
     name: "EAC - 203 (EAC 2nd Floor)",
     latitude: 8.486339618441425,
     longitude: 124.6395091410764,
-    description:
-      "LOCATED ON THE 2ND FLOOR OF EAC BUILDING, BESIDE EAC - 202.",
+    description: "LOCATED ON THE 2ND FLOOR OF EAC BUILDING, BESIDE EAC - 202.",
     fullDescription:
       "LOCATED ON THE 2ND FLOOR OF EAC BUILDING, BESIDE EAC - 202.",
     image: require("../../Images/East Academic Cluster/Rooms/EAC - 203 (EAC 2nd Floor).jpg"),
@@ -546,8 +456,7 @@ const locations = [
     name: "EAC - 301 (EAC 3rd Floor)",
     llatitude: 8.486339618441425,
     longitude: 124.6395091410764,
-    description:
-      "LOCATED ON THE 2ND FLOOR OF EAC BUILDING, BESIDE EAC - 202.",
+    description: "LOCATED ON THE 2ND FLOOR OF EAC BUILDING, BESIDE EAC - 202.",
     fullDescription:
       "EAC - 301 is a classroom located in the East Academic Cluster (EAC) at Liceo de Cagayan University. It is primarily used by G11 HUMSS 5 and 11, and G12 HUMSS 6 and 11, each with different schedules. The classroom is equipped with modern facilities to support the academic needs of students, providing a conducive environment for lectures and interactive learning.",
     image: require("../../Images/East Academic Cluster/Rooms/EAC - 301 (EAC 3rd Floor).jpg"),
@@ -559,8 +468,7 @@ const locations = [
     name: "EAC - 302 (EAC 3rd Floor)",
     latitude: 8.486339618441425,
     longitude: 124.6395091410764,
-    description:
-      "LOCATED ON THE 3RD FLOOR OF EAC BUILDING, BESIDE EAC - 301.",
+    description: "LOCATED ON THE 3RD FLOOR OF EAC BUILDING, BESIDE EAC - 301.",
     fullDescription:
       "EAC - 302 is a classroom located in the East Academic Cluster (EAC) at Liceo de Cagayan University. It is primarily used by G11 HUMSS 6, G12 HUMSS 7 and 12, each with different schedules. The classroom is equipped with modern facilities to support the academic needs of students, providing a conducive environment for lectures and interactive learning.",
     image: require("../../Images/East Academic Cluster/Rooms/EAC - 302 (EAC 3rd Floor).jpg"),
@@ -572,8 +480,7 @@ const locations = [
     name: "EAC - 303 (EAC 3rd Floor)",
     latitude: 8.486339618441425,
     longitude: 124.6395091410764,
-    description:
-      "LOCATED ON THE 3RD FLOOR OF EAC BUILDING, BESIDE EAC - 302.",
+    description: "LOCATED ON THE 3RD FLOOR OF EAC BUILDING, BESIDE EAC - 302.",
     fullDescription:
       "EAC - 303 is a classroom located in the East Academic Cluster (EAC) at Liceo de Cagayan University. It is primarily used by G11 HUMSS 7, G12 HUMSS 8 and 13, each with different schedules. The classroom is equipped with modern facilities to support the academic needs of students, providing a conducive environment for lectures and interactive learning.",
     image: require("../../Images/East Academic Cluster/Rooms/EAC - 303 (EAC 3rd Floor).jpg"),
@@ -611,8 +518,7 @@ const locations = [
     name: "EAC - 306 (EAC 3rd Floor)",
     latitude: 8.486339618441425,
     longitude: 124.6395091410764,
-    description:
-      "LOCATED ON THE 3RD FLOOR OF EAC BUILDING, BESIDE EAC - 305.",
+    description: "LOCATED ON THE 3RD FLOOR OF EAC BUILDING, BESIDE EAC - 305.",
     fullDescription:
       "EAC - 306 is a classroom located in the East Academic Cluster (EAC) at Liceo de Cagayan University. It is primarily used by G11 ABM 3 and 7, G12 ABM 1 and ABM 6, each with different schedules. The classroom is equipped with modern facilities to support the academic needs of students, providing a conducive environment for lectures and interactive learning.",
     image: require("../../Images/East Academic Cluster/Rooms/EAC - 306 (EAC 3rd Floor).jpg"),
@@ -624,8 +530,7 @@ const locations = [
     name: "EAC - 307 (EAC 3rd Floor)",
     latitude: 8.486339618441425,
     longitude: 124.6395091410764,
-    description:
-      "LOCATED ON THE 3RD FLOOR OF EAC BUILDING, BESIDE EAC - 306.",
+    description: "LOCATED ON THE 3RD FLOOR OF EAC BUILDING, BESIDE EAC - 306.",
     fullDescription:
       "EAC - 307 is a classroom located in the East Academic Cluster (EAC) at Liceo de Cagayan University. It is primarily used by G11 ABM 4 and 8, G12 ABM 3 and ABM 8, each with different schedules. The classroom is equipped with modern facilities to support the academic needs of students, providing a conducive environment for lectures and interactive learning.",
     image: require("../../Images/East Academic Cluster/Rooms/EAC - 307 (EAC 3rd Floor).jpg"),
@@ -663,8 +568,7 @@ const locations = [
     name: "EAC - 402 (EAC 4th Floor)",
     latitude: 8.486339618441425,
     longitude: 124.6395091410764,
-    description:
-      "LOCATED ON THE 4TH FLOOR OF EAC BUILDING, BESIDE EAC - 401.",
+    description: "LOCATED ON THE 4TH FLOOR OF EAC BUILDING, BESIDE EAC - 401.",
     fullDescription:
       "LOCATED ON THE 4TH FLOOR OF EAC BUILDING, BESIDE EAC - 401.",
     image: require("../../Images/East Academic Cluster/Rooms/EAC - 402 (EAC 4th Floor).jpg"),
@@ -676,8 +580,7 @@ const locations = [
     name: "EAC - 403 (EAC 4th Floor)",
     latitude: 8.486339618441425,
     longitude: 124.6395091410764,
-    description:
-      "LOCATED ON THE 4TH FLOOR OF EAC BUILDING, BESIDE EAC - 402.",
+    description: "LOCATED ON THE 4TH FLOOR OF EAC BUILDING, BESIDE EAC - 402.",
     fullDescription:
       "LOCATED ON THE 4TH FLOOR OF EAC BUILDING, BESIDE EAC - 402.",
     image: require("../../Images/East Academic Cluster/Rooms/EAC - 403 (EAC 4th Floor).jpg"),
@@ -715,8 +618,7 @@ const locations = [
     name: "EAC - 406 (EAC 4th Floor)",
     latitude: 8.486339618441425,
     longitude: 124.6395091410764,
-    description:
-      "LOCATED ON THE 4TH FLOOR OF EAC BUILDING, BESIDE EAC - 405.",
+    description: "LOCATED ON THE 4TH FLOOR OF EAC BUILDING, BESIDE EAC - 405.",
     fullDescription:
       "EAC - 406 is a classroom located in the East Academic Cluster (EAC) at Liceo de Cagayan University. It is primarily used by G11 ABM 2 and 6, G12 ABM 2 and ABM 7, each with different schedules. The classroom is equipped with modern facilities to support the academic needs of students, providing a conducive environment for lectures and interactive learning.",
     image: require("../../Images/East Academic Cluster/Rooms/EAC - 406 (EAC 4th Floor).jpg"),
@@ -728,8 +630,7 @@ const locations = [
     name: "EAC - 407 (EAC 4th Floor)",
     latitude: 8.486339618441425,
     longitude: 124.6395091410764,
-    description:
-      "LOCATED ON THE 4TH FLOOR OF EAC BUILDING, BESIDE EAC - 406.",
+    description: "LOCATED ON THE 4TH FLOOR OF EAC BUILDING, BESIDE EAC - 406.",
     fullDescription:
       "LOCATED ON THE 4TH FLOOR OF EAC BUILDING, BESIDE EAC - 406.",
     image: require("../../Images/East Academic Cluster/Rooms/EAC - 407 (EAC 4th Floor).jpg"),
@@ -793,8 +694,7 @@ const locations = [
     name: "School Library (Rodelsa Grounds)",
     latitude: 8.486339618441425,
     longitude: 124.6395091410764,
-    description:
-      "LOCATED IN FRONT OF RODELSA HALL.",
+    description: "LOCATED IN FRONT OF RODELSA HALL.",
     fullDescription:
       "The School Library at Liceo de Cagayan University is a hub for academic research, reading, and quiet study. It offers a wide range of resources, including books, journals, digital materials, and other educational tools to support students' learning and research needs. The library provides a peaceful and conducive environment for individual study or group work, with dedicated spaces for reading, research, and multimedia access. It is an essential resource for academic excellence, encouraging intellectual curiosity and supporting the university’s educational goals.",
     image: require("../../Images/Library/Building/School Library (Rodelsa Grounds).jpg"),
@@ -806,8 +706,7 @@ const locations = [
     name: "Audio Visual Room of Library (2nd Floor)",
     latitude: 8.486339618441425,
     longitude: 124.6395091410764,
-    description:
-      "LOCATED AT THE SECOND FLOOR OF THE SCHOOL LIBRARY.",
+    description: "LOCATED AT THE SECOND FLOOR OF THE SCHOOL LIBRARY.",
     fullDescription:
       "The Audio-Visual Room of the School Library at Liceo de Cagayan University is a specialized space designed for multimedia learning and presentations. Equipped with modern audio-visual technology, including projectors, screens, and sound systems, it supports both individual and group learning experiences. The room is ideal for viewing educational videos, conducting presentations, and facilitating interactive learning sessions, enhancing the overall academic experience for students and faculty alike. It serves as a versatile resource for educational enrichment and multimedia-based research activities.",
     image: require("../../Images/Library/Rooms/Audio Visual Room of Library (2nd Floor).jpg"),
@@ -819,10 +718,7 @@ const locations = [
     name: "School Library (1st Floor)",
     latitude: 8.485689945372904,
     longitude: 124.63950768318904,
-    description:
-      " ",
-    fullDescription:
-      " ",
+
     image: require("../../Images/Library/Rooms/School Library (1st Floor).jpg"),
     image2: require("../../Images/Library/Rooms/School Library (1st Floor) (1).jpg"),
     image3: require("../../Images/Library/Rooms/School Library (1st Floor) (2).jpg"),
@@ -832,10 +728,7 @@ const locations = [
     name: "School Library (2nd Floor)",
     latitude: 8.485689945372904,
     longitude: 124.63950768318904,
-    description:
-      " ",
-    fullDescription:
-      " ",
+
     image: require("../../Images/Library/Rooms/School Library (2nd Floor).jpg"),
     image2: require("../../Images/Library/Rooms/School Library (2nd Floor) (1).jpg"),
     image3: require("../../Images/ComingSoon.png"),
@@ -843,10 +736,9 @@ const locations = [
   },
   {
     name: "Alumni Office (Hallway outside LCC)",
-    latitude: 8.485380, 
+    latitude: 8.48538,
     longitude: 124.638951,
-    description:
-      "LOCATED AT THE HALLWAY OUTSIDE THE LCC.",
+    description: "LOCATED AT THE HALLWAY OUTSIDE THE LCC.",
     fullDescription:
       "The Alumni Office at Liceo de Cagayan University serves as the central hub for maintaining connections with graduates and supporting alumni engagement. The office organizes reunions, events, and networking opportunities, fostering a strong alumni community. It also offers resources for career development, including job placement assistance and professional mentorship programs. Through its services, the Alumni Office helps create lasting bonds between former students and the university, contributing to the growth and success of both the alumni and the institution.",
     image: require("../../Images/Liceo Civic Center/Alumni Office (Hallway outside LCC).jpg"),
@@ -856,10 +748,9 @@ const locations = [
   },
   {
     name: "Book Center (Hallway outside LCC)",
-    latitude: 8.485380, 
+    latitude: 8.48538,
     longitude: 124.638951,
-    description:
-      "LOCATED AT THE HALLWAY OUTSIDE THE LCC.",
+    description: "LOCATED AT THE HALLWAY OUTSIDE THE LCC.",
     fullDescription:
       "The Book Center at Liceo de Cagayan University provides students, faculty, and staff with a wide range of academic textbooks, reference materials, and school supplies. It serves as a convenient on-campus resource for purchasing required course materials, study guides, and educational tools. The center also offers stationery and other essential items for academic and personal use. By supporting the academic needs of the campus community, the Book Center plays a key role in enhancing the overall learning experience at the university.",
     image: require("../../Images/Liceo Civic Center/Book Center (Hallway outside LCC).jpg"),
@@ -869,10 +760,9 @@ const locations = [
   },
   {
     name: "Criminology Martial Arts Hall (Hallway outside LCC)",
-    latitude: 8.485380, 
+    latitude: 8.48538,
     longitude: 124.638951,
-    description:
-      "LOCATED AT THE HALLWAY OUTSIDE THE LCC.",
+    description: "LOCATED AT THE HALLWAY OUTSIDE THE LCC.",
     fullDescription:
       "The Criminology Martial Arts Hall at Liceo de Cagayan University is a specialized facility designed to train criminology students in self-defense, martial arts, and physical fitness. The hall is equipped with mats, training equipment, and safety gear to support practical learning in combat techniques, law enforcement tactics, and personal protection skills. It serves as a hands-on environment where students can develop physical discipline and gain practical skills relevant to their criminology studies and future careers in law enforcement and security.",
     image: require("../../Images/Liceo Civic Center/Criminology Martial Arts Hall (Hallway outside LCC).jpg"),
@@ -882,10 +772,9 @@ const locations = [
   },
   {
     name: "Department of Military Science and Tactics Reserve Officers' Training Corps (Outside LCC)",
-    latitude: 8.485380, 
+    latitude: 8.48538,
     longitude: 124.638951,
-    description:
-      "LOCATED OUTSIDE THE LCC BESIDE TRAINING CORPS HEADQUARTERS.",
+    description: "LOCATED OUTSIDE THE LCC BESIDE TRAINING CORPS HEADQUARTERS.",
     fullDescription:
       "The Department of Military Science and Tactics – Reserve Officers Training Corps (ROTC) at Liceo de Cagayan University offers a comprehensive training program aimed at developing students' leadership, discipline, and military skills. The ROTC program prepares students for future service as officers in the Armed Forces of the Philippines (AFP) while promoting patriotism, civic responsibility, and national defense awareness. Through structured military drills, physical training, and leadership development, the department equips students with the knowledge and skills needed to serve their country and lead with integrity.",
     image: require("../../Images/Liceo Civic Center/Department of Military Science and Tactics Reserve Officers Training Corps (Outside LCC).jpg"),
@@ -895,12 +784,9 @@ const locations = [
   },
   {
     name: "Hallway (Outside LCC)",
-    latitude: 8.485380, 
+    latitude: 8.48538,
     longitude: 124.638951,
-    description:  
-      " ",
-    fullDescription:
-      " ",
+
     image: require("../../Images/Liceo Civic Center/Hallway (Outside LCC).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -908,10 +794,9 @@ const locations = [
   },
   {
     name: "Liceo Civic Center or LCC (Entrance)",
-    latitude: 8.485380, 
+    latitude: 8.48538,
     longitude: 124.638951,
-    description:
-      "LOCATED IN FRONT OF SAC BUILDING AND BESIDE HALLWAY.",
+    description: "LOCATED IN FRONT OF SAC BUILDING AND BESIDE HALLWAY.",
     fullDescription:
       "The Liceo Civic Center (LCC) at Liceo de Cagayan University is a covered basketball court gym primarily used for sports events, including basketball games and athletic competitions. It also serves as a versatile venue for various campus activities, such as concerts, cultural performances, and university-wide events. With its spacious and multifunctional layout, the LCC provides a dynamic setting for both recreational and institutional activities, fostering school spirit and community engagement.",
     image: require("../../Images/Liceo Civic Center/Liceo Civic Center or LCC (Entrance).jpg"),
@@ -921,10 +806,9 @@ const locations = [
   },
   {
     name: "Liceo Civic Center or LCC Canteen, Exit and Comfort Room (CR)",
-    latitude: 8.485380, 
+    latitude: 8.48538,
     longitude: 124.638951,
-    description:
-      "LOCATED IN FRONT OF SAC BUILDING AND BESIDE HALLWAY.",
+    description: "LOCATED IN FRONT OF SAC BUILDING AND BESIDE HALLWAY.",
     fullDescription:
       "The Liceo Civic Center (LCC) at Liceo de Cagayan University is a covered basketball court gym primarily used for sports events, including basketball games and athletic competitions. It also serves as a versatile venue for various campus activities, such as concerts, cultural performances, and university-wide events. With its spacious and multifunctional layout, the LCC provides a dynamic setting for both recreational and institutional activities, fostering school spirit and community engagement.",
     image: require("../../Images/Liceo Civic Center/Liceo Civic Center or LCC Canteen, Exit and Comfort Room (CR).jpg"),
@@ -934,10 +818,9 @@ const locations = [
   },
   {
     name: "Medical Clinic (Hallway outside LCC)",
-    latitude: 8.485380, 
+    latitude: 8.48538,
     longitude: 124.638951,
-    description:
-      "LOCATED AT THE HALLWAY OUTSIDE THE LCC.",
+    description: "LOCATED AT THE HALLWAY OUTSIDE THE LCC.",
     fullDescription:
       "The Medical Clinic at Liceo de Cagayan University provides essential healthcare services to students, faculty, and staff. It is staffed with licensed medical professionals who offer first aid, routine check-ups, health counseling, and emergency care. The clinic also provides basic medications, medical referrals, and health education to promote well-being within the campus community. Its goal is to ensure the health and safety of everyone on campus, supporting a productive and healthy learning environment.",
     image: require("../../Images/Liceo Civic Center/Medical Clinic (Hallway outside LCC).jpg"),
@@ -949,8 +832,7 @@ const locations = [
     name: "Sports and Athletics Office (Outside LCC)",
     latitude: 8.504217,
     longitude: 124.644259,
-    description:
-      "LOCATED OUTSIDE THE LCC BESIDE TRAINING CORPS HEADQUARTERS.",
+    description: "LOCATED OUTSIDE THE LCC BESIDE TRAINING CORPS HEADQUARTERS.",
     fullDescription:
       "The Sports and Athletics Office at Liceo de Cagayan University is responsible for promoting physical fitness, organizing athletic events, and supporting student athletes. The office manages various sports programs, from intramural competitions to intercollegiate tournaments, providing students with opportunities to engage in sports and develop their athletic skills. It also oversees training, coaching, and the overall well-being of student athletes. By fostering school spirit and physical wellness, the Sports and Athletics Office plays a key role in the holistic development of students.",
     image: require("../../Images/Liceo Civic Center/Sports and Athletics Office (Outside LCC).jpg"),
@@ -962,8 +844,7 @@ const locations = [
     name: "North Academic Cluster (NAC Building)",
     latitude: 8.487049621394348,
     longitude: 124.63952585171573,
-    description:
-      "LOCATED BESIDE BOTANICAL GARDEN.",
+    description: "LOCATED BESIDE BOTANICAL GARDEN.",
     fullDescription:
       "The North Academic Cluster at Liceo de Cagayan University is a key educational area on campus, housing classrooms and academic offices for various programs. Designed to foster an interactive and engaging learning environment, the cluster is equipped with modern facilities and resources to support students and faculty. It plays a significant role in the academic life of the university, offering a space for lectures, discussions, and collaborative learning, contributing to the overall academic experience for the Liceo community.",
     image: require("../../Images/North Academic Clutser/Building/North Academic Cluster (NAC Building).jpg"),
@@ -1040,10 +921,7 @@ const locations = [
     name: "North Academic Cluster (1st Floor)",
     latitude: 8.504217,
     longitude: 124.644259,
-    description:
-      " ",
-    fullDescription:
-      " ",
+
     image: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (1st Floor).jpg"),
     image2: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (1st Floor) (1).jpg"),
     image3: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (1st Floor) (2).jpg"),
@@ -1053,10 +931,7 @@ const locations = [
     name: "North Academic Cluster (2nd Floor)",
     latitude: 8.504217,
     longitude: 124.644259,
-    description:
-      " ",
-    fullDescription:
-      " ",
+
     image: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (2nd Floor).jpg"),
     image2: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (2nd Floor) (1).jpg"),
     image3: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (2nd Floor) (2).jpg"),
@@ -1066,10 +941,7 @@ const locations = [
     name: "North Academic Cluster (3rd Floor)",
     latitude: 8.504217,
     longitude: 124.644259,
-    description:
-      " ",
-    fullDescription:
-      " ",
+
     image: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (3rd Floor).jpg"),
     image2: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (3rd Floor) (1).jpg"),
     image3: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (3rd Floor) (2).jpg"),
@@ -1079,10 +951,7 @@ const locations = [
     name: "North Academic Cluster (4th Floor)",
     latitude: 8.504217,
     longitude: 124.644259,
-    description:
-      " ",
-    fullDescription:
-      " ",
+
     image: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (4th Floor).jpg"),
     image2: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (4th Floor) (1).jpg"),
     image3: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (4th Floor) (2).jpg"),
@@ -1092,10 +961,7 @@ const locations = [
     name: "North Academic Cluster (5th Floor)",
     latitude: 8.504217,
     longitude: 124.644259,
-    description:
-      " ",
-    fullDescription:
-      " ",
+
     image: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (5th Floor).jpg"),
     image2: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (5th Floor) (1).jpg"),
     image3: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (5th Floor) (2).jpg"),
@@ -1144,8 +1010,7 @@ const locations = [
     name: "Internationalization Office (NAC 1st Floor)",
     latitude: 8.487049621394348,
     longitude: 124.63952585171573,
-    description:
-      "LOCATED ON THE 1ST OF NAC BUILDING, BESIDE ETEEAP OFFICE.",
+    description: "LOCATED ON THE 1ST OF NAC BUILDING, BESIDE ETEEAP OFFICE.",
     fullDescription:
       "The Internationalization Office at Liceo de Cagayan University is dedicated to enhancing the global engagement of the university through various international programs, partnerships, and opportunities. The office coordinates student exchange programs, overseas study opportunities, and collaborative research with international institutions. It also works to promote cultural exchange, global awareness, and the development of skills necessary for students to thrive in a globalized world. By fostering international partnerships and creating global learning experiences, the office plays a key role in broadening the academic horizons of the Liceo community.",
     image: require("../../Images/North Academic Clutser/Office/Internationalization Office (NAC 1st Floor).jpg"),
@@ -1248,8 +1113,7 @@ const locations = [
     name: "NAC - 406 Departmento ng Filipino (NAC 4th Floor)",
     latitude: 8.487049621394348,
     longitude: 124.63952585171573,
-    description:
-      "LOCATED ON THE 4TH OF NAC BUILDING, BESIDE NAC - 405.",
+    description: "LOCATED ON THE 4TH OF NAC BUILDING, BESIDE NAC - 405.",
     fullDescription:
       "The Departmento ng Filipino Office at Liceo de Cagayan University manages the academic and administrative activities related to the Filipino language programs. It provides support for students and faculty in the areas of curriculum development, course scheduling, and academic advising. The office also oversees the implementation of initiatives aimed at promoting Filipino language, literature, and culture across the university. By fostering a deeper understanding and appreciation of the Filipino language, the office helps students develop strong communication skills and cultural awareness.",
     image: require("../../Images/North Academic Clutser/Office/NAC - 406 Departmento ng Filipino (NAC 4th Floor).jpg"),
@@ -1300,8 +1164,7 @@ const locations = [
     name: "NAC - 103 (NAC 1st Floor)",
     latitude: 8.487049621394348,
     longitude: 124.63952585171573,
-    description:
-      "LOCATED ON THE 1ST FLOOR OF NAC BUILDING, BESIDE NAC - 104.",
+    description: "LOCATED ON THE 1ST FLOOR OF NAC BUILDING, BESIDE NAC - 104.",
     fullDescription:
       "NAC - 103 is a classroom located in the North Academic Cluster (NAC) at Liceo de Cagayan University. It is primarily used by G11 ABM 1 and STEM 33, G12 STEM 35 and G12 STEM 33, each with different schedules. The classroom is equipped with modern facilities to support the academic needs of students, providing a conducive environment for lectures and interactive learning.",
     image: require("../../Images/North Academic Clutser/Rooms/NAC - 103 (NAC 1st Floor).jpg"),
@@ -1313,8 +1176,7 @@ const locations = [
     name: "NAC - 104 Engineering Lecture Room (NAC 1st Floor)",
     latitude: 8.487049621394348,
     longitude: 124.63952585171573,
-    description:
-      "LOCATED ON THE 1ST FLOOR OF NAC BUILDING, BESIDE NAC - 103.",
+    description: "LOCATED ON THE 1ST FLOOR OF NAC BUILDING, BESIDE NAC - 103.",
     fullDescription:
       "The Engineering Lecture Room at Liceo de Cagayan University is a specialized space designed for the academic needs of engineering students. Equipped with modern teaching aids, including projectors, whiteboards, and audio-visual tools, it provides an optimal environment for lectures, discussions, and hands-on learning in various engineering disciplines. The room supports interactive learning and facilitates the delivery of technical content, helping students develop the necessary skills and knowledge for their engineering studies. It is an essential part of the university's commitment to providing quality education in the field of engineering.",
     image: require("../../Images/North Academic Clutser/Rooms/NAC - 104 Engineering Lecture Room (NAC 1st Floor).jpg"),
@@ -1326,8 +1188,7 @@ const locations = [
     name: "NAC - 202 Discussion Room 2 Graduate Studies (NAC 2nd Floor)",
     latitude: 8.487049621394348,
     longitude: 124.63952585171573,
-    description:
-      "LOCATED ON THE 2ND FLOOR OF NAC BUILDING, BESIDE NAC - 204.",
+    description: "LOCATED ON THE 2ND FLOOR OF NAC BUILDING, BESIDE NAC - 204.",
     fullDescription:
       "Discussion Rooms 2 and 3 at Liceo de Cagayan University are designed for small group discussions, collaborative learning, and interactive sessions. These rooms are equipped with comfortable seating, whiteboards, and multimedia tools to facilitate effective communication and teamwork among students. Ideal for seminars, group activities, and project-based learning, the rooms provide a focused environment that encourages student engagement, critical thinking, and problem-solving. These spaces support the university's commitment to fostering collaborative learning and enhancing the overall academic experience.",
     image: require("../../Images/North Academic Clutser/Rooms/NAC - 202 Discussion Room 2 Graduate Studies (NAC 2nd Floor).jpg"),
@@ -1339,8 +1200,7 @@ const locations = [
     name: "NAC - 203 Discussion Room 3 (NAC 2nd Floor)",
     latitude: 8.487049621394348,
     longitude: 124.63952585171573,
-    description:
-      "LOCATED ON THE 2ND FLOOR OF NAC BUILDING, BESIDE NAC - 204.",
+    description: "LOCATED ON THE 2ND FLOOR OF NAC BUILDING, BESIDE NAC - 204.",
     fullDescription:
       "Discussion Rooms 2 and 3 at Liceo de Cagayan University are designed for small group discussions, collaborative learning, and interactive sessions. These rooms are equipped with comfortable seating, whiteboards, and multimedia tools to facilitate effective communication and teamwork among students. Ideal for seminars, group activities, and project-based learning, the rooms provide a focused environment that encourages student engagement, critical thinking, and problem-solving. These spaces support the university's commitment to fostering collaborative learning and enhancing the overall academic experience.",
     image: require("../../Images/North Academic Clutser/Rooms/NAC - 203 Discussion Room 3 (NAC 2nd Floor).jpg"),
@@ -1365,8 +1225,7 @@ const locations = [
     name: "NAC - 303 (NAC 3rd Floor)",
     latitude: 8.487049621394348,
     longitude: 124.63952585171573,
-    description:
-      "LOCATED ON THE 3RD FLOOR OF NAC BUILDING, BESIDE NAC - 304.",
+    description: "LOCATED ON THE 3RD FLOOR OF NAC BUILDING, BESIDE NAC - 304.",
     fullDescription:
       "NAC - 303 is a classroom located in the North Academic Cluster (NAC) at Liceo de Cagayan University. It is primarily used by G11 HUMSS 1 and 13, G12 HUMSS 1 and 15, each with different schedules. The classroom is equipped with modern facilities to support the academic needs of students, providing a conducive environment for lectures and interactive learning.",
     image: require("../../Images/North Academic Clutser/Rooms/NAC - 303 (NAC 3rd Floor).jpg"),
@@ -1404,8 +1263,7 @@ const locations = [
     name: "NAC - 306 (NAC 3rd Floor)",
     latitude: 8.487049621394348,
     longitude: 124.63952585171573,
-    description:
-      "LOCATED ON THE 3RD FLOOR OF NAC BUILDING, BESIDE NAC - 305.",
+    description: "LOCATED ON THE 3RD FLOOR OF NAC BUILDING, BESIDE NAC - 305.",
     fullDescription:
       "NAC - 306 is a classroom located in the North Academic Cluster (NAC) at Liceo de Cagayan University. It is primarily used by G11 STEM 35 and 38, G12 STEM 39 and 41, each with different schedules. The classroom is equipped with modern facilities to support the academic needs of students, providing a conducive environment for lectures and interactive learning.",
     image: require("../../Images/North Academic Clutser/Rooms/NAC - 306 (NAC 3rd Floor).jpg"),
@@ -1417,8 +1275,7 @@ const locations = [
     name: "NAC - 307 (NAC 3rd Floor)",
     latitude: 8.487049621394348,
     longitude: 124.63952585171573,
-    description:
-      "LOCATED ON THE 3RD FLOOR OF NAC BUILDING, BESIDE NAC - 306.",
+    description: "LOCATED ON THE 3RD FLOOR OF NAC BUILDING, BESIDE NAC - 306.",
     fullDescription:
       "NAC - 307 is a classroom located in the North Academic Cluster (NAC) at Liceo de Cagayan University. It is primarily used by G11 STEM 36 and HUMSS 12, G12 STEM 40 and 42, each with different schedules. The classroom is equipped with modern facilities to support the academic needs of students, providing a conducive environment for lectures and interactive learning.",
     image: require("../../Images/North Academic Clutser/Rooms/NAC - 307 (NAC 3rd Floor).jpg"),
@@ -1443,8 +1300,7 @@ const locations = [
     name: "NAC - 402 Biology Laboratory (NAC 4th Floor)",
     latitude: 8.487049621394348,
     longitude: 124.63952585171573,
-    description:
-      "LOCATED ON THE 4TH FLOOR OF NAC BUILDING, BESIDE NAC - 401.",
+    description: "LOCATED ON THE 4TH FLOOR OF NAC BUILDING, BESIDE NAC - 401.",
     fullDescription:
       "The Biology Lab at Liceo de Cagayan University is a state-of-the-art facility designed for hands-on learning in the field of biological sciences. Equipped with microscopes, specimen samples, and laboratory tools, the lab provides students with the opportunity to conduct experiments, explore biological concepts, and develop practical skills. It supports various courses related to biology, including cell biology, genetics, ecology, and anatomy, offering a conducive environment for scientific discovery and exploration. The Biology Lab plays a vital role in enhancing the learning experience for students pursuing studies in the life sciences.",
     image: require("../../Images/North Academic Clutser/Rooms/NAC - 402 Biology Laboratory (NAC 4th Floor).jpg"),
@@ -1521,8 +1377,7 @@ const locations = [
     name: "NAC - 506 (NAC 5th Floor)",
     latitude: 8.487049621394348,
     longitude: 124.63952585171573,
-    description:
-      "LOCATED ON THE 5TH FLOOR OF NAC BUILDING, BESIDE NAC - 505.",
+    description: "LOCATED ON THE 5TH FLOOR OF NAC BUILDING, BESIDE NAC - 505.",
     fullDescription:
       "LOCATED ON THE 5TH FLOOR OF NAC BUILDING, BESIDE NAC - 505.",
     image: require("../../Images/North Academic Clutser/Rooms/NAC - 506 (NAC 5th Floor).jpg"),
@@ -1573,8 +1428,7 @@ const locations = [
     name: "Riverside Canteen",
     latitude: 8.486349640484413,
     longitude: 124.63985574858367,
-    description:
-      "LOCATED BEHIND EAC BUILDING, RIVERSIDE AREA.",
+    description: "LOCATED BEHIND EAC BUILDING, RIVERSIDE AREA.",
     fullDescription:
       "The Riverside Canteen at Liceo de Cagayan University is a popular dining spot offering a variety of affordable and delicious meals for students, faculty, and staff. Located near the riverside, it provides a relaxing atmosphere for casual meals, social gatherings, or quick breaks between classes. The canteen serves as a convenient and refreshing option for nourishment and relaxation in the heart of the campus.",
     image: require("../../Images/Riverside Canteen/Riverside Canteen.jpg"),
@@ -1586,8 +1440,7 @@ const locations = [
     name: "Riverside Chapel",
     latitude: 8.485179967613053,
     longitude: 124.63930668359077,
-    description:
-      "LOCATED IN FRONT OF SAC BUILDING, RIVERSIDE AREA.",
+    description: "LOCATED IN FRONT OF SAC BUILDING, RIVERSIDE AREA.",
     fullDescription:
       "The Riverside Chapel at Liceo de Cagayan University is a serene and spiritual space offering a peaceful environment for reflection, prayer, and religious services. Located by the river, it provides a tranquil setting for students, faculty, and visitors to connect spiritually and seek solace. The chapel is a place of comfort and community, hosting regular masses, and spiritual activities that promote faith and well-being within the universit",
     image: require("../../Images/Riverside Chapel/Riverside Chapel.jpg"),
@@ -1599,8 +1452,7 @@ const locations = [
     name: "Rodelsa Grounds",
     latitude: 8.485919437348306,
     longitude: 124.6393337372668,
-    description:
-      "LOCATED IN FRONT OF RODELSA HALL AND THE SCHOOL LIBRARY.",
+    description: "LOCATED IN FRONT OF RODELSA HALL AND THE SCHOOL LIBRARY.",
     fullDescription:
       "Rodelsa Grounds at Liceo de Cagayan University is a spacious outdoor area designed for various recreational, sports, and cultural activities. Named in honor of a notable figure, the grounds provide an ideal venue for events such as athletic competitions, student gatherings, and campus festivals. With its open space and well-maintained facilities, Rodelsa Grounds serves as a hub for student engagement, physical fitness, and community-building activities.",
     image: require("../../Images/Rodelsa Grounds/Rodelsa Grounds.jpg"),
@@ -1612,8 +1464,7 @@ const locations = [
     name: "Rodelsa Hall",
     latitude: 8.486014706257214,
     longitude: 124.6390198054039,
-    description:
-      "LOCATED IN FRONT OF RODELSA GROUNDS AND THE SCHOOL LIBRARY.",
+    description: "LOCATED IN FRONT OF RODELSA GROUNDS AND THE SCHOOL LIBRARY.",
     fullDescription:
       "Rodelsa Hall at Liceo de Cagayan University is a central administrative building that houses key offices such as the University Registrar, School Cashier, and other essential administrative services. It also serves as a historical and symbolic space, featuring the statue of the university’s founder. The hall plays a pivotal role in campus operations, providing students and faculty with vital services and fostering a sense of tradition and pride within the university community.",
     image: require("../../Images/Rodelsa Hall/Building/Rodelsa Hall.jpg"),
@@ -1623,8 +1474,8 @@ const locations = [
   },
   {
     name: "Rodelsa Hall Faculty Comfort Room (CR)",
-    latitude: 8.486059, 
-    longitude: 124.639150,
+    latitude: 8.486059,
+    longitude: 124.63915,
     description:
       "LOCATED IN THE RIGHT-SIDE INTERIOR OF THE RODELSA HALL, CAN ONLY BE USED BY FACULTY MEMBERS AND STAFF.",
     fullDescription:
@@ -1638,8 +1489,7 @@ const locations = [
     name: "Budget Office (Rodelsa Hall)",
     latitude: 8.486039,
     longitude: 124.639092,
-    description:
-      "LOCATED INSIDE RODELSA HALL.",
+    description: "LOCATED INSIDE RODELSA HALL.",
     fullDescription:
       "The Budget Office at Liceo de Cagayan University is responsible for the planning, allocation, and management of the university's financial resources. It ensures that funds are distributed efficiently across various departments, programs, and initiatives to support the institution's goals. The office works closely with other administrative units to prepare and monitor budgets, track expenditures, and ensure compliance with financial policies. By overseeing the university's financial planning, the Budget Office plays a crucial role in maintaining fiscal responsibility and supporting the institution’s long-term growth and sustainability.",
     image: require("../../Images/Rodelsa Hall/Office/Budget Office (Rodelsa Hall).jpg"),
@@ -1651,8 +1501,7 @@ const locations = [
     name: "Guidance and Counseling Center (Rodelsa Hall)",
     latitude: 8.486039,
     longitude: 124.639092,
-    description:
-      "LOCATED INSIDE RODELSA HALL.",
+    description: "LOCATED INSIDE RODELSA HALL.",
     fullDescription:
       "The Guidance and Counseling Center at Liceo de Cagayan University provides a supportive environment for students' personal, academic, and career development. The center offers professional counseling services, guidance on mental health and well-being, and assistance with academic challenges. It also organizes workshops, seminars, and activities aimed at enhancing students' emotional resilience, decision-making skills, and overall personal growth. Dedicated to fostering a positive campus experience, the center ensures students have the resources to succeed both inside and outside the classroom.",
     image: require("../../Images/Rodelsa Hall/Office/Guidance and Counseling Center (Rodelsa Hall).jpg"),
@@ -1664,8 +1513,7 @@ const locations = [
     name: "University Registrar (Rodelsa Hall)",
     latitude: 8.486039,
     longitude: 124.639092,
-    description:
-      "LOCATED AT RODELSA HALL.",
+    description: "LOCATED AT RODELSA HALL.",
     fullDescription:
       "The University Registrar at Liceo de Cagayan University is responsible for maintaining academic records, managing student enrollment, and overseeing registration processes. It serves as a vital office for students, handling tasks such as transcript requests, course registration, schedule adjustments, and academic certifications. The Registrar also ensures compliance with university policies and academic standards, playing a key role in students' academic journeys from admission to graduation.",
     image: require("../../Images/Rodelsa Hall/Office/Office of the Registrar (Rodelsa Hall).jpg"),
@@ -1677,8 +1525,7 @@ const locations = [
     name: "University Cashier (Rodelsa Hall)",
     latitude: 8.486039,
     longitude: 124.639092,
-    description:
-      "LOCATED AT RODELSA HALL.",
+    description: "LOCATED AT RODELSA HALL.",
     fullDescription:
       "The University Cashier at Liceo de Cagayan University handles all financial transactions related to student accounts. This includes processing tuition payments, fees, fines, and refunds. The office ensures that financial records are accurately maintained and provides assistance to students and parents regarding billing inquiries. The Cashier’s office is also responsible for issuing official receipts and supporting financial matters to ensure smooth academic operations for students and staff.",
     image: require("../../Images/Rodelsa Hall/Office/University Cashier (Rodelsa Hall).jpg"),
@@ -1690,8 +1537,7 @@ const locations = [
     name: "South Academic Cluster (SAC Building)",
     latitude: 8.484912,
     longitude: 124.638948,
-    description:
-      "LOCATED IN FRONT OF LCC, BESIDE RIVERSIDE.",
+    description: "LOCATED IN FRONT OF LCC, BESIDE RIVERSIDE.",
     fullDescription:
       "The South Academic Cluster at Liceo de Cagayan University is one of the oldest buildings on campus, housing classrooms and offices for various academic programs. This historic building has been a central part of the university's educational experience, providing a conducive environment for learning and faculty collaboration. With its modern facilities integrated into a rich legacy, the South Academic Cluster continues to play a vital role in supporting the academic growth and development of students, contributing to the university's long-standing tradition of excellence in education.",
     image: require("../../Images/South Academic Cluster/Building/South Academic Cluster (SAC Building).jpg"),
@@ -1768,10 +1614,6 @@ const locations = [
     name: "South Academic Cluster (1st Floor)",
     latitude: 8.484912,
     longitude: 124.638948,
-    description:
-      " ",
-    fullDescription:
-      " ",
     image: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (1st Floor).jpg"),
     image2: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (1st Floor)(1).jpg"),
     image3: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (1st Floor)(2).jpg"),
@@ -1781,10 +1623,7 @@ const locations = [
     name: "South Academic Cluster (2nd Floor)",
     latitude: 8.484912,
     longitude: 124.638948,
-    description:
-      " ",
-    fullDescription:
-      " ",
+
     image: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (2nd Floor).jpg"),
     image2: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (2nd Floor)(1).jpg"),
     image3: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (2nd Floor)(2).jpg"),
@@ -1794,10 +1633,7 @@ const locations = [
     name: "South Academic Cluster (3rd Floor)",
     latitude: 8.484912,
     longitude: 124.638948,
-    description:
-      " ",
-    fullDescription:
-      " ",
+
     image: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (3rd Floor).jpg"),
     image2: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (3rd Floor)(1).jpg"),
     image3: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (3rd Floor)(2).jpg"),
@@ -1807,10 +1643,7 @@ const locations = [
     name: "South Academic Cluster (4th Floor)",
     latitude: 8.484912,
     longitude: 124.638948,
-    description:
-      " ",
-    fullDescription:
-      " ",
+
     image: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (4th Floor).jpg"),
     image2: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (4th Floor)(1).jpg"),
     image3: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (4th Floor)(2).jpg"),
@@ -1820,10 +1653,7 @@ const locations = [
     name: "South Academic Cluster (5th Floor)",
     latitude: 8.484912,
     longitude: 124.638948,
-    description:
-      " ",
-    fullDescription:
-      " ",
+
     image: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (5th Floor).jpg"),
     image2: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (5th Floor)(1).jpg"),
     image3: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (5th Floor)(2).jpg"),
@@ -1859,10 +1689,7 @@ const locations = [
     name: "Kitchen (SAC 5th Floor)",
     latitude: 8.484912,
     longitude: 124.638948,
-    description:
-      " ",
-    fullDescription:
-      " ",
+
     image: require("../../Images/South Academic Cluster/Office/Kitchen (SAC 5th Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -1976,8 +1803,7 @@ const locations = [
     name: "SAC - 102 (SAC 1st Floor)",
     latitude: 8.484912,
     longitude: 124.638948,
-    description:
-      "LOCATED ON THE 1ST FLOOR OF SAC BUILDING, BESIDE SAC - 101.",
+    description: "LOCATED ON THE 1ST FLOOR OF SAC BUILDING, BESIDE SAC - 101.",
     fullDescription:
       "LOCATED ON THE 1ST FLOOR OF SAC BUILDING, BESIDE SAC - 101.",
     image: require("../../Images/South Academic Cluster/Rooms/SAC - 102 (SAC 1st Floor).jpg"),
@@ -2002,8 +1828,7 @@ const locations = [
     name: "SAC - 202 (SAC 2nd Floor)",
     latitude: 8.484912,
     longitude: 124.638948,
-    description:
-      "LOCATED ON THE 2ND FLOOR OF SAC BUILDING, BESIDE SAC - 201.",
+    description: "LOCATED ON THE 2ND FLOOR OF SAC BUILDING, BESIDE SAC - 201.",
     fullDescription:
       "LOCATED ON THE 2ND FLOOR OF SAC BUILDING, BESIDE SAC - 201.",
     image: require("../../Images/South Academic Cluster/Rooms/SAC - 202 (SAC 2nd Floor).jpg"),
@@ -2015,8 +1840,7 @@ const locations = [
     name: "SAC - 203 (SAC 2nd Floor)",
     latitude: 8.484912,
     longitude: 124.638948,
-    description:
-      "LOCATED ON THE 2ND FLOOR OF SAC BUILDING, BESIDE SAC - 202.",
+    description: "LOCATED ON THE 2ND FLOOR OF SAC BUILDING, BESIDE SAC - 202.",
     fullDescription:
       "LOCATED ON THE 2ND FLOOR OF SAC BUILDING, BESIDE SAC - 202.",
     image: require("../../Images/South Academic Cluster/Rooms/SAC - 203 (SAC 2nd Floor).jpg"),
@@ -2080,8 +1904,7 @@ const locations = [
     name: "SAC - 302 (SAC 3rd Floor)",
     latitude: 8.484912,
     longitude: 124.638948,
-    description:
-      "LOCATED ON THE 3RD FLOOR OF SAC BUILDING, BESIDE SAC - 301",
+    description: "LOCATED ON THE 3RD FLOOR OF SAC BUILDING, BESIDE SAC - 301",
     fullDescription:
       "SAC - 302 is a classroom located in the South Academic Cluster (SAC) at Liceo de Cagayan University. It is primarily used by G11 STEM 2 and 18, G12 STEM 2 and 18, each with different schedules. The classroom is equipped with modern facilities to support the academic needs of students, providing a conducive environment for lectures and interactive learning.",
     image: require("../../Images/South Academic Cluster/Rooms/SAC - 302 (SAC 3rd Floor).jpg"),
@@ -2093,8 +1916,7 @@ const locations = [
     name: "SAC - 303 (SAC 3rd Floor)",
     latitude: 8.484912,
     longitude: 124.638948,
-    description:
-      "LOCATED ON THE 3RD FLOOR OF SAC BUILDING, BESIDE SAC - 302",
+    description: "LOCATED ON THE 3RD FLOOR OF SAC BUILDING, BESIDE SAC - 302",
     fullDescription:
       "SAC - 303 is a classroom located in the South Academic Cluster (SAC) at Liceo de Cagayan University. It is primarily used by G11 STEM 3 and 19, G12 STEM 3 and 19, each with different schedules. The classroom is equipped with modern facilities to support the academic needs of students, providing a conducive environment for lectures and interactive learning.",
     image: require("../../Images/South Academic Cluster/Rooms/SAC - 303 (SAC 3rd Floor).jpg"),
@@ -2132,8 +1954,7 @@ const locations = [
     name: "SAC - 306 (SAC 3rd Floor)",
     latitude: 8.484912,
     longitude: 124.638948,
-    description:
-      "LOCATED ON THE 3RD FLOOR OF SAC BUILDING, BESIDE SAC - 305.",
+    description: "LOCATED ON THE 3RD FLOOR OF SAC BUILDING, BESIDE SAC - 305.",
     fullDescription:
       "SAC - 306 is a classroom located in the South Academic Cluster (SAC) at Liceo de Cagayan University. It is primarily used by G11 STEM 6 and 22, G12 STEM 6 and 22, each with different schedules. The classroom is equipped with modern facilities to support the academic needs of students, providing a conducive environment for lectures and interactive learning.",
     image: require("../../Images/South Academic Cluster/Rooms/SAC - 306 (SAC 3rd Floor).jpg"),
@@ -2145,8 +1966,7 @@ const locations = [
     name: "SAC - 307 (SAC 3rd Floor)",
     latitude: 8.484912,
     longitude: 124.638948,
-    description:
-      "LOCATED ON THE 3RD FLOOR OF SAC BUILDING, BESIDE SAC - 306.",
+    description: "LOCATED ON THE 3RD FLOOR OF SAC BUILDING, BESIDE SAC - 306.",
     fullDescription:
       "SAC - 307 is a classroom located in the South Academic Cluster (SAC) at Liceo de Cagayan University. It is primarily used by G11 STEM 7 and 23, G12 STEM 7 and 23, each with different schedules. The classroom is equipped with modern facilities to support the academic needs of students, providing a conducive environment for lectures and interactive learning.",
     image: require("../../Images/South Academic Cluster/Rooms/SAC - 307 (SAC 3rd Floor).jpg"),
@@ -2184,8 +2004,7 @@ const locations = [
     name: "SAC - 402 (SAC 4th Floor)",
     latitude: 8.484912,
     longitude: 124.638948,
-    description:
-      "LOCATED ON THE 4TH FLOOR OF SAC BUILDING, BESIDE SAC - 401.",
+    description: "LOCATED ON THE 4TH FLOOR OF SAC BUILDING, BESIDE SAC - 401.",
     fullDescription:
       "SAC - 402 is a classroom located in the South Academic Cluster (SAC) at Liceo de Cagayan University. It is primarily used by G11 STEM 10 and 26, G12 STEM 10 and 26, each with different schedules. The classroom is equipped with modern facilities to support the academic needs of students, providing a conducive environment for lectures and interactive learning.",
     image: require("../../Images/South Academic Cluster/Rooms/SAC - 402 (SAC 4th Floor).jpg"),
@@ -2197,8 +2016,7 @@ const locations = [
     name: "SAC - 403 (SAC 4th Floor)",
     latitude: 8.484912,
     longitude: 124.638948,
-    description:
-      "LOCATED ON THE 4TH FLOOR OF SAC BUILDING, BESIDE SAC - 402.",
+    description: "LOCATED ON THE 4TH FLOOR OF SAC BUILDING, BESIDE SAC - 402.",
     fullDescription:
       "SAC - 403 is a classroom located in the South Academic Cluster (SAC) at Liceo de Cagayan University. It is primarily used by G11 STEM 11 and 27, G12 STEM 11 and 27, each with different schedules. The classroom is equipped with modern facilities to support the academic needs of students, providing a conducive environment for lectures and interactive learning.",
     image: require("../../Images/South Academic Cluster/Rooms/SAC - 403 (SAC 4th Floor).jpg"),
@@ -2236,8 +2054,7 @@ const locations = [
     name: "SAC - 406 (SAC 4th Floor)",
     latitude: 8.484912,
     longitude: 124.638948,
-    description:
-      "LOCATED ON THE 4TH FLOOR OF SAC BUILDING, BESIDE SAC - 405.",
+    description: "LOCATED ON THE 4TH FLOOR OF SAC BUILDING, BESIDE SAC - 405.",
     fullDescription:
       "SAC - 406 is a classroom located in the South Academic Cluster (SAC) at Liceo de Cagayan University. It is primarily used by G11 STEM 14 and 30, G12 STEM 14 and 30, each with different schedules. The classroom is equipped with modern facilities to support the academic needs of students, providing a conducive environment for lectures and interactive learning.",
     image: require("../../Images/South Academic Cluster/Rooms/SAC - 406 (SAC 4th Floor).jpg"),
@@ -2249,8 +2066,7 @@ const locations = [
     name: "SAC - 407 (SAC 4th Floor)",
     latitude: 8.484912,
     longitude: 124.638948,
-    description:
-      "LOCATED ON THE 4TH FLOOR OF SAC BUILDING, BESIDE SAC - 406.",
+    description: "LOCATED ON THE 4TH FLOOR OF SAC BUILDING, BESIDE SAC - 406.",
     fullDescription:
       "SAC - 407 is a classroom located in the South Academic Cluster (SAC) at Liceo de Cagayan University. It is primarily used by G11 STEM 15 and 31, G12 STEM 15 and 31, each with different schedules. The classroom is equipped with modern facilities to support the academic needs of students, providing a conducive environment for lectures and interactive learning.",
     image: require("../../Images/South Academic Cluster/Rooms/SAC - 407 (SAC 4th Floor).jpg"),
@@ -2288,8 +2104,7 @@ const locations = [
     name: "South Academic Cluster Canteen",
     latitude: 8.484912,
     longitude: 124.638948,
-    description:
-      "LOCATED AT THE LEFT SIDE OF SAC BUILDING FACING THE LCC.",
+    description: "LOCATED AT THE LEFT SIDE OF SAC BUILDING FACING THE LCC.",
     fullDescription:
       "The South Academic Cluster Canteen at Liceo de Cagayan University is a popular dining venue offering a variety of affordable meals and snacks for students, faculty, and staff. Located beside the South Academic Cluster, it provides a convenient spot for quick meals or socializing during breaks. The canteen serves a diverse selection of food, catering to different tastes and dietary needs, ensuring a satisfying and accessible option for the campus community throughout the day.",
     image: require("../../Images/South Academic Cluster Canteen/South Academic Cluster Canteen.jpg"),
@@ -2548,8 +2363,7 @@ const locations = [
     name: "CAS Students Lounge (WAC 2nd Floor)",
     latitude: 8.486716255516576,
     longitude: 124.63938743984524,
-    description:
-      "LOCATED ON THE 2ND FLOOR OF WAC BUILDING, BEHIND STAIRCASE.",
+    description: "LOCATED ON THE 2ND FLOOR OF WAC BUILDING, BEHIND STAIRCASE.",
     fullDescription:
       "LOCATED ON THE 2ND FLOOR OF WAC BUILDING, BEHIND STAIRCASE.",
     image: require("../../Images/West Academic Cluster/Rooms/CAS Students Lounge (WAC 2nd Floor).jpg"),
@@ -2561,8 +2375,7 @@ const locations = [
     name: "Chemistry Laboratory 1 (WAC 1st Floor)",
     latitude: 8.486716255516576,
     longitude: 124.63938743984524,
-    description:
-      "LOCATED ON THE 1ST FLOOR OF WAC BUILDING, HALLWAY.",
+    description: "LOCATED ON THE 1ST FLOOR OF WAC BUILDING, HALLWAY.",
     fullDescription:
       "The Chemistry Laboratories at Liceo de Cagayan University are specialized facilities designed to provide students with practical experience in chemical sciences. Equipped with modern laboratory instruments and safety equipment, the labs support a range of experiments and activities in organic, inorganic, analytical, and physical chemistry. These laboratories allow students to conduct hands-on experiments, apply theoretical concepts, and develop crucial skills in research, analysis, and safety protocols. The Chemistry Laboratories are integral to the academic development of students pursuing careers in chemistry, environmental science, healthcare, and other related fields.",
     image: require("../../Images/West Academic Cluster/Rooms/Chemistry Laboratory 1 (WAC 1st Floor).jpg"),
@@ -2574,8 +2387,7 @@ const locations = [
     name: "Chemistry Laboratory 2 (WAC 1st Floor)",
     latitude: 8.486716255516576,
     longitude: 124.63938743984524,
-    description:
-      "LOCATED ON THE 1ST FLOOR OF WAC BUILDING, HALLWAY.",
+    description: "LOCATED ON THE 1ST FLOOR OF WAC BUILDING, HALLWAY.",
     fullDescription:
       "The Chemistry Laboratories at Liceo de Cagayan University are specialized facilities designed to provide students with practical experience in chemical sciences. Equipped with modern laboratory instruments and safety equipment, the labs support a range of experiments and activities in organic, inorganic, analytical, and physical chemistry. These laboratories allow students to conduct hands-on experiments, apply theoretical concepts, and develop crucial skills in research, analysis, and safety protocols. The Chemistry Laboratories are integral to the academic development of students pursuing careers in chemistry, environmental science, healthcare, and other related fields.",
     image: require("../../Images/West Academic Cluster/Rooms/Chemistry Laboratory 2 (WAC 1st Floor).jpg"),
@@ -2587,8 +2399,7 @@ const locations = [
     name: "Chemistry Laboratory 3 (WAC 1st Floor)",
     latitude: 8.486716255516576,
     longitude: 124.63938743984524,
-    description:
-      "LOCATED ON THE 1ST FLOOR OF WAC BUILDING, HALLWAY.",
+    description: "LOCATED ON THE 1ST FLOOR OF WAC BUILDING, HALLWAY.",
     fullDescription:
       "The Chemistry Laboratories at Liceo de Cagayan University are specialized facilities designed to provide students with practical experience in chemical sciences. Equipped with modern laboratory instruments and safety equipment, the labs support a range of experiments and activities in organic, inorganic, analytical, and physical chemistry. These laboratories allow students to conduct hands-on experiments, apply theoretical concepts, and develop crucial skills in research, analysis, and safety protocols. The Chemistry Laboratories are integral to the academic development of students pursuing careers in chemistry, environmental science, healthcare, and other related fields.",
     image: require("../../Images/West Academic Cluster/Rooms/Chemistry Laboratory 3 (WAC 1st Floor).jpg"),
@@ -2600,8 +2411,7 @@ const locations = [
     name: "Herbarium (WAC 2nd Floor)",
     latitude: 8.486716255516576,
     longitude: 124.63938743984524,
-    description:
-      "LOCATED ON THE 2ND FLOOR OF WAC BUILDING, HALLWAY.",
+    description: "LOCATED ON THE 2ND FLOOR OF WAC BUILDING, HALLWAY.",
     fullDescription:
       "The Herbarium at Liceo de Cagayan University is a specialized facility that houses an extensive collection of preserved plant specimens for educational and research purposes. It serves as a resource for students and researchers studying botany, plant science, and environmental studies. The Herbarium provides an opportunity for hands-on learning in plant identification, classification, and preservation techniques. It plays a vital role in supporting scientific research, contributing to the study of biodiversity, and promoting environmental awareness among students, faculty, and the broader community.",
     image: require("../../Images/West Academic Cluster/Rooms/Herbarium (WAC 2nd Floor).jpg"),
@@ -2912,8 +2722,7 @@ const locations = [
     name: "Zoology Laboratory (WAC 1st Floor)",
     latitude: 8.486716255516576,
     longitude: 124.63938743984524,
-    description:
-      "LOCATED ON THE 1ST FLOOR OF WAC BUILDING, HALLWAY.",
+    description: "LOCATED ON THE 1ST FLOOR OF WAC BUILDING, HALLWAY.",
     fullDescription:
       "The Zoology Laboratory at Liceo de Cagayan University is a specialized facility designed for the study of animals and their biological processes. It is equipped with tools and resources to support practical learning in areas such as animal anatomy, physiology, taxonomy, and ecology. Students in biology and related programs use the laboratory to conduct experiments, observe live specimens, and analyze animal behaviors. The Zoology Laboratory provides students with valuable hands-on experience, fostering a deeper understanding of the animal kingdom and supporting research in biodiversity and conservation. It plays an essential role in preparing students for careers in wildlife conservation, veterinary science, and biological research.",
     image: require("../../Images/West Academic Cluster/Rooms/Zoology Laboratory (WAC 1st Floor).jpg"),
