@@ -144,6 +144,7 @@ const Map = () => {
       navigation.navigate("Locate", {
         latitude: selectedLocation.latitude,
         longitude: selectedLocation.longitude,
+        infoHeader
       });
     }
   };

@@ -16,7 +16,7 @@ import axios from "axios";
 import { MaterialIcons } from "@expo/vector-icons";
 
 const Locate = ({ route }) => {
-  const { latitude, longitude } = route.params || {}; // Destination latitude and longitude
+  const { latitude, longitude, infoHeader } = route.params || {}; // Destination latitude and longitude
   const [userLocation, setUserLocation] = useState(null);
   const [routeCoordinates, setRouteCoordinates] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -146,7 +146,7 @@ const Locate = ({ route }) => {
 
               <Marker
                 coordinate={{ latitude, longitude }}
-                title="Selected Location"
+                title={infoHeader}
                 pinColor="#32CD32"
               >
                 <Image
