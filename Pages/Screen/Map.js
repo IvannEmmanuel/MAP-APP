@@ -164,13 +164,13 @@ const Map = () => {
   };
 
   const containerHeight = animation.interpolate({
-    inputRange: [0, 1],
-    outputRange: [height * 0.45, height * 0.31],
+    inputRange: [0, 3],
+    outputRange: [height * 0.48, height * 0.31],
   });
 
   const containerTop = animation.interpolate({
     inputRange: [0, 1],
-    outputRange: [height * 0.4, height * 0.4],
+    outputRange: [height * 0.35, height * 0.4],
   });
 
   return (
@@ -409,7 +409,7 @@ const styles = StyleSheet.create({
     bottom: height * 0.02,
     width: width * 0.9,
     top: height * 0.725,
-    height: height * 0.12,
+    height: height * 0.11,
     backgroundColor: "#1f2a50",
     borderRadius: width * 0.025,
     alignItems: "center",
