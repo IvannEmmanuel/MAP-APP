@@ -21,6 +21,10 @@ const LoginPage = () => {
     const navigation = useNavigation();
     const [fontsLoaded, setFontsLoaded] = useState(false);
 
+    const handleDashboardVisitor = () => {
+        navigation.navigate('DashboardVisitor')
+    }
+
     useEffect(() => {
         const load = async () => {
             try {
@@ -78,7 +82,7 @@ const LoginPage = () => {
                                 <Text style={styles.enterText}>ENTER</Text>
                             </TouchableOpacity>
                             <Text style={styles.orText}>OR</Text>
-                            <TouchableOpacity style={styles.visitorContainer}>
+                            <TouchableOpacity style={styles.visitorContainer} onPress={handleDashboardVisitor}>
                                 <Text style={styles.visitorText}>
                                     LOGIN AS VISITOR
                                 </Text>

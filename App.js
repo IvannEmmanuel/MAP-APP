@@ -7,6 +7,7 @@ import Login from "./Pages/components/Login";
 import Dashboard from "./Pages/Dashboard";
 import Founding from "./Pages/Screen/Events/FoundingAnniversary";
 import LiceoGames from "./Pages/Screen/Events/LiceoGames";
+import DashboardVisitor from './Pages/DashboardVisitor';
 
 const Stack = createNativeStackNavigator();
 
@@ -21,6 +22,7 @@ const App = () => {
       <Stack.Navigator screenOptions={{ headerShown: false }}>
         <Stack.Screen name="Login" component={Login} />
         <Stack.Screen name="Dashboard" component={Dashboard} />
+        <Stack.Screen name="DashboardVisitor" component={DashboardVisitor} />
         <Stack.Screen name="Founding" component={Founding} />
         <Stack.Screen name="LiceoGames" component={LiceoGames} />
       </Stack.Navigator>
