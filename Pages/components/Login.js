@@ -10,6 +10,7 @@ import {
     Platform,
     Image,
     Dimensions,
+    Alert,
 } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import { SafeAreaView } from "react-native-safe-area-context";
@@ -20,10 +21,8 @@ const { width, height } = Dimensions.get("window");
 const LoginPage = () => {
     const navigation = useNavigation();
     const [fontsLoaded, setFontsLoaded] = useState(false);
-
-    const handleDashboardVisitor = () => {
-        navigation.navigate('DashboardVisitor')
-    }
+    const [username, setUsername] = useState("");
+    const [password, setPassword] = useState("");
 
     useEffect(() => {
         const load = async () => {
@@ -43,7 +42,23 @@ const LoginPage = () => {
     }
 
     const handleLogin = () => {
-        navigation.navigate("Dashboard");
+        // Validate temporary account credentials
+        if (
+            username === "group1@liceo.edu.ph" &&
+            password === "ilovemygroupmates"
+        ) {
+            navigation.navigate("Dashboard");
+        } else {
+            Alert.alert(
+                "Invalid Credentials",
+                "Please check your username and password."
+            );
+        }
+    };
+
+    const handleLoginAsVisitor = () => {
+        Alert.alert("Logged in as Visitor");
+        navigation.navigate("DashboardVisitor");
     };
 
     return (
@@ -65,13 +80,19 @@ const LoginPage = () => {
                         </Text>
                         <View style={styles.row}>
                             <Text style={styles.label}>Username:</Text>
-                            <TextInput style={styles.input} />
+                            <TextInput
+                                style={styles.input}
+                                value={username}
+                                onChangeText={setUsername}
+                            />
                         </View>
                         <View style={styles.row}>
                             <Text style={styles.label}>Password:</Text>
                             <TextInput
                                 style={styles.input}
                                 secureTextEntry={true}
+                                value={password}
+                                onChangeText={setPassword}
                             />
                         </View>
                         <View style={styles.actionContainer}>
@@ -82,7 +103,10 @@ const LoginPage = () => {
                                 <Text style={styles.enterText}>ENTER</Text>
                             </TouchableOpacity>
                             <Text style={styles.orText}>OR</Text>
-                            <TouchableOpacity style={styles.visitorContainer} onPress={handleDashboardVisitor}>
+                            <TouchableOpacity
+                                style={styles.visitorContainer}
+                                onPress={handleLoginAsVisitor}
+                            >
                                 <Text style={styles.visitorText}>
                                     LOGIN AS VISITOR
                                 </Text>
