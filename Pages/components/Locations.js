@@ -224,7 +224,7 @@ const locations = [
     description:
       "LOCATED AT A SEPARATE HALL BETWEEN ROOMS.",
     fullDescription:
-      "wala pa",
+      "LOCATED AT A SEPARATE HALL BETWEEN ROOMS.",
     image: require("../../Images/East Academic Cluster/CR/EAC 3rd Floor Comfort Room (CR).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -258,12 +258,12 @@ const locations = [
   },
   {
     name: "East Academic Cluster (1st Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      " ",
     fullDescription:
-      "wala pa",
+      " ",
     image: require("../../Images/East Academic Cluster/Floors/East Academic Cluster (1st Floor).jpg"),
     image2: require("../../Images/East Academic Cluster/Floors/East Academic Cluster (1st Floor) (1).jpg"),
     image3: require("../../Images/East Academic Cluster/Floors/East Academic Cluster (1st Floor) (2).jpg"),
@@ -271,12 +271,12 @@ const locations = [
   },
   {
     name: "East Academic Cluster (2nd Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      " ",
     fullDescription:
-      "wala pa",
+      " ",
     image: require("../../Images/East Academic Cluster/Floors/East Academic Cluster (2nd Floor).jpg"),
     image2: require("../../Images/East Academic Cluster/Floors/East Academic Cluster (2nd Floor) (1).jpg"),
     image3: require("../../Images/ComingSoon.png"),
@@ -284,12 +284,12 @@ const locations = [
   },
   {
     name: "East Academic Cluster (3rd Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      " ",
     fullDescription:
-      "wala pa",
+      " ",
     image: require("../../Images/East Academic Cluster/Floors/East Academic Cluster (3rd Floor).jpg"),
     image2: require("../../Images/East Academic Cluster/Floors/East Academic Cluster (3rd Floor) (1).jpg"),
     image3: require("../../Images/ComingSoon.png"),
@@ -297,12 +297,12 @@ const locations = [
   },
   {
     name: "East Academic Cluster (4th Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      " ",
     fullDescription:
-      "wala pa",
+      " ",
     image: require("../../Images/East Academic Cluster/Floors/East Academic Cluster (4th Floor).jpg"),
     image2: require("../../Images/East Academic Cluster/Floors/East Academic Cluster (4th Floor) (1).jpg"),
     image3: require("../../Images/ComingSoon.png"),
@@ -310,12 +310,12 @@ const locations = [
   },
   {
     name: "East Academic Cluster (5th Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      " ",
     fullDescription:
-      "wala pa",
+      " ",
     image: require("../../Images/East Academic Cluster/Floors/East Academic Cluster (5th Floor).jpg"),
     image2: require("../../Images/East Academic Cluster/Floors/East Academic Cluster (5th Floor) (1).jpg"),
     image3: require("../../Images/ComingSoon.png"),
@@ -323,12 +323,12 @@ const locations = [
   },
   {
     name: "Academic Affairs Office (EAC 1st Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      "LOCATED ON THE 1ST FLOOR OF EAC BUILDING, BESIDE COLLEGE OF CRIMINAL JUSTICE OFFICE.",
     fullDescription:
-      "wala pa",
+      "The Academic Affairs Office at Liceo de Cagayan University oversees the academic programs and policies of the institution. It is responsible for curriculum development, faculty management, and ensuring the quality of education delivered to students. The office supports students' academic needs, facilitates program accreditation, and coordinates with departments to maintain academic standards. Through its leadership, the Academic Affairs Office fosters an environment of excellence and innovation in teaching and learning.",
     image: require("../../Images/East Academic Cluster/Offices/Academic Affairs Office (EAC 1st Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -336,12 +336,12 @@ const locations = [
   },
   {
     name: "College of Criminal Justice Office (EAC 1st Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      "LOCATED ON THE 1ST FLOOR OF EAC BUILDING, BESIDE COLLEGE OF LAW OFFICE.",
     fullDescription:
-      "wala pa",
+      "The College of Criminal Justice Office at Liceo de Cagayan University serves as the administrative hub for students and faculty within the criminal justice program. It handles academic advising, course scheduling, and program coordination while providing support for student activities and events related to criminology and law enforcement. The office is dedicated to fostering a rigorous and supportive environment that prepares students for careers in criminal justice, law enforcement, and related fields.",
     image: require("../../Images/East Academic Cluster/Offices/College of Criminal Justice Office (EAC 1st Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -349,12 +349,12 @@ const locations = [
   },
   {
     name: "College of Law Office (EAC 1st Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      "LOCATED ON THE 1ST FLOOR OF EAC BUILDING, BESIDE COLLEGE OF CRIMINAL JUSTICE OFFICE.",
     fullDescription:
-      "wala pa",
+      "The College of Law Office at Liceo de Cagayan University is the central administrative unit for law students and faculty. It manages academic affairs such as enrollment, course scheduling, and student records while providing guidance and support for activities like legal research, moot court competitions, and seminars. The office ensures the smooth delivery of the law curriculum and fosters an environment of excellence and professionalism, preparing students for successful careers in the legal profession.",
     image: require("../../Images/East Academic Cluster/Offices/College of Law Office (EAC 1st Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -362,12 +362,12 @@ const locations = [
   },
   {
     name: "EAC - 502 Campus Ministry Office (EAC 5th Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      "LOCATED ON THE 5TH FLOOR OF EAC BUILDING, LAST ROOM FACING NAC BUILDING.",
     fullDescription:
-      "wala pa",
+      "The Campus Ministry Office at Liceo de Cagayan University serves as a spiritual hub, fostering faith formation and moral development among students, faculty, and staff. It organizes religious activities, retreats, and outreach programs that promote spiritual growth, community service, and values-based living. The office also provides guidance and pastoral care, creating a supportive environment that encourages reflection, prayer, and a deeper connection to faith and community.",
     image: require("../../Images/East Academic Cluster/Offices/EAC - 502 Campus Ministry Office (EAC 5th Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -375,12 +375,12 @@ const locations = [
   },
   {
     name: "EAC - 505 Robotics Laboratory (EAC 5th Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      "LOCATED ON THE 5TH FLOOR OF EAC BUILDING, BESIDE STEM DEPARTMENT. ",
     fullDescription:
-      "wala pa",
+      "The Robotics Laboratory at Liceo de Cagayan University is a state-of-the-art facility designed for exploring robotics, automation, and artificial intelligence. Equipped with advanced tools such as robotic arms, microcontrollers, sensors, and programming software, the lab provides students with hands-on experience in designing, building, and programming robots. It fosters innovation and problem-solving skills, preparing students for careers in robotics, engineering, and emerging technologies.",
     image: require("../../Images/East Academic Cluster/Offices/EAC - 505 Robotics Laboratory (EAC 5th Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -388,12 +388,12 @@ const locations = [
   },
   {
     name: "EAC - 506 STEM Department (EAC 5th Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      "LOCATED ON THE 5TH FLOOR OF EAC BUILDING, BESIDE ROBOTICS LABORATORY. ROOM NUMBER 506 - 507",
     fullDescription:
-      "wala pa",
+      "The STEM Department Office at Liceo de Cagayan University serves as the administrative center for the university's Science, Technology, Engineering, and Mathematics programs. It handles academic advising, course scheduling, student records, and departmental activities. The office provides support to students and faculty in pursuing excellence in STEM education and research, coordinating events, workshops, and projects that foster innovation and learning in these fields. It plays a key role in ensuring the smooth operation and development of the STEM programs, creating an environment that encourages academic growth and discovery.",
     image: require("../../Images/East Academic Cluster/Offices/EAC - 506 STEM Department (EAC 5th Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -401,12 +401,12 @@ const locations = [
   },
   {
     name: "EAC - 507 STEM Department (EAC 5th Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      "LOCATED ON THE 5TH FLOOR OF EAC BUILDING, BESIDE ROBOTICS LABORATORY. ROOM NUMBER 506 - 507",
     fullDescription:
-      "wala pa",
+      "The STEM Department Office at Liceo de Cagayan University serves as the administrative center for the university's Science, Technology, Engineering, and Mathematics programs. It handles academic advising, course scheduling, student records, and departmental activities. The office provides support to students and faculty in pursuing excellence in STEM education and research, coordinating events, workshops, and projects that foster innovation and learning in these fields. It plays a key role in ensuring the smooth operation and development of the STEM programs, creating an environment that encourages academic growth and discovery.",
     image: require("../../Images/East Academic Cluster/Offices/EAC - 507 STEM Department (EAC 5th Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -414,12 +414,12 @@ const locations = [
   },
   {
     name: "EAC - 508 English Department (EAC 5th Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      "LOCATED ON THE 5TH FLOOR OF EAC BUILDING, LAST ROOM FACING SAC BUILDING, BESIDE STEM DEPARTMENT.",
     fullDescription:
-      "wala pa",
+      "The English Department Office at Liceo de Cagayan University serves as the central hub for all academic and administrative matters related to the English programs. It provides support for students and faculty, including course scheduling, academic advising, and the coordination of department activities. The office also oversees the implementation of curriculum plans and faculty development. By fostering a dynamic environment for learning and literary exploration, the English Department Office plays a key role in shaping students' communication, critical thinking, and writing skills, preparing them for diverse career paths.",
     image: require("../../Images/East Academic Cluster/Offices/EAC - 508 English Department (EAC 5th Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -427,12 +427,12 @@ const locations = [
   },
   {
     name: "Office of Cultural Affairs (EAC 1st Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      "LOCATED ON THE 1ST FLOOR OF EAC BUILDING, BESIDE STAIRCASE",
     fullDescription:
-      "wala pa",
+      "The Office of Cultural Affairs at Liceo de Cagayan University is dedicated to promoting and preserving the rich cultural heritage of the university and the community. It organizes cultural events, performances, and exhibitions that highlight the arts, traditions, and diverse talents of students and faculty. The office serves as a platform for creative expression, fostering cultural awareness and appreciation while supporting the holistic development of the Liceo community.",
     image: require("../../Images/East Academic Cluster/Offices/Office of Cultural Affairs (EAC 1st Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -440,12 +440,12 @@ const locations = [
   },
   {
     name: "Office of Extension and Service Learning (EAC 3rd Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      "LOCATED ON THE 3RD FLOOR OF EAC BUILDING, LAST ROOM FACING NAC BUILDING.",
     fullDescription:
-      "wala pa",
+      "The Office of Extension and Service Learning at Liceo de Cagayan University is dedicated to fostering community engagement and social responsibility among students and faculty. It develops and implements outreach programs, community partnerships, and service-learning initiatives that address societal needs and promote sustainable development. Through hands-on involvement, the office provides opportunities for students to apply their knowledge and skills in real-world settings, contributing to the betterment of the community while enhancing their educational experience.",
     image: require("../../Images/East Academic Cluster/Offices/Office of Extension and Service Learning (EAC 3rd Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -453,12 +453,12 @@ const locations = [
   },
   {
     name: "Office of Student Affairs (EAC 1st Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      "LOCATED ON THE 1ST FLOOR OF EAC BUILDING, BESIDE OFFICE OF CULTURAL AFFAIRS.",
     fullDescription:
-      "wala pa",
+      "The Office of Student Affairs (OSA) at Liceo de Cagayan University is committed to supporting students' holistic development and enhancing their campus experience. It oversees various student programs, services, and organizations, including leadership development, extracurricular activities, and student welfare initiatives. OSA also addresses student concerns, promotes discipline, and fosters a vibrant and inclusive campus community that empowers students to succeed academically, socially, and personally.",
     image: require("../../Images/East Academic Cluster/Offices/Office of Student Affairs (EAC 1st Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -466,12 +466,12 @@ const locations = [
   },
   {
     name: "EAC - 101 (EAC 1st Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      "LOCATED ON THE 1ST FLOOR OF EAC BUILDING, LAST ROOM FACING NAC BUILDING.",
     fullDescription:
-      "wala pa",
+      "EAC - 101 is a classroom located in the East Academic Cluster (EAC) at Liceo de Cagayan University. It is primarily used by G11 HUMSS 2 and 8, and G12 HUMSS 3 and 2, each with different schedules. The classroom is equipped with modern facilities to support the academic needs of students, providing a conducive environment for lectures and interactive learning.",
     image: require("../../Images/East Academic Cluster/Rooms/EAC - 101 (EAC 1st Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -479,12 +479,12 @@ const locations = [
   },
   {
     name: "EAC - 102 (EAC 1st Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      "LOCATED ON THE 1ST FLOOR OF EAC BUILDING, BESIDE EAC - 101.",
     fullDescription:
-      "wala pa",
+      "EAC - 102 is a classroom located in the East Academic Cluster (EAC) at Liceo de Cagayan University. It is primarily used by G11 HUMSS 3 and 9, and G12 HUMSS 4 and 9, each with different schedules. The classroom is equipped with modern facilities to support the academic needs of students, providing a conducive environment for lectures and interactive learning.",
     image: require("../../Images/East Academic Cluster/Rooms/EAC - 102 (EAC 1st Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -492,12 +492,12 @@ const locations = [
   },
   {
     name: "EAC - 103 (EAC 1st Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      "LOCATED ON THE 1ST FLOOR OF EAC BUILDING, BESIDE EAC - 102.",
     fullDescription:
-      "wala pa",
+      "EAC - 103 is a classroom located in the East Academic Cluster (EAC) at Liceo de Cagayan University. It is primarily used by G11 HUMSS 4 and 10, and G12 HUMSS 5 and 10, each with different schedules. The classroom is equipped with modern facilities to support the academic needs of students, providing a conducive environment for lectures and interactive learning.",
     image: require("../../Images/East Academic Cluster/Rooms/EAC - 103 (EAC 1st Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -505,12 +505,12 @@ const locations = [
   },
   {
     name: "EAC - 201 (EAC 2nd Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      "LOCATED ON THE 2ND FLOOR OF EAC BUILDING",
     fullDescription:
-      "wala pa",
+      "LOCATED ON THE 2ND FLOOR OF EAC BUILDING",
     image: require("../../Images/East Academic Cluster/Rooms/EAC - 201 (EAC 2nd Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -518,12 +518,12 @@ const locations = [
   },
   {
     name: "EAC - 202 (EAC 2nd Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      "LOCATED ON THE 2ND FLOOR OF EAC BUILDING, BESIDE EAC - 201.",
     fullDescription:
-      "wala pa",
+      "LOCATED ON THE 2ND FLOOR OF EAC BUILDING, BESIDE EAC - 201.",
     image: require("../../Images/East Academic Cluster/Rooms/EAC - 202 (EAC 2nd Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -531,12 +531,12 @@ const locations = [
   },
   {
     name: "EAC - 203 (EAC 2nd Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      "LOCATED ON THE 2ND FLOOR OF EAC BUILDING, BESIDE EAC - 202.",
     fullDescription:
-      "wala pa",
+      "LOCATED ON THE 2ND FLOOR OF EAC BUILDING, BESIDE EAC - 202.",
     image: require("../../Images/East Academic Cluster/Rooms/EAC - 203 (EAC 2nd Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -544,12 +544,12 @@ const locations = [
   },
   {
     name: "EAC - 301 (EAC 3rd Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    llatitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      "LOCATED ON THE 2ND FLOOR OF EAC BUILDING, BESIDE EAC - 202.",
     fullDescription:
-      "wala pa",
+      "EAC - 301 is a classroom located in the East Academic Cluster (EAC) at Liceo de Cagayan University. It is primarily used by G11 HUMSS 5 and 11, and G12 HUMSS 6 and 11, each with different schedules. The classroom is equipped with modern facilities to support the academic needs of students, providing a conducive environment for lectures and interactive learning.",
     image: require("../../Images/East Academic Cluster/Rooms/EAC - 301 (EAC 3rd Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -557,12 +557,12 @@ const locations = [
   },
   {
     name: "EAC - 302 (EAC 3rd Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      "LOCATED ON THE 3RD FLOOR OF EAC BUILDING, BESIDE EAC - 301.",
     fullDescription:
-      "wala pa",
+      "EAC - 302 is a classroom located in the East Academic Cluster (EAC) at Liceo de Cagayan University. It is primarily used by G11 HUMSS 6, G12 HUMSS 7 and 12, each with different schedules. The classroom is equipped with modern facilities to support the academic needs of students, providing a conducive environment for lectures and interactive learning.",
     image: require("../../Images/East Academic Cluster/Rooms/EAC - 302 (EAC 3rd Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -570,12 +570,12 @@ const locations = [
   },
   {
     name: "EAC - 303 (EAC 3rd Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      "LOCATED ON THE 3RD FLOOR OF EAC BUILDING, BESIDE EAC - 302.",
     fullDescription:
-      "wala pa",
+      "EAC - 303 is a classroom located in the East Academic Cluster (EAC) at Liceo de Cagayan University. It is primarily used by G11 HUMSS 7, G12 HUMSS 8 and 13, each with different schedules. The classroom is equipped with modern facilities to support the academic needs of students, providing a conducive environment for lectures and interactive learning.",
     image: require("../../Images/East Academic Cluster/Rooms/EAC - 303 (EAC 3rd Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -583,12 +583,12 @@ const locations = [
   },
   {
     name: "EAC - 304 (EAC 3rd Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      "LOCATED ON THE 3RD FLOOR OF EAC BUILDING, BESIDE STAIRCASE FACING NAC BUILDING.",
     fullDescription:
-      "wala pa",
+      "EAC - 304 is a classroom located in the East Academic Cluster (EAC) at Liceo de Cagayan University. It is primarily used by G11 ICT 1, G12 ICT 1 and HUMSS 14, each with different schedules. The classroom is equipped with modern facilities to support the academic needs of students, providing a conducive environment for lectures and interactive learning.",
     image: require("../../Images/East Academic Cluster/Rooms/EAC - 304 (EAC 3rd Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -596,12 +596,12 @@ const locations = [
   },
   {
     name: "EAC - 305 (EAC 3rd Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      "LOCATED ON THE 3RD FLOOR OF EAC BUILDING, BESIDE STAIRCASE FACING SAC BUILDING.",
     fullDescription:
-      "wala pa",
+      "EAC - 305 is a classroom located in the East Academic Cluster (EAC) at Liceo de Cagayan University. It is primarily used by G11 HE 1 and G12 ICT 3, each with different schedules. The classroom is equipped with modern facilities to support the academic needs of students, providing a conducive environment for lectures and interactive learning.",
     image: require("../../Images/East Academic Cluster/Rooms/EAC - 305 (EAC 3rd Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -609,12 +609,12 @@ const locations = [
   },
   {
     name: "EAC - 306 (EAC 3rd Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      "LOCATED ON THE 3RD FLOOR OF EAC BUILDING, BESIDE EAC - 305.",
     fullDescription:
-      "wala pa",
+      "EAC - 306 is a classroom located in the East Academic Cluster (EAC) at Liceo de Cagayan University. It is primarily used by G11 ABM 3 and 7, G12 ABM 1 and ABM 6, each with different schedules. The classroom is equipped with modern facilities to support the academic needs of students, providing a conducive environment for lectures and interactive learning.",
     image: require("../../Images/East Academic Cluster/Rooms/EAC - 306 (EAC 3rd Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -622,12 +622,12 @@ const locations = [
   },
   {
     name: "EAC - 307 (EAC 3rd Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      "LOCATED ON THE 3RD FLOOR OF EAC BUILDING, BESIDE EAC - 306.",
     fullDescription:
-      "wala pa",
+      "EAC - 307 is a classroom located in the East Academic Cluster (EAC) at Liceo de Cagayan University. It is primarily used by G11 ABM 4 and 8, G12 ABM 3 and ABM 8, each with different schedules. The classroom is equipped with modern facilities to support the academic needs of students, providing a conducive environment for lectures and interactive learning.",
     image: require("../../Images/East Academic Cluster/Rooms/EAC - 307 (EAC 3rd Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -635,12 +635,12 @@ const locations = [
   },
   {
     name: "EAC - 308 (EAC 3rd Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      "LOCATED ON THE 3RD FLOOR OF EAC BUILDING, LAST ROOM FACING SAC BUILDING.",
     fullDescription:
-      "wala pa",
+      "EAC - 308 is a classroom located in the East Academic Cluster (EAC) at Liceo de Cagayan University. It is primarily used by G11 ABM 5 and 9, G12 ABM 4 and ABM 9, each with different schedules. The classroom is equipped with modern facilities to support the academic needs of students, providing a conducive environment for lectures and interactive learning.",
     image: require("../../Images/East Academic Cluster/Rooms/EAC - 308 (EAC 3rd Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -648,12 +648,12 @@ const locations = [
   },
   {
     name: "EAC - 401 (EAC 4th Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      "LOCATED ON THE 4TH FLOOR OF EAC BUILDING, LAST ROOM FACING NAC BUILDING.",
     fullDescription:
-      "wala pa",
+      "LOCATED ON THE 4TH FLOOR OF EAC BUILDING, LAST ROOM FACING NAC BUILDING.",
     image: require("../../Images/East Academic Cluster/Rooms/EAC - 401 (EAC 4th Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -661,12 +661,12 @@ const locations = [
   },
   {
     name: "EAC - 402 (EAC 4th Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      "LOCATED ON THE 4TH FLOOR OF EAC BUILDING, BESIDE EAC - 401.",
     fullDescription:
-      "wala pa",
+      "LOCATED ON THE 4TH FLOOR OF EAC BUILDING, BESIDE EAC - 401.",
     image: require("../../Images/East Academic Cluster/Rooms/EAC - 402 (EAC 4th Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -674,12 +674,12 @@ const locations = [
   },
   {
     name: "EAC - 403 (EAC 4th Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      "LOCATED ON THE 4TH FLOOR OF EAC BUILDING, BESIDE EAC - 402.",
     fullDescription:
-      "wala pa",
+      "LOCATED ON THE 4TH FLOOR OF EAC BUILDING, BESIDE EAC - 402.",
     image: require("../../Images/East Academic Cluster/Rooms/EAC - 403 (EAC 4th Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -687,12 +687,12 @@ const locations = [
   },
   {
     name: "EAC - 404 (EAC 4th Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      "LOCATED ON THE 4TH FLOOR OF EAC BUILDING, BESIDE STAIRCASE FACING NAC BUILDING.",
     fullDescription:
-      "wala pa",
+      "LOCATED ON THE 4TH FLOOR OF EAC BUILDING, BESIDE STAIRCASE FACING NAC BUILDING.",
     image: require("../../Images/East Academic Cluster/Rooms/EAC - 404 (EAC 4th Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -700,12 +700,12 @@ const locations = [
   },
   {
     name: "EAC - 405 (EAC 4th Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      "LOCATED ON THE 4TH FLOOR OF EAC BUILDING, BESIDE STAIRCASE FACING SAC BUILDING.",
     fullDescription:
-      "wala pa",
+      "EAC - 405 is a classroom located in the East Academic Cluster (EAC) at Liceo de Cagayan University. It is primarily used by G11 ICT 3 and 4, G12 ABM 5 and ABM 10, each with different schedules. The classroom is equipped with modern facilities to support the academic needs of students, providing a conducive environment for lectures and interactive learning.",
     image: require("../../Images/East Academic Cluster/Rooms/EAC - 405 (EAC 4th Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -713,12 +713,12 @@ const locations = [
   },
   {
     name: "EAC - 406 (EAC 4th Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      "LOCATED ON THE 4TH FLOOR OF EAC BUILDING, BESIDE EAC - 405.",
     fullDescription:
-      "wala pa",
+      "EAC - 406 is a classroom located in the East Academic Cluster (EAC) at Liceo de Cagayan University. It is primarily used by G11 ABM 2 and 6, G12 ABM 2 and ABM 7, each with different schedules. The classroom is equipped with modern facilities to support the academic needs of students, providing a conducive environment for lectures and interactive learning.",
     image: require("../../Images/East Academic Cluster/Rooms/EAC - 406 (EAC 4th Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -726,12 +726,12 @@ const locations = [
   },
   {
     name: "EAC - 407 (EAC 4th Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      "LOCATED ON THE 4TH FLOOR OF EAC BUILDING, BESIDE EAC - 406.",
     fullDescription:
-      "wala pa",
+      "LOCATED ON THE 4TH FLOOR OF EAC BUILDING, BESIDE EAC - 406.",
     image: require("../../Images/East Academic Cluster/Rooms/EAC - 407 (EAC 4th Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -739,12 +739,12 @@ const locations = [
   },
   {
     name: "EAC - 408 (EAC 4th Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      "LOCATED ON THE 4TH FLOOR OF EAC BUILDING, LAST ROOM FACING SAC BUILDING.",
     fullDescription:
-      "wala pa",
+      "LOCATED ON THE 4TH FLOOR OF EAC BUILDING, LAST ROOM FACING SAC BUILDING.",
     image: require("../../Images/East Academic Cluster/Rooms/EAC - 408 (EAC 4th Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -752,12 +752,12 @@ const locations = [
   },
   {
     name: "EAC - 501 (EAC 5th Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      "LOCATED ON THE 5TH FLOOR OF EAC BUILDING, LAST ROOM FACING NAC BUILDING.",
     fullDescription:
-      "wala pa",
+      "LOCATED ON THE 5TH FLOOR OF EAC BUILDING, LAST ROOM FACING NAC BUILDING.",
     image: require("../../Images/East Academic Cluster/Rooms/EAC - 501 (EAC 5th Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -765,12 +765,12 @@ const locations = [
   },
   {
     name: "EAC - 503 (EAC 5th Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      "LOCATED ON THE 5TH FLOOR OF EAC BUILDING, BESIDE CAMPUS MINISTRY OFFICE.",
     fullDescription:
-      "wala pa",
+      "LOCATED ON THE 5TH FLOOR OF EAC BUILDING, BESIDE CAMPUS MINISTRY OFFICE.",
     image: require("../../Images/East Academic Cluster/Rooms/EAC - 503 (EAC 5th Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -778,12 +778,12 @@ const locations = [
   },
   {
     name: "EAC - 504 (EAC 5th Floor)",
-    latitude: 8.504217,
-    longitude: 124.644259,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
-      "Wala pa",
+      "LOCATED ON THE 5TH FLOOR OF EAC BUILDING, BESIDE STAIRCASE FACING NAC BUILDING.",
     fullDescription:
-      "wala pa",
+      "LOCATED ON THE 5TH FLOOR OF EAC BUILDING, BESIDE STAIRCASE FACING NAC BUILDING.",
     image: require("../../Images/East Academic Cluster/Rooms/EAC - 504 (EAC 5th Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -791,8 +791,8 @@ const locations = [
   },
   {
     name: "School Library (Rodelsa Grounds)",
-    latitude: 8.485689945372904,
-    longitude: 124.63950768318904,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
       "LOCATED IN FRONT OF RODELSA HALL.",
     fullDescription:
@@ -804,8 +804,8 @@ const locations = [
   },
   {
     name: "Audio Visual Room of Library (2nd Floor)",
-    latitude: 8.485689945372904,
-    longitude: 124.63950768318904,
+    latitude: 8.486339618441425,
+    longitude: 124.6395091410764,
     description:
       "LOCATED AT THE SECOND FLOOR OF THE SCHOOL LIBRARY.",
     fullDescription:
@@ -820,9 +820,9 @@ const locations = [
     latitude: 8.485689945372904,
     longitude: 124.63950768318904,
     description:
-      "Wala pa",
+      " ",
     fullDescription:
-      "wala pa",
+      " ",
     image: require("../../Images/Library/Rooms/School Library (1st Floor).jpg"),
     image2: require("../../Images/Library/Rooms/School Library (1st Floor) (1).jpg"),
     image3: require("../../Images/Library/Rooms/School Library (1st Floor) (2).jpg"),
@@ -833,9 +833,9 @@ const locations = [
     latitude: 8.485689945372904,
     longitude: 124.63950768318904,
     description:
-      "Wala pa",
+      " ",
     fullDescription:
-      "wala pa",
+      " ",
     image: require("../../Images/Library/Rooms/School Library (2nd Floor).jpg"),
     image2: require("../../Images/Library/Rooms/School Library (2nd Floor) (1).jpg"),
     image3: require("../../Images/ComingSoon.png"),
@@ -897,10 +897,10 @@ const locations = [
     name: "Hallway (Outside LCC)",
     latitude: 8.485380, 
     longitude: 124.638951,
-    description:
-      "wala pa",
+    description:  
+      " ",
     fullDescription:
-      "wala pa",
+      " ",
     image: require("../../Images/Liceo Civic Center/Hallway (Outside LCC).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -1041,9 +1041,9 @@ const locations = [
     latitude: 8.504217,
     longitude: 124.644259,
     description:
-      "wala pa",
+      " ",
     fullDescription:
-      "wala pa",
+      " ",
     image: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (1st Floor).jpg"),
     image2: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (1st Floor) (1).jpg"),
     image3: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (1st Floor) (2).jpg"),
@@ -1054,9 +1054,9 @@ const locations = [
     latitude: 8.504217,
     longitude: 124.644259,
     description:
-      "wala pa",
+      " ",
     fullDescription:
-      "wala pa",
+      " ",
     image: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (2nd Floor).jpg"),
     image2: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (2nd Floor) (1).jpg"),
     image3: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (2nd Floor) (2).jpg"),
@@ -1067,9 +1067,9 @@ const locations = [
     latitude: 8.504217,
     longitude: 124.644259,
     description:
-      "wala pa",
+      " ",
     fullDescription:
-      "wala pa",
+      " ",
     image: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (3rd Floor).jpg"),
     image2: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (3rd Floor) (1).jpg"),
     image3: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (3rd Floor) (2).jpg"),
@@ -1080,9 +1080,9 @@ const locations = [
     latitude: 8.504217,
     longitude: 124.644259,
     description:
-      "wala pa",
+      " ",
     fullDescription:
-      "wala pa",
+      " ",
     image: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (4th Floor).jpg"),
     image2: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (4th Floor) (1).jpg"),
     image3: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (4th Floor) (2).jpg"),
@@ -1093,9 +1093,9 @@ const locations = [
     latitude: 8.504217,
     longitude: 124.644259,
     description:
-      "wala pa",
+      " ",
     fullDescription:
-      "wala pa",
+      " ",
     image: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (5th Floor).jpg"),
     image2: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (5th Floor) (1).jpg"),
     image3: require("../../Images/North Academic Clutser/Floors/North Academic Cluster (5th Floor) (2).jpg"),
@@ -1769,9 +1769,9 @@ const locations = [
     latitude: 8.484912,
     longitude: 124.638948,
     description:
-      "wala pa",
+      " ",
     fullDescription:
-      "wala pa",
+      " ",
     image: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (1st Floor).jpg"),
     image2: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (1st Floor)(1).jpg"),
     image3: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (1st Floor)(2).jpg"),
@@ -1782,9 +1782,9 @@ const locations = [
     latitude: 8.484912,
     longitude: 124.638948,
     description:
-      "wala pa",
+      " ",
     fullDescription:
-      "wala pa",
+      " ",
     image: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (2nd Floor).jpg"),
     image2: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (2nd Floor)(1).jpg"),
     image3: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (2nd Floor)(2).jpg"),
@@ -1795,9 +1795,9 @@ const locations = [
     latitude: 8.484912,
     longitude: 124.638948,
     description:
-      "wala pa",
+      " ",
     fullDescription:
-      "wala pa",
+      " ",
     image: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (3rd Floor).jpg"),
     image2: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (3rd Floor)(1).jpg"),
     image3: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (3rd Floor)(2).jpg"),
@@ -1808,9 +1808,9 @@ const locations = [
     latitude: 8.484912,
     longitude: 124.638948,
     description:
-      "wala pa",
+      " ",
     fullDescription:
-      "wala pa",
+      " ",
     image: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (4th Floor).jpg"),
     image2: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (4th Floor)(1).jpg"),
     image3: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (4th Floor)(2).jpg"),
@@ -1821,9 +1821,9 @@ const locations = [
     latitude: 8.484912,
     longitude: 124.638948,
     description:
-      "wala pa",
+      " ",
     fullDescription:
-      "wala pa",
+      " ",
     image: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (5th Floor).jpg"),
     image2: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (5th Floor)(1).jpg"),
     image3: require("../../Images/South Academic Cluster/Floors/South Academic Cluster (5th Floor)(2).jpg"),
@@ -1860,9 +1860,9 @@ const locations = [
     latitude: 8.484912,
     longitude: 124.638948,
     description:
-      "wala pa",
+      " ",
     fullDescription:
-      "wala pa",
+      " ",
     image: require("../../Images/South Academic Cluster/Office/Kitchen (SAC 5th Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -1925,9 +1925,9 @@ const locations = [
     latitude: 8.484912,
     longitude: 124.638948,
     description:
-      "wala pa",
+      "LOCATED ON THE 1ST FLOOR OF SAC BUILDING, BESIDE RAMP FACING RIVERSIDE.",
     fullDescription:
-      "wala pa",
+      "LOCATED ON THE 1ST FLOOR OF SAC BUILDING, BESIDE RAMP FACING RIVERSIDE.",
     image: require("../../Images/South Academic Cluster/Office/SBMA Graduate School (SAC 1st Floor).jpg"),
     image2: require("../../Images/ComingSoon.png"),
     image3: require("../../Images/ComingSoon.png"),
@@ -2783,7 +2783,7 @@ const locations = [
     latitude: 8.486716255516576,
     longitude: 124.63938743984524,
     description:
-      "wala paLOCATED ON THE 3RD FLOOR OF WAC BUILDING, FACING PARKING LOT WITH ROOM NUMBER WAC - 301.",
+      "LOCATED ON THE 3RD FLOOR OF WAC BUILDING, FACING PARKING LOT WITH ROOM NUMBER WAC - 301.",
     fullDescription:
       "The IT Laboratory at Liceo de Cagayan University is a dedicated space for students to engage in hands-on learning and practical applications of information technology. Equipped with modern computers, software, and networking tools, the lab provides students in various programs, especially those in the College of Information Technology, with the resources they need to develop skills in areas such as programming, web development, database management, and networking. The IT Laboratory supports both academic coursework and independent projects, helping students gain the technical proficiency required for careers in the rapidly evolving tech industry.",
     image: require("../../Images/West Academic Cluster/Rooms/WAC - 301 IT Laboratory 2 (WAC 3rd Floor).jpg"),
