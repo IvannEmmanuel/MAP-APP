@@ -101,8 +101,8 @@ const Locate = ({ route }) => {
         locationSubscription = await Location.watchPositionAsync(
           {
             accuracy: Location.Accuracy.Highest,
-            timeInterval: 1000, // Minimum time (ms) between updates
-            distanceInterval: 1, // Minimum distance (meters) between updates
+            timeInterval: 2000, // Reduced update frequency to 2 seconds
+            distanceInterval: 5, // Reduced to 5 meters for smoother experience
           },
           (location) => {
             const currentLocation = {
@@ -121,7 +121,7 @@ const Locate = ({ route }) => {
                 .timing({
                   latitude: currentLocation.latitude,
                   longitude: currentLocation.longitude,
-                  duration: 1000,
+                  duration: 500, // Faster transition for smoother animation
                   useNativeDriver: false,
                 })
                 .start();
@@ -142,7 +142,7 @@ const Locate = ({ route }) => {
                 longitude,
               });
               setDistance(distanceInKm);
-            }, 1000); // Wait for 1 second of no updates before moving the marker
+            }, 500); // Debounced for 0.5 seconds to reduce unnecessary updates
           }
         );
 
@@ -255,7 +255,7 @@ const Locate = ({ route }) => {
                 {routeCoordinates.length > 0 && (
                   <Polyline
                     coordinates={routeCoordinates}
-                    strokeWidth={6}
+                    strokeWidth={4}
                     strokeColor="#1E90FF"
                   />
                 )}
@@ -274,16 +274,12 @@ const Locate = ({ route }) => {
             </>
           )
         ) : (
-          <Text style={styles.errorText}>
-            Unable to fetch your location. Please wait or try again.
-          </Text>
+          <View style={styles.loadingContainer}>
+            <Text style={styles.loadingText}>Locating...</Text>
+          </View>
         )
       ) : (
-        <View style={styles.messageContainer}>
-          <Text style={styles.messageText}>
-            Please select a destination first
-          </Text>
-        </View>
+        <Text style={styles.infoText}>Invalid Location Data</Text>
       )}
     </View>
   );
@@ -293,10 +289,11 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: "center",
-    backgroundColor: "#f5f5f5",
+    alignItems: "center",
+    backgroundColor: "#fff",
   },
   map: {
-    flex: 1,
+    ...StyleSheet.absoluteFillObject,
   },
   loadingContainer: {
     flex: 1,
@@ -304,9 +301,9 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   loadingText: {
-    marginTop: 10,
     fontSize: 16,
-    color: "#333",
+    color: "#1E90FF",
+    marginTop: 10,
   },
   distanceContainer: {
     position: "absolute",
@@ -335,20 +332,6 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: "bold",
     textAlign: "center",
-  },
-  errorText: {
-    textAlign: "center",
-    color: "red",
-    fontSize: 16,
-  },
-  messageContainer: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-  },
-  messageText: {
-    fontSize: 18,
-    color: "#333",
   },
 });
 
