@@ -47,11 +47,6 @@
         }
       ]
     ],
-    "devClient": true,
-    "extra": {
-      "eas": {
-        "projectId": "b20d4531-ba6b-4521-88a8-f727ad9bac17"
-      }
-    }
+    "devClient": true
   }
 }
