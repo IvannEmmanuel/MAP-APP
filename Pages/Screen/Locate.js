@@ -20,11 +20,12 @@ const Locate = ({ route }) => {
   const [routeCoordinates, setRouteCoordinates] = useState([]);
   const [loading, setLoading] = useState(true);
   const [distance, setDistance] = useState(null);
+  const locationUpdateInterval = useRef(null);
   const mapRef = useRef(null);
   const animatedRegion = useRef(
     new AnimatedRegion({
-      latitude: 0,
-      longitude: 0,
+      latitude: userLocation?.latitude || 0,
+      longitude: userLocation?.longitude || 0,
       latitudeDelta: 0.005,
       longitudeDelta: 0.005,
     })
@@ -99,7 +100,9 @@ const Locate = ({ route }) => {
 
         locationSubscription = await Location.watchPositionAsync(
           {
-            accuracy: Location.Accuracy.BestForNavigation,
+            accuracy: Location.Accuracy.Highest,
+            timeInterval: 1000, // Minimum time (ms) between updates
+            distanceInterval: 1, // Minimum distance (meters) between updates
           },
           (location) => {
             const currentLocation = {
@@ -107,32 +110,39 @@ const Locate = ({ route }) => {
               longitude: location.coords.longitude,
             };
 
-            // Smoothly animate the marker position
-            animatedRegion
-              .timing({
-                latitude: currentLocation.latitude,
-                longitude: currentLocation.longitude,
-                duration: 1000,
-                useNativeDriver: false,
-              })
-              .start();
+            // Debounce the location update
+            if (locationUpdateInterval.current) {
+              clearTimeout(locationUpdateInterval.current);
+            }
 
-            setUserLocation(currentLocation);
+            locationUpdateInterval.current = setTimeout(() => {
+              // Smoothly animate the marker position
+              animatedRegion
+                .timing({
+                  latitude: currentLocation.latitude,
+                  longitude: currentLocation.longitude,
+                  duration: 1000,
+                  useNativeDriver: false,
+                })
+                .start();
 
-            mapRef.current?.animateToRegion({
-              ...currentLocation,
-              latitudeDelta: 0.005,
-              longitudeDelta: 0.005,
-            });
+              setUserLocation(currentLocation);
 
-            fetchRoute(currentLocation);
+              mapRef.current?.animateToRegion({
+                ...currentLocation,
+                latitudeDelta: 0.001,
+                longitudeDelta: 0.001,
+              });
 
-            // Calculate distance and set it
-            const distanceInKm = calculateDistance(currentLocation, {
-              latitude,
-              longitude,
-            });
-            setDistance(distanceInKm);
+              fetchRoute(currentLocation);
+
+              // Calculate distance and set it
+              const distanceInKm = calculateDistance(currentLocation, {
+                latitude,
+                longitude,
+              });
+              setDistance(distanceInKm);
+            }, 1000); // Wait for 1 second of no updates before moving the marker
           }
         );
 
@@ -247,7 +257,6 @@ const Locate = ({ route }) => {
                     coordinates={routeCoordinates}
                     strokeWidth={6}
                     strokeColor="#1E90FF"
-                    lineDashPattern={[0, 3]}
                   />
                 )}
               </MapView>
@@ -301,20 +310,20 @@ const styles = StyleSheet.create({
   },
   distanceContainer: {
     position: "absolute",
-    left: "50%",  // Horizontally center it
-    top: "50%",   // Vertically center it
-    transform: [{ translateX: -width * 0.3 }, { translateY: height * 0.33 }],  // Adjust the position
+    left: "50%", // Horizontally center it
+    top: "50%", // Vertically center it
+    transform: [{ translateX: -width * 0.3 }, { translateY: height * 0.33 }], // Adjust the position
     backgroundColor: "rgba(0, 0, 0, 0.6)",
     padding: 10,
     borderRadius: 8,
-    width: width * 0.6,  // You can adjust this width
-    alignItems: "center",  // Centers the content horizontally
+    width: width * 0.6, // You can adjust this width
+    alignItems: "center", // Centers the content horizontally
     justifyContent: "center", // Centers the content vertically
   },
   distanceBox: {
     flexDirection: "row",
     alignItems: "center",
-    justifyContent: "center",  // This ensures the icon and text are centered together
+    justifyContent: "center", // This ensures the icon and text are centered together
   },
   distanceIcon: {
     width: 20,
@@ -325,7 +334,7 @@ const styles = StyleSheet.create({
     color: "#fff",
     fontSize: 16,
     fontWeight: "bold",
-    textAlign: 'center', 
+    textAlign: "center",
   },
   errorText: {
     textAlign: "center",
