@@ -8,7 +8,7 @@ import {
   Alert,
   Image,
 } from "react-native";
-import MapView, { Marker, Polyline, AnimatedRegion } from "react-native-maps";
+import MapView, { Marker, Polyline } from "react-native-maps";
 import * as Location from "expo-location";
 import axios from "axios";
 
@@ -20,16 +20,9 @@ const Locate = ({ route }) => {
   const [routeCoordinates, setRouteCoordinates] = useState([]);
   const [loading, setLoading] = useState(true);
   const [distance, setDistance] = useState(null);
+  const [startingPoint, setStartingPoint] = useState(null);
   const locationUpdateInterval = useRef(null);
   const mapRef = useRef(null);
-  const animatedRegion = useRef(
-    new AnimatedRegion({
-      latitude: userLocation?.latitude || 0,
-      longitude: userLocation?.longitude || 0,
-      latitudeDelta: 0.005,
-      longitudeDelta: 0.005,
-    })
-  ).current;
 
   const decodePolyline = (encoded) => {
     let points = [];
@@ -101,8 +94,8 @@ const Locate = ({ route }) => {
         locationSubscription = await Location.watchPositionAsync(
           {
             accuracy: Location.Accuracy.Highest,
-            timeInterval: 2000, // Reduced update frequency to 2 seconds
-            distanceInterval: 5, // Reduced to 5 meters for smoother experience
+            timeInterval: 2000,
+            distanceInterval: 5,
           },
           (location) => {
             const currentLocation = {
@@ -110,22 +103,11 @@ const Locate = ({ route }) => {
               longitude: location.coords.longitude,
             };
 
-            // Debounce the location update
             if (locationUpdateInterval.current) {
               clearTimeout(locationUpdateInterval.current);
             }
 
             locationUpdateInterval.current = setTimeout(() => {
-              // Smoothly animate the marker position
-              animatedRegion
-                .timing({
-                  latitude: currentLocation.latitude,
-                  longitude: currentLocation.longitude,
-                  duration: 500, // Faster transition for smoother animation
-                  useNativeDriver: false,
-                })
-                .start();
-
               setUserLocation(currentLocation);
 
               mapRef.current?.animateToRegion({
@@ -136,17 +118,20 @@ const Locate = ({ route }) => {
 
               fetchRoute(currentLocation);
 
-              // Calculate distance and set it
               const distanceInKm = calculateDistance(currentLocation, {
                 latitude,
                 longitude,
               });
               setDistance(distanceInKm);
-            }, 500); // Debounced for 0.5 seconds to reduce unnecessary updates
+            }, 500);
           }
         );
 
         const initialLocation = await Location.getCurrentPositionAsync({});
+        setStartingPoint({
+          latitude: initialLocation.coords.latitude,
+          longitude: initialLocation.coords.longitude,
+        });
         fetchRoute({
           latitude: initialLocation.coords.latitude,
           longitude: initialLocation.coords.longitude,
@@ -181,6 +166,11 @@ const Locate = ({ route }) => {
           }
 
           setRouteCoordinates(decodedPolyline);
+          
+          // Set the starting point to the first point of the polyline
+          if (decodedPolyline.length > 0) {
+            setStartingPoint(decodedPolyline[0]);
+          }
         } else {
           console.warn("Could not fetch the route.");
         }
@@ -230,16 +220,18 @@ const Locate = ({ route }) => {
                 mapType="hybrid"
                 urlTemplate="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
               >
-                <Marker.Animated
-                  coordinate={animatedRegion}
-                  title="Your Location"
-                  pinColor="#1E90FF"
-                >
-                  <Image
-                    source={require("../../Images/location.png")}
-                    style={{ width: 40, height: 40 }}
-                  />
-                </Marker.Animated>
+                {startingPoint && (
+                  <Marker
+                    coordinate={startingPoint}
+                    title="Starting Point"
+                    pinColor="#1E90FF"
+                  >
+                    <Image
+                      source={require("../../Images/location.png")}
+                      style={{ width: 40, height: 40 }}
+                    />
+                  </Marker>
+                )}
 
                 <Marker
                   coordinate={{ latitude, longitude }}
@@ -307,20 +299,20 @@ const styles = StyleSheet.create({
   },
   distanceContainer: {
     position: "absolute",
-    left: "50%", // Horizontally center it
-    top: "50%", // Vertically center it
-    transform: [{ translateX: -width * 0.3 }, { translateY: height * 0.33 }], // Adjust the position
+    left: "50%",
+    top: "50%",
+    transform: [{ translateX: -width * 0.3 }, { translateY: height * 0.33 }],
     backgroundColor: "rgba(0, 0, 0, 0.6)",
     padding: 10,
     borderRadius: 8,
-    width: width * 0.6, // You can adjust this width
-    alignItems: "center", // Centers the content horizontally
-    justifyContent: "center", // Centers the content vertically
+    width: width * 0.6,
+    alignItems: "center",
+    justifyContent: "center",
   },
   distanceBox: {
     flexDirection: "row",
     alignItems: "center",
-    justifyContent: "center", // This ensures the icon and text are centered together
+    justifyContent: "center",
   },
   distanceIcon: {
     width: 20,
@@ -336,3 +328,4 @@ const styles = StyleSheet.create({
 });
 
 export default Locate;
+
