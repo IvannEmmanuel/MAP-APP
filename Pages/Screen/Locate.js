@@ -8,7 +8,7 @@ import {
   Alert,
   Image,
 } from "react-native";
-import MapView, { Marker, Polyline } from "react-native-maps";
+import MapView, { Marker, Polyline, AnimatedRegion } from "react-native-maps";
 import * as Location from "expo-location";
 import axios from "axios";
 
@@ -23,6 +23,16 @@ const Locate = ({ route }) => {
   const [startingPoint, setStartingPoint] = useState(null);
   const locationUpdateInterval = useRef(null);
   const mapRef = useRef(null);
+  const markerRef = useRef(null);
+
+  const [animatedStartingPoint] = useState(
+    new AnimatedRegion({
+      latitude: 0,
+      longitude: 0,
+      latitudeDelta: 0.005,
+      longitudeDelta: 0.005,
+    })
+  );
 
   const decodePolyline = (encoded) => {
     let points = [];
@@ -94,8 +104,8 @@ const Locate = ({ route }) => {
         locationSubscription = await Location.watchPositionAsync(
           {
             accuracy: Location.Accuracy.Highest,
-            timeInterval: 2000,
-            distanceInterval: 5,
+            timeInterval: 1000,
+            distanceInterval: 1,
           },
           (location) => {
             const currentLocation = {
@@ -109,6 +119,14 @@ const Locate = ({ route }) => {
 
             locationUpdateInterval.current = setTimeout(() => {
               setUserLocation(currentLocation);
+
+              // Update the animated region
+              animatedStartingPoint
+                .timing({
+                  ...currentLocation,
+                  duration: 500,
+                })
+                .start();
 
               mapRef.current?.animateToRegion({
                 ...currentLocation,
@@ -132,6 +150,15 @@ const Locate = ({ route }) => {
           latitude: initialLocation.coords.latitude,
           longitude: initialLocation.coords.longitude,
         });
+
+        // Initialize the animated region with the initial location
+        animatedStartingPoint.setValue({
+          latitude: initialLocation.coords.latitude,
+          longitude: initialLocation.coords.longitude,
+          latitudeDelta: 0.005,
+          longitudeDelta: 0.005,
+        });
+
         fetchRoute({
           latitude: initialLocation.coords.latitude,
           longitude: initialLocation.coords.longitude,
@@ -145,7 +172,7 @@ const Locate = ({ route }) => {
 
     const fetchRoute = async (currentLocation) => {
       try {
-        const API_KEY = "AlzaSysyZrf5dxSF-YGCayKSjygWOusxkXsFDcC";
+        const API_KEY = "AlzaSywzW_P5-cYdcm5P1B3Mp5QTZokozw0vbAQ";
         const origin = `${currentLocation.latitude},${currentLocation.longitude}`;
         const destination = `${latitude},${longitude}`;
         const url = `https://maps.gomaps.pro/maps/api/directions/json?origin=${origin}&destination=${destination}&key=${API_KEY}`;
@@ -166,7 +193,7 @@ const Locate = ({ route }) => {
           }
 
           setRouteCoordinates(decodedPolyline);
-          
+
           // Set the starting point to the first point of the polyline
           if (decodedPolyline.length > 0) {
             setStartingPoint(decodedPolyline[0]);
@@ -221,8 +248,9 @@ const Locate = ({ route }) => {
                 urlTemplate="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
               >
                 {startingPoint && (
-                  <Marker
-                    coordinate={startingPoint}
+                  <Marker.Animated
+                    ref={markerRef}
+                    coordinate={animatedStartingPoint}
                     title="Starting Point"
                     pinColor="#1E90FF"
                   >
@@ -230,7 +258,7 @@ const Locate = ({ route }) => {
                       source={require("../../Images/location.png")}
                       style={{ width: 40, height: 40 }}
                     />
-                  </Marker>
+                  </Marker.Animated>
                 )}
 
                 <Marker
@@ -328,4 +356,3 @@ const styles = StyleSheet.create({
 });
 
 export default Locate;
-
