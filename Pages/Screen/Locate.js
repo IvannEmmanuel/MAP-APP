@@ -160,7 +160,7 @@ const Locate = ({ route }) => {
 
     const fetchRoute = async (currentLocation) => {
       try {
-        const API_KEY = "AlzaSysyZrf5dxSF-YGCayKSjygWOusxkXsFDcC";
+        const API_KEY = "AlzaSy3dSZqZImng_QJILlbwR24DkQP5IwI-wgE";
         const origin = `${currentLocation.latitude},${currentLocation.longitude}`;
         const destination = `${latitude},${longitude}`;
         const url = `https://maps.gomaps.pro/maps/api/directions/json?origin=${origin}&destination=${destination}&key=${API_KEY}`;
